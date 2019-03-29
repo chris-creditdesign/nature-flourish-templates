@@ -1,7 +1,7 @@
-id: nature-bar-chart-vertical
-version: 0.1
-name: Nature Vertical Bar Chart
-description: Flourish graphic for @NatureNews
+id: nature-news-chart
+version: 1.0.0
+name: Nature News Chart
+description: Flourish graphic template for @NatureNews
 author: chris_ryan
 image_download: true
 is_private: true

@@ -1,5 +1,5 @@
 {
-  "name": "nature-bar-chart-vertical",
+  "name": "nature-news-chart",
   "version": "1.0.0",
   "description": "Flourish template for @NatureNews",
   "main": "src/index.js",
@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.3",

@@ -1,51 +1,73 @@
 id: nature-news-chart
-version: 1.0.0
+version: 1.0.1
 name: Nature News Chart
 description: Flourish graphic template for @NatureNews
 author: chris_ryan
 image_download: true
 is_private: true
 sdk_version: 3
-
 settings:
-  - property: color
-    name: Color
-    description: The color of the circle
-    type: color
-  - property: opacity
-    name: Opacity
-    description: The opacity of the circles
-    type: number
-    min: 0
-    max: 1
-    step: 0.05
-
+  - property: headlineText
+    name: Headline
+    description: The headline of the chart
+    type: string
+  - property: standfirstText
+    name: Standfirst
+    description: >-
+      The standfirst of the chart. Click and drag on the bottom corner of the
+      text area to expand.
+    type: text
+  - property: xAxisLegendText
+    name: X Axis legend
+    description: Text to label the x axis chart
+    type: string
+  - property: yAxisLegendText
+    name: Y Axis legend
+    description: Text to label the y axis chart
+    type: string
+  - property: footnoteText
+    name: Footnote
+    description: Footnote text for the chart
+    type: string
+  - property: chartType
+    name: Chart type
+    type: string
+    choices:
+      - [Line chart, line]
+      - [Vertical bar chart, vertical-bar]
+      - [Horizontal bar chart, horizontal-bar]
+      - [Grouped bar chart, grouped-bar]
+      - [Horizontal 100% chart, horizontal-proportion]
+      - [Vertical 100% chart, vertical-proportion]
+      - [Stacked bar chart, stacked-bar]
+      - [Area chart, area]
+      - [Dougnut chart, pie]
+      - [Scatter plot, scatter-plot]
 build:
   javascript:
     script: npm run build
     directory: src
     files:
       - package.json
-      - rollup.config.js
-
+      - webpack.config.js
 data:
   - dataset: circles
     key: x
     name: x-value
     type: column
-    column: Circles::A
+    column: 'Circles::A'
   - dataset: circles
-    key: y
+    key: 'y'
     name: y-value
     type: column
-    column: Circles::B
+    column: 'Circles::B'
   - dataset: circles
     key: size
     name: Size
     type: column
-    column: Circles::C
+    column: 'Circles::C'
   - dataset: circles
     key: word
     name: word
     type: column
-    column: Circles::D
+    column: 'Circles::D'

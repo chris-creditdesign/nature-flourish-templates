@@ -1,10 +1,10 @@
 id: nature-news-chart
-version: 1.0.1
+version: 1.0.2
 name: Nature News Chart
 description: Flourish graphic template for @NatureNews
 author: chris_ryan
 image_download: true
-is_private: true
+is_private: false
 sdk_version: 3
 settings:
   - property: headlineText

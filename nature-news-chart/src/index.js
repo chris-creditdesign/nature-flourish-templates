@@ -1,5 +1,5 @@
 /**
- * Processed by Rollup to create an iife (Immediately Invoked Function Expression)
+ * Processed by Webpack to create an iife (Immediately Invoked Function Expression)
  * with the moudle name of 'template'
  *
  * Results in:
@@ -31,7 +31,7 @@
  *
  *  */
 
-export { default as data } from './data'
-export { default as state } from './state'
-export { default as draw } from './draw'
-export { default as update } from './draw'
+export { default as data } from "./data"
+export { default as state } from "./state"
+export { default as draw } from "./draw"
+export { default as update } from "./draw"

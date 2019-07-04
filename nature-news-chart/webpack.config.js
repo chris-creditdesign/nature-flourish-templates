@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path")
 
 module.exports = {
 	mode: "development",
@@ -11,15 +11,17 @@ module.exports = {
 		libraryTarget: "window",
 	},
 	module: {
-		rules: [{
-			test: /\.(js|jsx)$/,
-			exclude: /(node_modules)/,
-			use: {
-				loader: 'babel-loader'
-			}
-		}]
-    },
-    resolve: {
-        extensions: ['.js', '.jsx']
-    },
+		rules: [
+			{
+				test: /\.(js|jsx)$/,
+				exclude: /(node_modules)/,
+				use: {
+					loader: "babel-loader",
+				},
+			},
+		],
+	},
+	resolve: {
+		extensions: [".js", ".jsx"],
+	},
 }

@@ -1,12 +1,72 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<style>
-			html, body { height: 100%; margin: 0; overflow: hidden; }
-		</style>
-	</head>
-	<body>
-		<div id="graphic-container"></div>
-	</body>
+
+<head>
+	<meta charset="utf-8">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700');
+
+		html {
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+
+		*,
+		*:before,
+		*:after {
+			box-sizing: inherit;
+		}
+
+		body {
+			padding: 0;
+			margin: 0;
+			background-color: #F6F5EE;
+			font-size: 1.1rem;
+			line-height: 1.6rem;
+			color: #333;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.nature-graphic {
+			padding: 1rem;
+			margin: 0;
+
+		}
+
+		.nature-graphic__header h1,
+		.nature-graphic__header h2 {
+			font-size: 1.6em;
+			line-height: 2rem;
+			letter-spacing: 0.05rem;
+
+			margin: 0;
+
+			text-transform: uppercase;
+			font-family: 'Oswald', sans-serif;
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		.visually-hidden {
+			position: absolute !important;
+
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			width: 1px;
+			height: 1px;
+			margin: -1px !important;
+			padding: 0 !important;
+
+			opacity: 0;
+			border: 0 !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="graphic-container"></div>
+</body>
+
 </html>

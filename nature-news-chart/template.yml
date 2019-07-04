@@ -7,42 +7,10 @@ image_download: true
 is_private: false
 sdk_version: 3
 settings:
-  - property: headlineText
-    name: Headline
-    description: The headline of the chart
-    type: string
-  - property: standfirstText
-    name: Standfirst
-    description: >-
-      The standfirst of the chart. Click and drag on the bottom corner of the
-      text area to expand.
-    type: text
-  - property: xAxisLegendText
-    name: X Axis legend
-    description: Text to label the x axis chart
-    type: string
   - property: yAxisLegendText
     name: Y Axis legend
     description: Text to label the y axis chart
     type: string
-  - property: footnoteText
-    name: Footnote
-    description: Footnote text for the chart
-    type: string
-  - property: chartType
-    name: Chart type
-    type: string
-    choices:
-      - [Line chart, line]
-      - [Vertical bar chart, vertical-bar]
-      - [Horizontal bar chart, horizontal-bar]
-      - [Grouped bar chart, grouped-bar]
-      - [Horizontal 100% chart, horizontal-proportion]
-      - [Vertical 100% chart, vertical-proportion]
-      - [Stacked bar chart, stacked-bar]
-      - [Area chart, area]
-      - [Dougnut chart, pie]
-      - [Scatter plot, scatter-plot]
 build:
   javascript:
     script: npm run build
@@ -51,23 +19,14 @@ build:
       - package.json
       - webpack.config.js
 data:
-  - dataset: circles
-    key: x
-    name: x-value
+  - name: Keys
+    dataset: data
+    key: key
     type: column
-    column: 'Circles::A'
-  - dataset: circles
-    key: 'y'
-    name: y-value
-    type: column
-    column: 'Circles::B'
-  - dataset: circles
-    key: size
-    name: Size
-    type: column
-    column: 'Circles::C'
-  - dataset: circles
-    key: word
-    name: word
-    type: column
-    column: 'Circles::D'
+    column: 'data::A'
+  - name: Values
+    dataset: data
+    key: values
+    type: columns
+    columns: 'data::B-M'
+

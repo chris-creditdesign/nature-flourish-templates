@@ -3,46 +3,29 @@
  * this object. The settings in template.yml reference these property names.
  */
 const state = {
-	headlineText: 'Headline',
-	standfirstText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\nEt labore et dolore magna aliqua.',
-	xAxisLegendText: 'X axis legend',
-	yAxisLegendText: 'Y axis legend',
-	footnoteText: '',
-	chartType: 'vertical-bar',
-	svgMargins: {
+	headlineText: "Headline",
+	standfirstText:
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\nEt labore et dolore magna aliqua.",
+	footnoteText: "",
+	width: 600,
+	height: 300,
+	title: "Chart Title",
+	chartMargin: {
+		top: 0,
+		right: 20,
+		bottom: 0,
+		left: 20,
+	},
+	chartInnerMargin: {
 		top: 10,
 		right: 20,
-		bottom: 20,
-		left: 20,
-		headlineHeight: 30,
-		keyHeight: 38,
-		standfirstHeight: 36,
-		yAxisWidth: 20,
-		xAxisHeight: 16,
-		yAxisLegendWidth: 16,
-		xAxisLegendHeight: 16,
+		bottom: 40,
+		left: 80,
 	},
-	svgDimensions: {
-		width: 800,
-		height: 500,
-	},
-	copyrightDimensions: {
-		width: 80,
-		height: 15,
-	},
-	color: {
-		svgBackgroundColor: '#f6f5ee',
-		copyrightColor: '#6f7072',
-	},
-	textStyle: {
-		fontFamily: 'sans-serif',
-	},
-	headlineStyle: {
-		textTransform: 'uppercase',
-		fontFamily: 'sans-serif',
-		fontSize: 30,
-		letterSpacing: 1,
-	},
+	yAxisTickCount: 5,
+	xAxisTickCount: 10,
+	yAxisLegendText: "Y-axis legend text",
+	xAxisLegendText: "X-axis legend text",
 }
 
 export default state

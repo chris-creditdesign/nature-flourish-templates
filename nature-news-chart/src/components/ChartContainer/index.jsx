@@ -15,14 +15,14 @@ const ChartContainer = ({ settings, data }) => {
 	const yAxisFormat = d3Format(",")
 	const xAxisFormat = str => str
 
-	// SET UP THE STATE HOOKS FOR WIDTH AND HEIGHT
+	// SET UP THE USESTATE HOOK FOR WIDTH
 	const [width, setWidth] = useState(window.innerWidth)
-	const [height, setHeight] = useState(window.innerHeight)
 
+	// If the window/iframe changes width, change the
+	// width of the graphic
 	useEffect(() => {
 		const handleResize = () => {
 			setWidth(window.innerWidth)
-			setHeight(window.innerHeight)
 		}
 
 		window.addEventListener("resize", handleResize)
@@ -32,6 +32,19 @@ const ChartContainer = ({ settings, data }) => {
 		}
 	})
 
+	// SET UP THE USESTATE HOOK FOR PAGEHEIGHT
+	// Note: this is different to settings.height as there may be elemenst on the
+	// page, such as a h1 tag, that are separate to the svg height
+	const [pageHeight, setPageHeight] = useState(document.body.offsetHeight)
+	// Does this just need to be an empty object?
+	const requestData = {}
+	// Send the height of the rendered page to the host iframe
+	// so that it can set itself to the correct height to display the graphic.
+	useEffect(() => {
+		setPageHeight(document.body.offsetHeight)
+		window.parent.postMessage({ pageHeight, requestData }, "*")
+	})
+
 	return (
 		<ThemeProvider theme={theme}>
 			<chartContext.Provider
@@ -39,7 +52,6 @@ const ChartContainer = ({ settings, data }) => {
 					...settings,
 					data,
 					width,
-					height,
 					yAxisFormat,
 					xAxisFormat,
 				}}
@@ -81,20 +93,16 @@ ChartContainer.propTypes = {
 		xAxisLegendText: PropTypes.string.isRequired,
 	}).isRequired,
 	data: PropTypes.shape({
-		data: PropTypes.shape({
-			data: PropTypes.arrayOf(
-				PropTypes.shape({
-					key: PropTypes.string.isRequired,
-					values: PropTypes.arrayOf(
-						PropTypes.string
-					).isRequired,
-				})
-			).isRequired,
-			column_names: PropTypes.shape({
+		data: PropTypes.arrayOf(
+			PropTypes.shape({
 				key: PropTypes.string.isRequired,
 				values: PropTypes.arrayOf(PropTypes.string)
 					.isRequired,
-			}),
-		}).isRequired,
+			})
+		).isRequired,
+		column_names: PropTypes.shape({
+			key: PropTypes.string.isRequired,
+			values: PropTypes.arrayOf(PropTypes.string).isRequired,
+		}),
 	}).isRequired,
 }

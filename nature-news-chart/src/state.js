@@ -3,12 +3,8 @@
  * this object. The settings in template.yml reference these property names.
  */
 const state = {
-	headlineText: "Headline",
-	standfirstText:
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.\nEt labore et dolore magna aliqua.",
-	footnoteText: "",
 	width: 600,
-	height: 300,
+	height: 500,
 	title: "Chart Title",
 	chartMargin: {
 		top: 0,

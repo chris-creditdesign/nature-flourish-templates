@@ -20,7 +20,7 @@ const state = {
 	},
 	yAxisTickCount: 5,
 	xAxisTickCount: 10,
-	yAxisLegendText: "Y-axis legend text",
+	yAxisLegendText: "Y-axis legend text just a test",
 	xAxisLegendText: "X-axis legend text",
 }
 

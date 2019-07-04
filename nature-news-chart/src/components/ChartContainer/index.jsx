@@ -18,13 +18,27 @@ const ChartContainer = ({ settings, data }) => {
 	// SET UP THE USESTATE HOOK FOR WIDTH
 	const [width, setWidth] = useState(window.innerWidth)
 
+	// SET UP THE USESTATE HOOK FOR PAGEHEIGHT
+	// Note: this is different to settings.height as there may be elemenst on the
+	// page, such as a h1 tag, that are separate to the svg height
+	const [pageHeight, setPageHeight] = useState(document.body.offsetHeight)
+	// SET UP THE USESTATE HOOK FOR REQUESTDATA
+	const [requestData, setRequestData] = useState({})
+
+	const postMessage = () => {
+		window.parent.postMessage({ height: pageHeight, requestData }, "*")
+	}
+
 	// If the window/iframe changes width, change the
 	// width of the graphic
 	useEffect(() => {
 		const handleResize = () => {
 			setWidth(window.innerWidth)
+			postMessage()
 		}
 
+		postMessage()
+		
 		window.addEventListener("resize", handleResize)
 
 		return function cleanUpResize() {
@@ -32,12 +46,6 @@ const ChartContainer = ({ settings, data }) => {
 		}
 	})
 
-	// SET UP THE USESTATE HOOK FOR PAGEHEIGHT
-	// Note: this is different to settings.height as there may be elemenst on the
-	// page, such as a h1 tag, that are separate to the svg height
-	const [pageHeight, setPageHeight] = useState(document.body.offsetHeight)
-
-	const [requestData, setRequestData] = useState({})
 	// Send the height of the rendered page to the host iframe
 	// so that it can set itself to the correct height to display the graphic.
 	useEffect(() => {
@@ -47,10 +55,12 @@ const ChartContainer = ({ settings, data }) => {
 				setPageHeight(document.body.offsetHeight)
 				setRequestData(event.data)
 
-				console.log(`useEffect pageHeight: ${pageHeight} requestData: ${requestData}`)
-				window.parent.postMessage({ pageHeight, requestData }, "*")
+				postMessage()
 			}
 		}
+
+		setPageHeight(document.body.offsetHeight)
+		postMessage()
 
 		window.addEventListener('message', listener)
 

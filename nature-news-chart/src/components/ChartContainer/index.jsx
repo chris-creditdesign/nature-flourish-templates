@@ -27,7 +27,7 @@ const ChartContainer = ({ settings, data }) => {
 
 		window.addEventListener("resize", handleResize)
 
-		return function cleanup() {
+		return function cleanUpResize() {
 			window.removeEventListener("resize", handleResize)
 		}
 	})
@@ -36,13 +36,28 @@ const ChartContainer = ({ settings, data }) => {
 	// Note: this is different to settings.height as there may be elemenst on the
 	// page, such as a h1 tag, that are separate to the svg height
 	const [pageHeight, setPageHeight] = useState(document.body.offsetHeight)
-	// Does this just need to be an empty object?
-	const requestData = {}
+
+	const [requestData, setRequestData] = useState({})
 	// Send the height of the rendered page to the host iframe
 	// so that it can set itself to the correct height to display the graphic.
 	useEffect(() => {
-		setPageHeight(document.body.offsetHeight)
-		window.parent.postMessage({ pageHeight, requestData }, "*")
+		const listener = (event) => {
+			// stop the ResizeObserver triggering a message
+			if (event.origin !== document.location.origin) {
+				setPageHeight(document.body.offsetHeight)
+				setRequestData(event.data)
+
+				console.log(`useEffect pageHeight: ${pageHeight} requestData: ${requestData}`)
+				window.parent.postMessage({ pageHeight, requestData }, "*")
+			}
+		}
+
+		window.addEventListener('message', listener)
+
+		return function cleanUpMessage() {
+			window.removeEventListener("message", listener)
+		}
+
 	})
 
 	return (

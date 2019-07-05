@@ -7,5 +7,8 @@ const Form = ({ children }) => <StyledForm>{children}</StyledForm>
 export default Form
 
 Form.propTypes = {
-	children: PropTypes.arrayOf(PropTypes.element).isRequired,
+	children: PropTypes.oneOfType([
+		PropTypes.arrayOf(PropTypes.element),
+		PropTypes.element,
+	]).isRequired,
 }

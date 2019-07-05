@@ -10,68 +10,90 @@ import ChartXAxis from "../ChartXAxis/index"
 import ChartYAxis from "../ChartYAxis/index"
 import ChartYAxisLegend from "../ChartYAxisLegend/index"
 import chartContext from "./chartContext"
+import Table from "../Table/index"
+import Form from "../Form/index"
+import FormToggleButtons from "../FormToggleButtons/index"
 
 const ChartContainer = ({ settings, data }) => {
+	/* -------------------------------------------------------------------------- */
+	/*                                 CHART AXIS                                 */
+	/* -------------------------------------------------------------------------- */
+
+	// These should be set up externally and suppiled to the chart container
+	// The type of axis depends on the chart type and the data being displayed...
+	// ie time series or ordinal data.
 	const yAxisFormat = d3Format(",")
 	const xAxisFormat = str => str
 
-	// SET UP THE USESTATE HOOK FOR WIDTH
+	/* -------------------------------------------------------------------------- */
+	/*                                    STATE                                   */
+	/* -------------------------------------------------------------------------- */
+
+	/* ---------------------------------- width --------------------------------- */
+
+	// This is the container width used to build the dimensions for the chart.
+	// Determined by the width of the iframe / window.
 	const [width, setWidth] = useState(window.innerWidth)
 
-	// SET UP THE USESTATE HOOK FOR PAGEHEIGHT
-	// Note: this is different to settings.height as there may be elemenst on the
-	// page, such as a h1 tag, that are separate to the svg height
-	const [pageHeight, setPageHeight] = useState(document.body.offsetHeight)
-	// SET UP THE USESTATE HOOK FOR REQUESTDATA
-	const [requestData, setRequestData] = useState({})
+	/* -------------------------------- showChart ------------------------------- */
 
-	const postMessage = () => {
-		window.parent.postMessage({ height: pageHeight, requestData }, "*")
-	}
+	// Determine if a chart or a table should be shown.
+	const [showChart, setShowChart] = useState(true)
 
-	// If the window/iframe changes width, change the
-	// width of the graphic
+	/* -------------------------------------------------------------------------- */
+	/*                                   EFFECTS                                  */
+	/* -------------------------------------------------------------------------- */
+
+	/* -------------------------- Resize Event Listener ------------------------- */
+
+	// If the window/iframe changes width, call `setWidth` to change the width of the graphic.
+	// Only call if `width` changes.
 	useEffect(() => {
 		const handleResize = () => {
 			setWidth(window.innerWidth)
-			postMessage()
 		}
 
-		postMessage()
-		
 		window.addEventListener("resize", handleResize)
 
 		return function cleanUpResize() {
 			window.removeEventListener("resize", handleResize)
 		}
-	})
+	}, [width])
 
-	// Send the height of the rendered page to the host iframe
-	// so that it can set itself to the correct height to display the graphic.
+	/* ------------------------------ Post Message ------------------------------ */
+
+	// Send the height of the rendered page to the host window so that the iframe
+	// can be set to the correct height to display the graphic.
+	// This can run on each render.
 	useEffect(() => {
-		const listener = (event) => {
-			// stop the ResizeObserver triggering a message
-			if (event.origin !== document.location.origin) {
-				setPageHeight(document.body.offsetHeight)
-				setRequestData(event.data)
-
-				postMessage()
-			}
+		if (window.requestData) {
+			const documentHeight = document.querySelector("body")
+				.offsetHeight
+			window.parent.postMessage(
+				{
+					height: documentHeight,
+					requestData: window.requestData,
+				},
+				"*"
+			)
 		}
-
-		setPageHeight(document.body.offsetHeight)
-		postMessage()
-
-		window.addEventListener('message', listener)
-
-		return function cleanUpMessage() {
-			window.removeEventListener("message", listener)
-		}
-
 	})
 
 	return (
 		<ThemeProvider theme={theme}>
+			<Form>
+				<FormToggleButtons
+					disabled={false}
+					id="chart-toggle-buttons"
+					message="Display a chart or a table"
+					onValueChange={value =>
+						setShowChart(value)
+					}
+					value={showChart}
+					valueFalseMessage="Table"
+					valueTrueMessage="Chart"
+				/>
+			</Form>
 			<chartContext.Provider
 				value={{
 					...settings,
@@ -81,13 +103,17 @@ const ChartContainer = ({ settings, data }) => {
 					xAxisFormat,
 				}}
 			>
-				<Chart>
-					<ChartBackgroundBox />
-					<ChartYAxisLegend />
-					<ChartXAxis />
-					<ChartYAxis />
-					<ChartDataTableLine />
-				</Chart>
+				{showChart ? (
+					<Chart>
+						<ChartBackgroundBox />
+						<ChartYAxisLegend />
+						<ChartXAxis />
+						<ChartYAxis />
+						<ChartDataTableLine />
+					</Chart>
+				) : (
+					<Table />
+				)}
 			</chartContext.Provider>
 		</ThemeProvider>
 	)

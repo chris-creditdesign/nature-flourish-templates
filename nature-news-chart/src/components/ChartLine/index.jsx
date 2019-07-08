@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { line } from "d3-shape"
-import StyledPath from "./styles"
+import theme from "../utils/theme"
 import useData from "../utils/useData"
 
 const ChartLine = ({ index }) => {
@@ -20,9 +20,18 @@ const ChartLine = ({ index }) => {
 		.y(d => yScale(d.y))
 
 	return (
-		<StyledPath index={index} d={path(lineData)} role="img">
+		<path
+			index={index}
+			d={path(lineData)}
+			role="img"
+			fill="none"
+			strokeWidth={theme.strokeWidth.xl}
+			stroke={theme.chartColor[index]}
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		>
 			<title>{title}</title>
-		</StyledPath>
+		</path>
 	)
 }
 

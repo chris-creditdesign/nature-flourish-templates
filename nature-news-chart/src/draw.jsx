@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import state from "./state"
 import data from "./data"
-import ChartContainer from "./components/ChartContainer/index"
+import GraphicContainer from "./components/GraphicContainer/index"
 
 /**
  * Initialise the graphic
@@ -26,7 +26,7 @@ const draw = () => {
 	})
 
 	ReactDOM.render(
-		<ChartContainer settings={state} data={data} />,
+		<GraphicContainer settings={state} data={data} />,
 		document.getElementById("graphic-container")
 	)
 }

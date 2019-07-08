@@ -19,7 +19,7 @@ const state = {
 		top: 10,
 		right: 20,
 		bottom: 40,
-		left: 80,
+		left: 100,
 	},
 	yAxisTickCount: 5,
 	xAxisTickCount: 10,

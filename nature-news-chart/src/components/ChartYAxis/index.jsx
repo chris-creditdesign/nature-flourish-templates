@@ -1,8 +1,8 @@
 import React, { useContext } from "react"
-import StyledGroup from "./styles"
+import theme from "../utils/theme"
 import useDimensions from "../utils/useDimensions"
 import useData from "../utils/useData"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 
 const ChartYAxis = () => {
 	const { yAxisTickcount, yAxisFormat } = useContext(chartContext)
@@ -18,24 +18,37 @@ const ChartYAxis = () => {
 				y1={yScale(tick)}
 				x2={chartInnerWidth}
 				y2={yScale(tick)}
-				className={i === 0 ? "baseline" : "dottedLine"}
+				stroke={theme.color.line}
+				strokeWidth={
+					i === 0
+						? theme.strokeWidth.xl
+						: theme.strokeWidth.s
+				}
+				strokeDasharray={i === 0 ? "none" : "2, 3"}
 			/>
 		))
 
 	const labels = yScale.ticks(yAxisTickcount).map(tick => (
-		<text key={tick} x={-15} y={yScale(tick)} dy="0.3em">
+		<text
+			key={tick}
+			x={-15}
+			y={yScale(tick)}
+			dy="0.3em"
+			fontSize={theme.fontSize.normal}
+			textAnchor="end"
+		>
 			{yAxisFormat(tick)}
 		</text>
 	))
 
 	return (
-		<StyledGroup
+		<g
 			transform={`translate(${innerLeft},${innerTop})`}
 			aria-hidden
 		>
 			{labels}
 			{ticks}
-		</StyledGroup>
+		</g>
 	)
 }
 

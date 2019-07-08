@@ -1,10 +1,11 @@
-import React, { useContext } from "react"
+import React, { useState, useContext } from "react"
 import PropTypes from "prop-types"
-import StyledCircle from "./styles"
+import theme from "../utils/theme"
 import useData from "../utils/useData"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 
 const ChartDots = ({ index }) => {
+	const [mouseOver, setMouseOver] = useState(null)
 	const { yAxisFormat } = useContext(chartContext)
 	const { xScale, yScale, data, columnNames } = useData()
 
@@ -14,16 +15,24 @@ const ChartDots = ({ index }) => {
 		return { x, y }
 	})
 
-	const circles = dotData.map(d => (
-		<StyledCircle
+	const circles = dotData.map((d, i) => (
+		<circle
 			key={`${d.y}-${d.x}`}
 			cx={xScale(d.x)}
 			cy={yScale(d.y)}
+			r={
+				i === mouseOver
+					? theme.dotRadius.l
+					: theme.dotRadius.s
+			}
+			fill={theme.chartColor[index]}
 			index={index}
 			role="img"
+			onMouseEnter={() => setMouseOver(i)}
+			onMouseLeave={() => setMouseOver(null)}
 		>
 			<title>{yAxisFormat(d.y)}</title>
-		</StyledCircle>
+		</circle>
 	))
 
 	return <g role="cell">{circles}</g>

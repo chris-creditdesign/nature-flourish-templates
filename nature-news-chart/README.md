@@ -12,6 +12,7 @@ TODO:
 - Remove emotion for SVG elements
 - Parse data as floats instead of ints
 - Add tooltips
+- Place chart inside figure element
 
 	mkcert 127.0.0.1
 	http-server --ssl --cert ./127.0.0.1.pem --key ./127.0.0.1-key.pem

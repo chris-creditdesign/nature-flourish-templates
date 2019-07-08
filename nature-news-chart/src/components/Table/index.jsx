@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import StyledTable from "./styles"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 import useData from "../utils/useData"
 
 const Table = () => {

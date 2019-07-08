@@ -1,5 +1,5 @@
 import React from "react"
-import StyledRect from "./styles"
+import theme from "../utils/theme"
 import useDimensions from "../utils/useDimensions"
 
 const ChartBackgroundBox = () => {
@@ -11,12 +11,13 @@ const ChartBackgroundBox = () => {
 	} = useDimensions()
 
 	return (
-		<StyledRect
+		<rect
 			aria-hidden
 			height={`${chartInnerHeight}px`}
 			width={`${chartInnerWidth}px`}
 			x={`${innerLeft}px`}
 			y={`${innerTop}px`}
+			fill={theme.backgroundColor.chart}
 		/>
 	)
 }

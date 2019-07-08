@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { scaleLinear } from "d3-scale"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 import useDimensions from "./useDimensions"
 
 const valuesReducer = (accumlator, currentValue) => {

@@ -105,9 +105,8 @@ const theme = {
 		xl: "3px",
 	},
 	dotRadius: {
-		s: "1px",
-		l: "2px",
-		xl: "3px",
+		s: "4px",
+		l: "8px",
 	},
 }
 

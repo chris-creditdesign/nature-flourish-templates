@@ -1,8 +1,8 @@
 import React, { useContext } from "react"
-import StyledGroup from "./styles"
+import theme from "../utils/theme"
 import useDimensions from "../utils/useDimensions"
 import useData from "../utils/useData"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 
 const ChartXAxis = () => {
 	const { xAxisTickcount, xAxisFormat } = useContext(chartContext)
@@ -17,18 +17,29 @@ const ChartXAxis = () => {
 				x1={xScale(tick)}
 				y1={0}
 				x2={xScale(tick)}
-				y2={8}
+				y2="0.5em"
+				stroke={theme.color.line}
+				strokeWidth={theme.strokeWidth.s}
+				shapeRendering="crispEdges"
+				strokeDasharray="none"
 			/>
 		))
 
 	const labels = xScale.ticks(xAxisTickcount).map(tick => (
-		<text key={tick} x={xScale(tick)} y={20}>
+		<text
+			key={tick}
+			x={xScale(tick)}
+			y={0}
+			dy="1.5em"
+			fontSize={theme.fontSize.normal}
+			textAnchor="middle"
+		>
 			{xAxisFormat(tick)}
 		</text>
 	))
 
 	return (
-		<StyledGroup
+		<g
 			transform={`translate(${innerLeft},${innerTop})`}
 			aria-hidden
 		>
@@ -36,7 +47,7 @@ const ChartXAxis = () => {
 				{ticks}
 				{labels}
 			</g>
-		</StyledGroup>
+		</g>
 	)
 }
 

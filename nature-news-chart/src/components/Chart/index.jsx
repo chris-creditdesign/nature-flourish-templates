@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import PropTypes from "prop-types"
 import StyledSvg from "./styles"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 import useDimensions from "../utils/useDimensions"
 
 const Chart = ({ children }) => {

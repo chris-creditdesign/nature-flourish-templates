@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import chartContext from "../ChartContainer/chartContext"
+import chartContext from "../GraphicContainer/chartContext"
 
 const useDimensions = () => {
 	const { chartInnerMargin, chartMargin, height, width } = useContext(

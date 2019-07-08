@@ -4,7 +4,10 @@
  */
 const state = {
 	width: 600,
-	height: 500,
+	height: 300,
+	headLine: "headline headline",
+	standFirst:
+		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.",
 	title: "Chart Title",
 	chartMargin: {
 		top: 0,

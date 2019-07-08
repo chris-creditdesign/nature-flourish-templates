@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider } from "emotion-theming"
 import { format as d3Format } from "d3-format"
+import Header from "../Header/index"
 import Chart from "../Chart/index"
 import ChartBackgroundBox from "../ChartBackgroundBox/index"
 import theme from "../utils/theme"
@@ -15,6 +16,11 @@ import Form from "../Form/index"
 import FormToggleButtons from "../FormToggleButtons/index"
 
 const ChartContainer = ({ settings, data }) => {
+	/* -------------------------------------------------------------------------- */
+	/*                                  SETTINGS                                  */
+	/* -------------------------------------------------------------------------- */
+	const { headLine, standFirst } = settings
+
 	/* -------------------------------------------------------------------------- */
 	/*                                 CHART AXIS                                 */
 	/* -------------------------------------------------------------------------- */
@@ -81,6 +87,7 @@ const ChartContainer = ({ settings, data }) => {
 
 	return (
 		<ThemeProvider theme={theme}>
+			<Header headLine={headLine} standFirst={standFirst} />
 			<Form>
 				<FormToggleButtons
 					disabled={false}
@@ -123,6 +130,8 @@ export default ChartContainer
 
 ChartContainer.propTypes = {
 	settings: PropTypes.shape({
+		headLine: PropTypes.string.isRequired,
+		standFirst: PropTypes.string.isRequired,
 		width: PropTypes.number.isRequired,
 		height: PropTypes.number.isRequired,
 		title: PropTypes.string.isRequired,

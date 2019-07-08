@@ -37,6 +37,7 @@ const theme = {
 		normal: "1rem",
 		l: "1.2rem",
 		xl: "1.6rem",
+		xxl: "2.0rem",
 	},
 	border: `1px solid ${colors.grey}`,
 	buttonPadding: "5px 10px",

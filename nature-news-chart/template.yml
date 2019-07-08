@@ -7,6 +7,14 @@ image_download: true
 is_private: false
 sdk_version: 3
 settings:
+  - property: headLine
+    name: Headline
+    description: This the main headline of the chart
+    type: string
+  - property: standFirst
+    name: Stand first
+    description: Explanatory text to appear below the headline
+    type: text
   - property: yAxisLegendText
     name: Y Axis legend
     description: Text to label the y axis chart

@@ -9,13 +9,10 @@ import ChartContainer from "./components/ChartContainer/index"
  */
 const draw = () => {
 	window.requestData = {}
-	console.log("Waiting for message")
 
 	window.addEventListener("message", function resize(event) {
-		console.log("Message recieved")
 		if (event) {
 			window.requestData = event.data
-			console.log(event)
 			const documentHeight = document.querySelector("body")
 				.offsetHeight
 			window.parent.postMessage(

@@ -1,6 +1,5 @@
 import React, { useContext } from "react"
 import PropTypes from "prop-types"
-import StyledSvg from "./styles"
 import chartContext from "../GraphicContainer/chartContext"
 import useDimensions from "../utils/useDimensions"
 
@@ -9,7 +8,7 @@ const Chart = ({ children }) => {
 	const { chartHeight, chartWidth } = useDimensions()
 
 	return (
-		<StyledSvg
+		<svg
 			height={`${chartHeight}px`}
 			viewBox={`0 0 ${chartWidth} ${chartHeight}`}
 			width={`${chartWidth}px`}
@@ -19,7 +18,7 @@ const Chart = ({ children }) => {
 			<title id="chart-title">{title}</title>
 
 			{children}
-		</StyledSvg>
+		</svg>
 	)
 }
 

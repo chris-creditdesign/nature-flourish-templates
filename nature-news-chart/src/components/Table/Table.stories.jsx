@@ -1,11 +1,16 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
+import { format as d3Format } from "d3-format"
 import { ThemeProvider } from "emotion-theming"
 import theme from "../utils/theme"
 
 import Table from "./index"
-import chartContext from "../utils/chartContext"
-import chartProps from "../utils/chartProps"
+import chartContext from "../GraphicContainer/chartContext"
+import state from "../../state"
+import data from "../utils/testData"
+
+const yAxisFormat = d3Format(",")
+const xAxisFormat = str => str
 
 storiesOf("Table", module)
 	.addDecorator(story => (
@@ -14,7 +19,10 @@ storiesOf("Table", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{
-				...chartProps,
+				...state,
+				data,
+				yAxisFormat,
+				xAxisFormat,
 			}}
 		>
 			{story()}

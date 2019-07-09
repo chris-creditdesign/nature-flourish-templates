@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-// import { State, Store } from "@sambego/storybook-state"
+import { format as d3Format } from "d3-format"
 import { ThemeProvider } from "emotion-theming"
 import theme from "../utils/theme"
 
@@ -10,8 +10,12 @@ import ChartDataTableLine from "../ChartDataTableLine/index"
 import ChartXAxis from "../ChartXAxis/index"
 import ChartYAxis from "../ChartYAxis/index"
 import ChartYAxisLegend from "../ChartYAxisLegend/index"
-import chartContext from "../ChartContainer/chartContext"
-import chartProps from "../utils/chartProps"
+import chartContext from "../GraphicContainer/chartContext"
+import state from "../../state"
+import data from "../utils/testData"
+
+const yAxisFormat = d3Format(",")
+const xAxisFormat = str => str
 
 storiesOf("Chart", module)
 	.addDecorator(story => (
@@ -20,7 +24,10 @@ storiesOf("Chart", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{
-				...chartProps,
+				...state,
+				data,
+				yAxisFormat,
+				xAxisFormat,
 			}}
 		>
 			{story()}
@@ -36,49 +43,3 @@ storiesOf("Chart", module)
 			<ChartYAxisLegend />
 		</Chart>
 	))
-
-// import Table from "../Table/index"
-// import FormToggleButtons from "../FormToggleButtons/index"
-
-// export const toggelButtonsStore = new Store({
-// 	value: true,
-// })
-
-// export const toggelButtonsProps = {
-// 	disabled: false,
-// 	id: "toggle-buttons",
-// 	message: "View this data as:",
-// 	valueFalseMessage: "Table",
-// 	valueTrueMessage: "Chart",
-// 	onValueChange: value => toggelButtonsStore.set({ value }),
-// }
-
-// const myTable = (
-// 	<Table
-// 		data={dateData}
-// 		title={title}
-// 		xAxisFormat={xAxisFormat}
-// 		yAxisFormat={yAxisFormat}
-// 	/>
-// )
-
-// storiesOf("Chart", module)
-// 	.addDecorator(story => (
-// 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
-// 	))
-// 	.add("Line chart", () => (
-// 		<div className="nature-graphic">{myChart}</div>
-// 	))
-// 	.add("with table option", () => (
-// 		<State store={toggelButtonsStore}>
-// 			{state => (
-// 				<div className="nature-graphic">
-// 					<FormToggleButtons
-// 						{...toggelButtonsProps}
-// 						value={state.value}
-// 					/>
-// 					{state.value ? myChart : myTable}
-// 				</div>
-// 			)}
-// 		</State>
-// 	))

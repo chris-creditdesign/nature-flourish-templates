@@ -13,6 +13,8 @@ TODO:
 - Parse data as floats instead of ints
 - Add tooltips
 - Place chart inside figure element
+- Add no js option to download the data
+- Add guides to editors
 
 	mkcert 127.0.0.1
 	http-server --ssl --cert ./127.0.0.1.pem --key ./127.0.0.1-key.pem

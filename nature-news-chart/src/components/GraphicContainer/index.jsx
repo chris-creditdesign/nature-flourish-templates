@@ -22,7 +22,7 @@ const ChartContainer = ({ settings, data }) => {
 	const { headLine, standFirst } = settings
 
 	/* -------------------------------------------------------------------------- */
-	/*                                 CHART AXIS                                 */
+	/*                      CHART AXIS TEXT FORMAT FUNCTIONS                      */
 	/* -------------------------------------------------------------------------- */
 
 	// These should be set up externally and suppiled to the chart container

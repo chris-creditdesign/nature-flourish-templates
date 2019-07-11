@@ -19,8 +19,6 @@ const tooltipStore = new Store({
 	alignment: "left-top",
 })
 
-const transitionTime = 400
-
 const TestCircle = ({ x, y, alignment }) => (
 	<circle
 		cx={x}
@@ -215,7 +213,7 @@ storiesOf("Tooltip", module)
 				<figure>
 					<CSSTransition
 						in={state.tooltipVisible}
-						timeout={transitionTime}
+						timeout={theme.transitionTime}
 						classNames="tooltip"
 						unmountOnExit
 						appear

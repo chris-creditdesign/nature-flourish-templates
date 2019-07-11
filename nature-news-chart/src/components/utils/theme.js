@@ -108,6 +108,7 @@ const theme = {
 		s: "4px",
 		l: "8px",
 	},
+	transitionTime: 400,
 }
 
 export default theme

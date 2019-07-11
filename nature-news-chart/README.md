@@ -5,14 +5,10 @@ Documentation for developers working on the template, in Markdown format.
 Use the [Flourish SDK](https://www.npmjs.com/package/@flourish/sdk) to try it out.
 
 TODO:
-- Add headline and standfirst
+- Add key
 - Make display data as chart option less prominent
-- Add how to guides§
+- Add how to guides
 - Add production build for exported template
-- Remove emotion for SVG elements
-- Parse data as floats instead of ints
-- Add tooltips
-- Place chart inside figure element
 - Add no js option to download the data
 - Add guides to editors
 

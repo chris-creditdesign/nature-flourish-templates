@@ -20,7 +20,7 @@ const useData = () => {
 	// 1. Covert each of the values to numbers
 	const dataAsNumbers = data.data.map(obj => {
 		const { key, values } = obj
-		const numberValues = values.map(str => parseInt(str, 10))
+		const numberValues = values.map(str => parseFloat(str))
 		return {
 			key,
 			values: numberValues,

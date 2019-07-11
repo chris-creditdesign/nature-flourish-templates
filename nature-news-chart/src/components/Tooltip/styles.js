@@ -13,7 +13,8 @@ const StyledTooltip = styled.div`
 
 	&.transition {
 		opacity: 0;
-		transition: opacity 400ms;
+		transition: ${props =>
+			`opacity ${props.theme.transitionTime}ms`};
 	}
 
 	&.tooltip-enter-active,

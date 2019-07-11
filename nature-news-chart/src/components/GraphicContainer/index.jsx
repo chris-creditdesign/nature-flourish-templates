@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
+import { CSSTransition } from "react-transition-group"
 import { ThemeProvider } from "emotion-theming"
 import { format as d3Format } from "d3-format"
 import Header from "../Header/index"
+import Tooltip from "../Tooltip/index"
 import Chart from "../Chart/index"
 import ChartBackgroundBox from "../ChartBackgroundBox/index"
 import theme from "../utils/theme"
@@ -46,6 +48,16 @@ const ChartContainer = ({ settings, data }) => {
 	// Determine if a chart or a table should be shown.
 	const [showChart, setShowChart] = useState(true)
 
+	/* ------------------------------ Tooltip State ----------------------------- */
+	const [tooltipState, setTooltipState] = useState({
+		visible: false,
+		x: 100,
+		y: 100,
+		alignment: "middle-bottom",
+		value: "",
+	})
+	// const [toolTipAlignment, setToolTipAlignment] = use
+
 	/* -------------------------------------------------------------------------- */
 	/*                                   EFFECTS                                  */
 	/* -------------------------------------------------------------------------- */
@@ -85,6 +97,28 @@ const ChartContainer = ({ settings, data }) => {
 		}
 	})
 
+	/* -------------------------------------------------------------------------- */
+	/*                            Mouse over datapoint                            */
+	/* -------------------------------------------------------------------------- */
+
+	const handleMouseEnterDataElem = d => {
+		setTooltipState({
+			...tooltipState,
+			x: d.x,
+			y: d.y,
+			value: d.value,
+			alignment: d.alignment,
+			visible: true,
+		})
+	}
+
+	const handleMouseLeaveDataElem = () => {
+		setTooltipState({
+			...tooltipState,
+			visible: false,
+		})
+	}
+
 	return (
 		<ThemeProvider theme={theme}>
 			<Header headLine={headLine} standFirst={standFirst} />
@@ -108,16 +142,49 @@ const ChartContainer = ({ settings, data }) => {
 					width,
 					yAxisFormat,
 					xAxisFormat,
+					handleMouseEnterDataElem,
+					handleMouseLeaveDataElem,
 				}}
 			>
 				{showChart ? (
-					<Chart>
-						<ChartBackgroundBox />
-						<ChartYAxisLegend />
-						<ChartXAxis />
-						<ChartYAxis />
-						<ChartDataTableLine />
-					</Chart>
+					<figure>
+						<CSSTransition
+							in={
+								tooltipState.visible
+							}
+							timeout={
+								theme.transitionTime
+							}
+							classNames="tooltip"
+							unmountOnExit
+							appear
+						>
+							<Tooltip
+								x={
+									tooltipState.x
+								}
+								y={
+									tooltipState.y
+								}
+								alignment={
+									tooltipState.alignment
+								}
+							>
+								<p>
+									{
+										tooltipState.value
+									}
+								</p>
+							</Tooltip>
+						</CSSTransition>
+						<Chart>
+							<ChartBackgroundBox />
+							<ChartYAxisLegend />
+							<ChartXAxis />
+							<ChartYAxis />
+							<ChartDataTableLine />
+						</Chart>
+					</figure>
 				) : (
 					<Table />
 				)}

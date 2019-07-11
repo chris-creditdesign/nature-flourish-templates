@@ -5665,3 +5665,352 @@ exports[`Storyshots Table default 1`] = `
   </div>
 </div>
 `;
+
+exports[`Storyshots Tooltip Align left-bottom 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="left-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align left top
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Align left-top 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="left-top  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align left top
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Align right-bottom 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="right-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align left top
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Align right-top 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="right-top  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align left top
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Long text 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="middle-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 240,
+        }
+      }
+    >
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa libero voluptate maiores alias nulla nihil ad ducimus. Accusantium at nam, corrupti voluptatibus dolor et consectetur eaque quos ipsa, nostrum repudiandae?
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={240}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Multi paragraph 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="middle-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p
+        className="bold"
+      >
+        Tool tip text
+      </p>
+      <p>
+        Tool tip text
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip Show on hover 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        r="5"
+      />
+      <circle
+        cx={120}
+        cy={60}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        r="5"
+      />
+      <circle
+        cx={480}
+        cy={60}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        r="5"
+      />
+      <circle
+        cx={120}
+        cy={240}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        r="5"
+      />
+      <circle
+        cx={480}
+        cy={240}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        r="5"
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Tooltip default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="middle-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align middle-bottom
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;

@@ -24,7 +24,12 @@ body {
 	background-color: #F6F5EE;
 	padding: 1rem;
 	margin: 0;
+}
 
+.nature-graphic figure {
+	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 .bold {

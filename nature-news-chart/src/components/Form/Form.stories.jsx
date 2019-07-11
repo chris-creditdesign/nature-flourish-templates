@@ -25,7 +25,7 @@ const formStore = new Store({
 	dropdownValue: "value-1",
 })
 
-storiesOf("Form", module)
+storiesOf("Sections|Form", module)
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))

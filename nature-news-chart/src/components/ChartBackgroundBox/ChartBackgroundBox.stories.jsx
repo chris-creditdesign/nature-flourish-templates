@@ -6,7 +6,7 @@ import ChartBackgroundBox from "./index"
 import chartContext from "../GraphicContainer/chartContext"
 import state from "../../state"
 
-storiesOf("Chart background box", module)
+storiesOf("Sections|Chart/Components/Background box", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{

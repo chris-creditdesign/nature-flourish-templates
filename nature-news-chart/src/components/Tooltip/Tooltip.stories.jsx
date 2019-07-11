@@ -52,7 +52,7 @@ TestCircle.propTypes = {
 	]).isRequired,
 }
 
-storiesOf("Tooltip", module)
+storiesOf("Sections|Tooltip", module)
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))

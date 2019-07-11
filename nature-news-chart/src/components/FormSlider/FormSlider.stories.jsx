@@ -20,7 +20,7 @@ export const sliderProps = {
 	onChange: value => sliderStore.set({ value }),
 }
 
-storiesOf("Form slider", module)
+storiesOf("Sections/Form/Components/Slider", module)
 	.addDecorator(StateDecorator(sliderStore))
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>

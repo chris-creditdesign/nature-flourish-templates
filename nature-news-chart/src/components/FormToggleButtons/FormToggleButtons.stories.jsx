@@ -20,7 +20,7 @@ export const toggelButtonsProps = {
 	onValueChange: value => toggelButtonsStore.set({ value }),
 }
 
-storiesOf("Form toggle buttons", module)
+storiesOf("Sections/Form/Components/Toggle buttons", module)
 	.addDecorator(StateDecorator(toggelButtonsStore))
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>

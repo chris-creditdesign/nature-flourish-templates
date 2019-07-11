@@ -12,7 +12,7 @@ import data from "../utils/testData"
 const yAxisFormat = d3Format(",")
 const xAxisFormat = str => str
 
-storiesOf("Table", module)
+storiesOf("Sections|Table", module)
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))

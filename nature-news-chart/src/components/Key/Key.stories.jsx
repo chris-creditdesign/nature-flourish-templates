@@ -3,17 +3,14 @@ import { storiesOf } from "@storybook/react"
 import { ThemeProvider } from "emotion-theming"
 import theme from "../utils/theme"
 
-import Header from "./index"
-import state from "../../state"
+import Key from "./index"
+import data from "../utils/testData"
 
-storiesOf("Sections|Header", module)
+storiesOf("Sections|Key", module)
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
 	.add("default", () => (
-		<Header
-			headLine={state.headLine}
-			standFirst={state.standFirst}
-		/>
+		<Key columnNames={data.data.column_names.values} />
 	))

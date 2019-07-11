@@ -11,7 +11,7 @@ import data from "../utils/testData"
 const yAxisFormat = d3Format(",")
 const xAxisFormat = str => str
 
-storiesOf("Chart x-axis", module)
+storiesOf("Sections|Chart/Components/X-axis", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{

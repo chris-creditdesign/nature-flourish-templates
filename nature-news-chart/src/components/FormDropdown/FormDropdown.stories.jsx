@@ -29,7 +29,7 @@ export const dropdownProps = {
 	onChange: e => dropdownStore.set({ value: e.target.value }),
 }
 
-storiesOf("Form dropdown", module)
+storiesOf("Sections/Form/Components/Dropdown", module)
 	.addDecorator(StateDecorator(dropdownStore))
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>

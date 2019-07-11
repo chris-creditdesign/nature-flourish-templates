@@ -7,7 +7,7 @@ import chartContext from "../GraphicContainer/chartContext"
 import state from "../../state"
 import data from "../utils/testData"
 
-storiesOf("Chart line", module)
+storiesOf("Sections|Chart/Components/Line", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{

@@ -17,7 +17,7 @@ export const buttonProps = {
 		buttonStore.set({ expanded: !buttonStore.get("expanded") }),
 }
 
-storiesOf("Form button", module)
+storiesOf("Sections|Form/Components/Button", module)
 	.addDecorator(StateDecorator(buttonStore))
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>

@@ -49,3 +49,9 @@ body {
 	opacity: 0;
 	border: 0 !important;
 }
+
+.error-message {
+	border: 1px solid #c00;
+	background: #fac7c7;
+	padding: 10px;
+}

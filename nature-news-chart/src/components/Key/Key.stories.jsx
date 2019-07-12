@@ -12,5 +12,14 @@ storiesOf("Sections|Key", module)
 	))
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
 	.add("default", () => (
-		<Key columnNames={data.data.column_names.values} />
+		<Key columnNames={data.data.map(elem => elem.key)} type="box" />
+	))
+	.add("line", () => (
+		<Key
+			columnNames={data.data.map(elem => elem.key)}
+			type="line"
+		/>
+	))
+	.add("dot", () => (
+		<Key columnNames={data.data.map(elem => elem.key)} type="dot" />
 	))

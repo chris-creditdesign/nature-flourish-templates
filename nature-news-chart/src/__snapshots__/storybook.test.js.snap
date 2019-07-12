@@ -14,55 +14,105 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.
     </p>
   </header>
-  <form
-    className="css-lzdszq-StyledForm e1a6cbhf0"
+  <ul
+    className="css-fi0olr-StyledList euxcg240"
   >
-    <fieldset
-      className=" edqsrkw0 css-h85td1-StyledFieldSet-StyledToggelButtons ejvy9hz0"
-      disabled={false}
-    >
-      <legend
-        className="bold"
-        id="chart-toggle-buttons"
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
       >
-        Display a chart or a table
-      </legend>
-      <div
-        aria-labelledby="chart-toggle-buttons"
-        className="radiogroup"
-        role="radiogroup"
+        <line
+          stroke="#EA5153"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value A
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
       >
-        <input
-          aria-checked={true}
-          checked={true}
-          id="chart"
-          name="chart-toggle-buttons"
-          onChange={[Function]}
-          type="radio"
-          value="chart"
+        <line
+          stroke="#75C6C5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
         />
-        <label
-          htmlFor="chart"
-        >
-          Chart
-        </label>
-        <input
-          aria-checked={false}
-          checked={false}
-          id="table"
-          name="chart-toggle-buttons"
-          onChange={[Function]}
-          type="radio"
-          value="table"
+      </svg>
+      Value B
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#5A527E"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
         />
-        <label
-          htmlFor="table"
-        >
-          Table
-        </label>
-      </div>
-    </fieldset>
-  </form>
+      </svg>
+      Value C
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8B0D16"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value D
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8FC297"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value E
+    </li>
+  </ul>
   <figure>
     <svg
       aria-labelledby="chart-title"
@@ -1584,6 +1634,55 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       </g>
     </svg>
   </figure>
+  <form
+    className="css-lzdszq-StyledForm e1a6cbhf0"
+  >
+    <fieldset
+      className=" edqsrkw0 css-h85td1-StyledFieldSet-StyledToggelButtons ejvy9hz0"
+      disabled={false}
+    >
+      <legend
+        className="bold"
+        id="chart-toggle-buttons"
+      >
+        Display a chart or a table
+      </legend>
+      <div
+        aria-labelledby="chart-toggle-buttons"
+        className="radiogroup"
+        role="radiogroup"
+      >
+        <input
+          aria-checked={true}
+          checked={true}
+          id="chart"
+          name="chart-toggle-buttons"
+          onChange={[Function]}
+          type="radio"
+          value="chart"
+        />
+        <label
+          htmlFor="chart"
+        >
+          Chart
+        </label>
+        <input
+          aria-checked={false}
+          checked={false}
+          id="table"
+          name="chart-toggle-buttons"
+          onChange={[Function]}
+          type="radio"
+          value="table"
+        />
+        <label
+          htmlFor="table"
+        >
+          Table
+        </label>
+      </div>
+    </fieldset>
+  </form>
 </div>
 `;
 
@@ -6958,45 +7057,331 @@ exports[`Storyshots Sections|Key default 1`] = `
   className="nature-graphic"
 >
   <ul
-    className="css-eotzcy-StyledList euxcg240"
+    className="css-fi0olr-StyledList euxcg240"
   >
     <li>
-      2008
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <rect
+          fill="#EA5153"
+          height="15"
+          width="15"
+        />
+      </svg>
+      Value A
     </li>
     <li>
-      2009
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <rect
+          fill="#75C6C5"
+          height="15"
+          width="15"
+        />
+      </svg>
+      Value B
     </li>
     <li>
-      2010
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <rect
+          fill="#5A527E"
+          height="15"
+          width="15"
+        />
+      </svg>
+      Value C
     </li>
     <li>
-      2011
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <rect
+          fill="#8B0D16"
+          height="15"
+          width="15"
+        />
+      </svg>
+      Value D
     </li>
     <li>
-      2012
-    </li>
-    <li>
-      2013
-    </li>
-    <li>
-      2014
-    </li>
-    <li>
-      2015
-    </li>
-    <li>
-      2016
-    </li>
-    <li>
-      2017
-    </li>
-    <li>
-      2018
-    </li>
-    <li>
-      2019
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <rect
+          fill="#8FC297"
+          height="15"
+          width="15"
+        />
+      </svg>
+      Value E
     </li>
   </ul>
+</div>
+`;
+
+exports[`Storyshots Sections|Key dot 1`] = `
+<div
+  className="nature-graphic"
+>
+  <ul
+    className="css-fi0olr-StyledList euxcg240"
+  >
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <circle
+          cx="7.5"
+          cy="7.5"
+          fill="#EA5153"
+          r="4px"
+        />
+      </svg>
+      Value A
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <circle
+          cx="7.5"
+          cy="7.5"
+          fill="#75C6C5"
+          r="4px"
+        />
+      </svg>
+      Value B
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <circle
+          cx="7.5"
+          cy="7.5"
+          fill="#5A527E"
+          r="4px"
+        />
+      </svg>
+      Value C
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <circle
+          cx="7.5"
+          cy="7.5"
+          fill="#8B0D16"
+          r="4px"
+        />
+      </svg>
+      Value D
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <circle
+          cx="7.5"
+          cy="7.5"
+          fill="#8FC297"
+          r="4px"
+        />
+      </svg>
+      Value E
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Sections|Key line 1`] = `
+<div
+  className="nature-graphic"
+>
+  <ul
+    className="css-fi0olr-StyledList euxcg240"
+  >
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#EA5153"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value A
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#75C6C5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value B
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#5A527E"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value C
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8B0D16"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value D
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8FC297"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value E
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Sections|Key/Components/ColorBox default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <svg
+    focusable={false}
+    height="15"
+    width="15"
+  >
+    <rect
+      fill="#EA5153"
+      height="15"
+      width="15"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Sections|Key/Components/ColorDot default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <svg
+    focusable={false}
+    height="15"
+    width="15"
+  >
+    <circle
+      cx="7.5"
+      cy="7.5"
+      fill="#EA5153"
+      r="4px"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Sections|Key/Components/ColorLine default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <svg
+    focusable={false}
+    height="15"
+    width="15"
+  >
+    <line
+      stroke="#EA5153"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="3px"
+      x1="2"
+      x2="13"
+      y1="8"
+      y2="8"
+    />
+  </svg>
 </div>
 `;
 
@@ -7300,7 +7685,7 @@ exports[`Storyshots Sections|Table default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Align left-bottom 1`] = `
+exports[`Storyshots Sections|Tooltip align left-bottom 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7341,7 +7726,7 @@ exports[`Storyshots Sections|Tooltip Align left-bottom 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Align left-top 1`] = `
+exports[`Storyshots Sections|Tooltip align left-top 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7382,7 +7767,7 @@ exports[`Storyshots Sections|Tooltip Align left-top 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Align right-bottom 1`] = `
+exports[`Storyshots Sections|Tooltip align right-bottom 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7423,7 +7808,7 @@ exports[`Storyshots Sections|Tooltip Align right-bottom 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Align right-top 1`] = `
+exports[`Storyshots Sections|Tooltip align right-top 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7464,7 +7849,48 @@ exports[`Storyshots Sections|Tooltip Align right-top 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Long text 1`] = `
+exports[`Storyshots Sections|Tooltip default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <figure>
+    <div
+      aria-hidden={true}
+      className="middle-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
+      style={
+        Object {
+          "left": 300,
+          "top": 150,
+        }
+      }
+    >
+      <p>
+        Align middle-bottom
+      </p>
+    </div>
+    <svg
+      aria-labelledby="chart-title"
+      focusable={false}
+      height="300px"
+      viewBox="0 0 560 300"
+      width="560px"
+    >
+      <title
+        id="chart-title"
+      >
+        Chart Title
+      </title>
+      <circle
+        cx={300}
+        cy={150}
+        r={5}
+      />
+    </svg>
+  </figure>
+</div>
+`;
+
+exports[`Storyshots Sections|Tooltip long text 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7505,7 +7931,7 @@ exports[`Storyshots Sections|Tooltip Long text 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Multi paragraph 1`] = `
+exports[`Storyshots Sections|Tooltip multi paragraph 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7551,7 +7977,7 @@ exports[`Storyshots Sections|Tooltip Multi paragraph 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Tooltip Show on hover 1`] = `
+exports[`Storyshots Sections|Tooltip show on hover 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7602,47 +8028,6 @@ exports[`Storyshots Sections|Tooltip Show on hover 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="5"
-      />
-    </svg>
-  </figure>
-</div>
-`;
-
-exports[`Storyshots Sections|Tooltip default 1`] = `
-<div
-  className="nature-graphic"
->
-  <figure>
-    <div
-      aria-hidden={true}
-      className="middle-bottom  css-1pav4sj-StyledTooltip e1bsxcg20"
-      style={
-        Object {
-          "left": 300,
-          "top": 150,
-        }
-      }
-    >
-      <p>
-        Align middle-bottom
-      </p>
-    </div>
-    <svg
-      aria-labelledby="chart-title"
-      focusable={false}
-      height="300px"
-      viewBox="0 0 560 300"
-      width="560px"
-    >
-      <title
-        id="chart-title"
-      >
-        Chart Title
-      </title>
-      <circle
-        cx={300}
-        cy={150}
-        r={5}
       />
     </svg>
   </figure>

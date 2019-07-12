@@ -4,6 +4,7 @@ import { CSSTransition } from "react-transition-group"
 import { ThemeProvider } from "emotion-theming"
 import { format as d3Format } from "d3-format"
 import Header from "../Header/index"
+import Key from "../Key/index"
 import Tooltip from "../Tooltip/index"
 import Chart from "../Chart/index"
 import ChartBackgroundBox from "../ChartBackgroundBox/index"
@@ -122,19 +123,14 @@ const ChartContainer = ({ settings, data }) => {
 	return (
 		<ThemeProvider theme={theme}>
 			<Header headLine={headLine} standFirst={standFirst} />
-			<Form>
-				<FormToggleButtons
-					disabled={false}
-					id="chart-toggle-buttons"
-					message="Display a chart or a table"
-					onValueChange={value =>
-						setShowChart(value)
-					}
-					value={showChart}
-					valueFalseMessage="Table"
-					valueTrueMessage="Chart"
+			{showChart ? (
+				<Key
+					columnNames={data.data.map(
+						elem => elem.key
+					)}
+					type="line"
 				/>
-			</Form>
+			) : null}
 			<chartContext.Provider
 				value={{
 					...settings,
@@ -189,6 +185,19 @@ const ChartContainer = ({ settings, data }) => {
 					<Table />
 				)}
 			</chartContext.Provider>
+			<Form>
+				<FormToggleButtons
+					disabled={false}
+					id="chart-toggle-buttons"
+					message="Display a chart or a table"
+					onValueChange={value =>
+						setShowChart(value)
+					}
+					value={showChart}
+					valueFalseMessage="Table"
+					valueTrueMessage="Chart"
+				/>
+			</Form>
 		</ThemeProvider>
 	)
 }

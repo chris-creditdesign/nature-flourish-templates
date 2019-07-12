@@ -85,7 +85,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Long text", () => (
+	.add("long text", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -111,7 +111,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Multi paragraph", () => (
+	.add("multi paragraph", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -131,7 +131,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Align right-bottom", () => (
+	.add("align right-bottom", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -150,7 +150,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Align right-top", () => (
+	.add("align right-top", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -169,7 +169,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Align left-bottom", () => (
+	.add("align left-bottom", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -188,7 +188,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Align left-top", () => (
+	.add("align left-top", () => (
 		<figure>
 			<Tooltip
 				x={settings.width / 2}
@@ -207,7 +207,7 @@ storiesOf("Sections|Tooltip", module)
 			</Chart>
 		</figure>
 	))
-	.add("Show on hover", () => (
+	.add("show on hover", () => (
 		<State store={tooltipStore}>
 			{state => (
 				<figure>

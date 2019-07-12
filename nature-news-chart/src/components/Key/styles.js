@@ -2,12 +2,16 @@ import styled from "@emotion/styled"
 
 const StyledList = styled.ul`
 	list-style: none;
-	margin: 0;
+	margin: ${props => props.theme.margin.below.s};
 	padding: 0;
 
 	li {
 		display: inline-block;
 		margin: ${props => props.theme.margin.right.l};
+
+		svg {
+			margin: ${props => props.theme.margin.right.s};
+		}
 	}
 `
 

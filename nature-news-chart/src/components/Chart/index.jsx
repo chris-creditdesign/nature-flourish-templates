@@ -4,7 +4,7 @@ import chartContext from "../GraphicContainer/chartContext"
 import useDimensions from "../utils/useDimensions"
 
 const Chart = ({ children }) => {
-	const { title } = useContext(chartContext)
+	const { headLine } = useContext(chartContext)
 	const { chartHeight, chartWidth } = useDimensions()
 
 	return (
@@ -15,7 +15,7 @@ const Chart = ({ children }) => {
 			focusable={false}
 			aria-labelledby="chart-title"
 		>
-			<title id="chart-title">{title}</title>
+			<title id="chart-title">{headLine}</title>
 
 			{children}
 		</svg>

@@ -5,10 +5,9 @@
 const state = {
 	width: 600,
 	height: 300,
-	headLine: "headline headline",
+	headLine: "Headline headline",
 	standFirst:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.",
-	title: "Chart Title",
 	chartMargin: {
 		top: 0,
 		right: 20,
@@ -23,7 +22,7 @@ const state = {
 	},
 	yAxisTickCount: 5,
 	xAxisTickCount: 10,
-	yAxisLegendText: "Y-axis legend text just a test",
+	yAxisLegendText: "Y-axis legend text",
 	xAxisLegendText: "X-axis legend text",
 }
 

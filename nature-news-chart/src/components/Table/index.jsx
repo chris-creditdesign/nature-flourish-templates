@@ -4,7 +4,7 @@ import chartContext from "../GraphicContainer/chartContext"
 import useData from "../utils/useData"
 
 const Table = () => {
-	const { title, yAxisFormat } = useContext(chartContext)
+	const { yAxisLegendText, yAxisFormat } = useContext(chartContext)
 	const { data, columnNames } = useData()
 	const columnHeaders = columnNames.map(d => (
 		<th key={d} scope="col">
@@ -32,7 +32,7 @@ const Table = () => {
 	return (
 		<StyledTable>
 			<table>
-				<caption>{title}</caption>
+				<caption>{yAxisLegendText}</caption>
 				<thead>
 					<tr>
 						<th> </th>

@@ -5,11 +5,12 @@ Documentation for developers working on the template, in Markdown format.
 Use the [Flourish SDK](https://www.npmjs.com/package/@flourish/sdk) to try it out.
 
 TODO:
-- Add key
+- Add no js option to download the data
+- Add "Data update" alert
+- Make x-axis labels not overlap
 - Make display data as chart option less prominent
 - Add how to guides
 - Add production build for exported template
-- Add no js option to download the data
 - Add guides to editors
 
 	mkcert 127.0.0.1

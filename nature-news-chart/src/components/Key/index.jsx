@@ -26,7 +26,7 @@ const Key = ({ columnNames, type }) => {
 		)
 	})
 
-	return <StyledList>{listItems}</StyledList>
+	return <StyledList aria-hidden>{listItems}</StyledList>
 }
 
 export default Key

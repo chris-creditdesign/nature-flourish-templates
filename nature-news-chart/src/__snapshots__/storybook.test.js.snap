@@ -15,6 +15,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
     </p>
   </header>
   <ul
+    aria-hidden={true}
     className="css-fi0olr-StyledList euxcg240"
   >
     <li>
@@ -7057,6 +7058,7 @@ exports[`Storyshots Sections|Key default 1`] = `
   className="nature-graphic"
 >
   <ul
+    aria-hidden={true}
     className="css-fi0olr-StyledList euxcg240"
   >
     <li>
@@ -7138,6 +7140,7 @@ exports[`Storyshots Sections|Key dot 1`] = `
   className="nature-graphic"
 >
   <ul
+    aria-hidden={true}
     className="css-fi0olr-StyledList euxcg240"
   >
     <li>
@@ -7224,6 +7227,7 @@ exports[`Storyshots Sections|Key line 1`] = `
   className="nature-graphic"
 >
   <ul
+    aria-hidden={true}
     className="css-fi0olr-StyledList euxcg240"
   >
     <li>

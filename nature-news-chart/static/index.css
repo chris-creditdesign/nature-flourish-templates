@@ -16,7 +16,7 @@ body {
 	margin: 0;
 	font-size: 1.1rem;
 	line-height: 1.6rem;
-	color: #333;
+	color: #333333;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,12 +24,6 @@ body {
 	background-color: #F6F5EE;
 	padding: 1rem;
 	margin: 0;
-}
-
-.nature-graphic figure {
-	position: relative;
-	margin: 0;
-	padding: 0;
 }
 
 .bold {

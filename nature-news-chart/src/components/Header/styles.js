@@ -1,6 +1,8 @@
 import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
+	margin: ${props => props.theme.margin.below.s};
+
 	h1 {
 		font-size: ${props => props.theme.fontSize.xxl};
 		line-height: ${props => props.theme.fontSize.xxl};
@@ -13,7 +15,8 @@ const StyledHeader = styled.header`
 	}
 
 	p {
-		margin: ${props => props.theme.margin.below.l};
+		padding: 0;
+		margin: 0;
 	}
 `
 

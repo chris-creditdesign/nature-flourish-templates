@@ -7689,6 +7689,70 @@ exports[`Storyshots Sections|Table default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Sections|Toggle button default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <button
+    aria-checked={false}
+    aria-labelledby="toggle-button"
+    className="css-1w205j1-ButtonStyled e1trsnej0"
+    disabled={false}
+    onClick={[Function]}
+    role="switch"
+  >
+    <span
+      className="label"
+      id="toggle-button"
+    >
+      Toggle this button
+    </span>
+    <span
+      className="on"
+    >
+      on
+    </span>
+    <span
+      className="off"
+    >
+      off
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Sections|Toggle button disabled 1`] = `
+<div
+  className="nature-graphic"
+>
+  <button
+    aria-checked={false}
+    aria-labelledby="toggle-button"
+    className="css-1w205j1-ButtonStyled e1trsnej0"
+    disabled={true}
+    onClick={[Function]}
+    role="switch"
+  >
+    <span
+      className="label"
+      id="toggle-button"
+    >
+      Toggle this button
+    </span>
+    <span
+      className="on"
+    >
+      on
+    </span>
+    <span
+      className="off"
+    >
+      off
+    </span>
+  </button>
+</div>
+`;
+
 exports[`Storyshots Sections|Tooltip align left-bottom 1`] = `
 <div
   className="nature-graphic"

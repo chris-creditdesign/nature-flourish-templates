@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, Fragment } from "react"
 import PropTypes from "prop-types"
 import { CSSTransition } from "react-transition-group"
 import { ThemeProvider } from "emotion-theming"
 import { format as d3Format } from "d3-format"
+import StyledFigure from "./styles"
 import Header from "../Header/index"
 import Key from "../Key/index"
 import Tooltip from "../Tooltip/index"
@@ -15,10 +16,9 @@ import ChartYAxis from "../ChartYAxis/index"
 import ChartYAxisLegend from "../ChartYAxisLegend/index"
 import chartContext from "./chartContext"
 import Table from "../Table/index"
-import Form from "../Form/index"
-import FormToggleButtons from "../FormToggleButtons/index"
+import ToggleButton from "../ToggleButton/index"
 
-const ChartContainer = ({ settings, data }) => {
+const GraphicContainer = ({ settings, data }) => {
 	/* -------------------------------------------------------------------------- */
 	/*                                  SETTINGS                                  */
 	/* -------------------------------------------------------------------------- */
@@ -28,7 +28,7 @@ const ChartContainer = ({ settings, data }) => {
 	/*                      CHART AXIS TEXT FORMAT FUNCTIONS                      */
 	/* -------------------------------------------------------------------------- */
 
-	// These should be set up externally and suppiled to the chart container
+	// TODO: Axis: These should be set up externally and suppiled to the chart container
 	// The type of axis depends on the chart type and the data being displayed...
 	// ie time series or ordinal data.
 	const yAxisFormat = d3Format(",")
@@ -57,7 +57,6 @@ const ChartContainer = ({ settings, data }) => {
 		alignment: "middle-bottom",
 		value: "",
 	})
-	// const [toolTipAlignment, setToolTipAlignment] = use
 
 	/* -------------------------------------------------------------------------- */
 	/*                                   EFFECTS                                  */
@@ -123,6 +122,7 @@ const ChartContainer = ({ settings, data }) => {
 	return (
 		<ThemeProvider theme={theme}>
 			<Header headLine={headLine} standFirst={standFirst} />
+
 			{showChart ? (
 				<Key
 					columnNames={data.data.map(
@@ -131,86 +131,93 @@ const ChartContainer = ({ settings, data }) => {
 					type="line"
 				/>
 			) : null}
-			<chartContext.Provider
-				value={{
-					...settings,
-					data,
-					width,
-					yAxisFormat,
-					xAxisFormat,
-					handleMouseEnterDataElem,
-					handleMouseLeaveDataElem,
-				}}
+
+			<StyledFigure
+				id="nature-graphic-figure"
+				role="region"
+				aria-live="polite"
 			>
-				{showChart ? (
-					<figure>
-						<CSSTransition
-							in={
-								tooltipState.visible
-							}
-							timeout={
-								theme.transitionTime
-							}
-							classNames="tooltip"
-							unmountOnExit
-							appear
-						>
-							<Tooltip
-								x={
-									tooltipState.x
+				<figcaption className="visually-hidden">
+					{showChart
+						? "Data displayed as a chart."
+						: "Data displayed as a table."}
+				</figcaption>
+				<chartContext.Provider
+					value={{
+						...settings,
+						data,
+						width,
+						yAxisFormat,
+						xAxisFormat,
+						handleMouseEnterDataElem,
+						handleMouseLeaveDataElem,
+					}}
+				>
+					{showChart ? (
+						<Fragment>
+							<CSSTransition
+								in={
+									tooltipState.visible
 								}
-								y={
-									tooltipState.y
+								timeout={
+									theme.transitionTime
 								}
-								alignment={
-									tooltipState.alignment
-								}
+								classNames="tooltip"
+								unmountOnExit
+								appear
 							>
-								<p>
-									{
-										tooltipState.value
+								<Tooltip
+									x={
+										tooltipState.x
 									}
-								</p>
-							</Tooltip>
-						</CSSTransition>
-						<Chart>
-							<ChartBackgroundBox />
-							<ChartYAxisLegend />
-							<ChartXAxis />
-							<ChartYAxis />
-							<ChartDataTableLine />
-						</Chart>
-					</figure>
-				) : (
-					<Table />
-				)}
-			</chartContext.Provider>
-			<Form>
-				<FormToggleButtons
-					disabled={false}
-					id="chart-toggle-buttons"
-					message="Display a chart or a table"
-					onValueChange={value =>
-						setShowChart(value)
-					}
-					value={showChart}
-					valueFalseMessage="Table"
-					valueTrueMessage="Chart"
-				/>
-			</Form>
+									y={
+										tooltipState.y
+									}
+									alignment={
+										tooltipState.alignment
+									}
+								>
+									<p>
+										{
+											tooltipState.value
+										}
+									</p>
+								</Tooltip>
+							</CSSTransition>
+							<Chart>
+								<ChartBackgroundBox />
+								<ChartYAxisLegend />
+								<ChartXAxis />
+								<ChartYAxis />
+								<ChartDataTableLine />
+							</Chart>
+						</Fragment>
+					) : (
+						<Table />
+					)}
+				</chartContext.Provider>
+			</StyledFigure>
+
+			<ToggleButton
+				onClick={() => setShowChart(!showChart)}
+				checked={!showChart}
+				id="toggle-chart"
+				label="Show data as table"
+				disabled={false}
+				controls="nature-graphic-figure"
+			/>
 		</ThemeProvider>
 	)
 }
 
-export default ChartContainer
+export default GraphicContainer
 
-ChartContainer.propTypes = {
+GraphicContainer.propTypes = {
 	settings: PropTypes.shape({
 		headLine: PropTypes.string.isRequired,
 		standFirst: PropTypes.string.isRequired,
 		width: PropTypes.number.isRequired,
 		height: PropTypes.number.isRequired,
-		title: PropTypes.string.isRequired,
 		chartMargin: PropTypes.shape({
 			top: PropTypes.number.isRequired,
 			right: PropTypes.number.isRequired,

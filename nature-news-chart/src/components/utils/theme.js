@@ -1,5 +1,5 @@
 const colors = {
-	black: "#121212",
+	black: "#333333",
 	grey: "#3a3a3a",
 	midGrey: "#888888",
 	lightGrey: "#e1e1e1",
@@ -26,6 +26,7 @@ const theme = {
 	textColor: {
 		normal: colors.black,
 		light: colors.midGrey,
+		onDarkFade: colors.lightGrey,
 		onDark: colors.white,
 	},
 	fontWeight: {

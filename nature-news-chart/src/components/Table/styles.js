@@ -22,7 +22,8 @@ const StyledTable = styled.div`
 
 	caption {
 		font-weight: ${props => props.theme.fontWeight.bold};
-		padding: ${props => props.theme.padding.allAround.s};
+		padding: 0;
+		margin: ${props => props.theme.margin.below.s};
 		text-align: left;
 	}
 

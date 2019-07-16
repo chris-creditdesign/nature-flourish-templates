@@ -34,7 +34,6 @@ const ChartDots = ({ index }) => {
 				r={radius}
 				fill={theme.chartColor[index]}
 				index={index}
-				role="img"
 				onMouseEnter={() => {
 					const x = scaledX + innerLeft
 					const y = scaledY + innerTop
@@ -61,13 +60,11 @@ const ChartDots = ({ index }) => {
 					handleMouseLeaveDataElem()
 					setMouseOver(null)
 				}}
-			>
-				<title>{yAxisFormat(d.y)}</title>
-			</circle>
+			/>
 		)
 	})
 
-	return <g role="cell">{circles}</g>
+	return <g>{circles}</g>
 }
 
 ChartDots.propTypes = {

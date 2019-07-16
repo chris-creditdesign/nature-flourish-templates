@@ -10,7 +10,7 @@ import Tooltip from "../Tooltip/index"
 import Chart from "../Chart/index"
 import ChartBackgroundBox from "../ChartBackgroundBox/index"
 import theme from "../utils/theme"
-import ChartDataTableLine from "../ChartDataTableLine/index"
+import ChartDataLayer from "../ChartDataLayer/index"
 import ChartXAxis from "../ChartXAxis/index"
 import ChartYAxis from "../ChartYAxis/index"
 import ChartYAxisLegend from "../ChartYAxisLegend/index"
@@ -189,7 +189,7 @@ const GraphicContainer = ({ settings, data }) => {
 								<ChartYAxisLegend />
 								<ChartXAxis />
 								<ChartYAxis />
-								<ChartDataTableLine />
+								<ChartDataLayer />
 							</Chart>
 						</Fragment>
 					) : (

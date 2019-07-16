@@ -4,7 +4,7 @@ import { format as d3Format } from "d3-format"
 
 import Chart from "./index"
 import ChartBackgroundBox from "../ChartBackgroundBox/index"
-import ChartDataTableLine from "../ChartDataTableLine/index"
+import ChartDataLayer from "../ChartDataLayer/index"
 import ChartXAxis from "../ChartXAxis/index"
 import ChartYAxis from "../ChartYAxis/index"
 import ChartYAxisLegend from "../ChartYAxisLegend/index"
@@ -32,9 +32,9 @@ storiesOf("Sections/Chart", module)
 	.add("default", () => (
 		<Chart>
 			<ChartBackgroundBox />
-			<ChartDataTableLine />
 			<ChartXAxis />
 			<ChartYAxis />
 			<ChartYAxisLegend />
+			<ChartDataLayer />
 		</Chart>
 	))

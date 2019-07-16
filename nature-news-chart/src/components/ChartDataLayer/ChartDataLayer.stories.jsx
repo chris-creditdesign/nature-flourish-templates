@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react"
 import { format as d3Format } from "d3-format"
 
 import Chart from "../Chart/index"
-import ChartDataTableLine from "./index"
+import ChartDataLayer from "./index"
 import chartContext from "../GraphicContainer/chartContext"
 import state from "../../state"
 import data from "../utils/testData"
@@ -11,7 +11,7 @@ import data from "../utils/testData"
 const yAxisFormat = d3Format(",")
 const xAxisFormat = str => str
 
-storiesOf("Sections|Chart/Components/Data table", module)
+storiesOf("Sections|Chart/Components/Data layer", module)
 	.addDecorator(story => (
 		<chartContext.Provider
 			value={{
@@ -27,6 +27,6 @@ storiesOf("Sections|Chart/Components/Data table", module)
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
 	.add("default", () => (
 		<Chart>
-			<ChartDataTableLine />
+			<ChartDataLayer />
 		</Chart>
 	))

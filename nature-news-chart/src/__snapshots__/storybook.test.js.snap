@@ -126,17 +126,11 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       Data displayed as a chart.
     </figcaption>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 984 300"
       width="984px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <rect
         aria-hidden={true}
         fill="#ffffff"
@@ -558,140 +552,21 @@ exports[`Storyshots Layouts|Chart default 1`] = `
         />
       </g>
       <g
-        role="table"
         transform="translate(100,10)"
       >
-        <g
-          opacity={0}
-          role="row"
-          transform="translate(0,250)"
-        >
-          <text
-            role="columnheader"
-          >
-             
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={0}
-            y={0}
-          >
-            2008
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={78.54545454545455}
-            y={0}
-          >
-            2009
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={157.0909090909091}
-            y={0}
-          >
-            2010
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={235.63636363636363}
-            y={0}
-          >
-            2011
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={314.1818181818182}
-            y={0}
-          >
-            2012
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={392.7272727272727}
-            y={0}
-          >
-            2013
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={471.27272727272725}
-            y={0}
-          >
-            2014
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={549.8181818181818}
-            y={0}
-          >
-            2015
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={628.3636363636364}
-            y={0}
-          >
-            2016
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={706.909090909091}
-            y={0}
-          >
-            2017
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={785.4545454545454}
-            y={0}
-          >
-            2018
-          </text>
-          <text
-            dy="1.5em"
-            role="columnheader"
-            x={864}
-            y={0}
-          >
-            2019
-          </text>
-        </g>
-        <g
-          role="row"
-        >
-          <g
-            role="rowheader"
-          >
+        <g>
+          <g>
             <path
               d="M0,247.1064814814815L78.54545454545455,245.37037037037038L157.0909090909091,243.63425925925927L235.63636363636363,240.16203703703704L314.1818181818182,235.53240740740742L392.7272727272727,228.00925925925927L471.27272727272725,217.01388888888889L549.8181818181818,200.8101851851852L628.3636363636364,175.92592592592592L706.909090909091,138.8888888888889L785.4545454545454,83.33333333333334L864,0"
               fill="none"
               index={0}
-              role="img"
               stroke="#EA5153"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="3px"
-            >
-              <title>
-                Value A
-              </title>
-            </path>
+            />
           </g>
-          <g
-            role="cell"
-          >
+          <g>
             <circle
               cx={0}
               cy={247.1064814814815}
@@ -700,12 +575,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                50
-              </title>
-            </circle>
+            />
             <circle
               cx={78.54545454545455}
               cy={245.37037037037038}
@@ -714,12 +584,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                80
-              </title>
-            </circle>
+            />
             <circle
               cx={157.0909090909091}
               cy={243.63425925925927}
@@ -728,12 +593,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                110
-              </title>
-            </circle>
+            />
             <circle
               cx={235.63636363636363}
               cy={240.16203703703704}
@@ -742,12 +602,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                170
-              </title>
-            </circle>
+            />
             <circle
               cx={314.1818181818182}
               cy={235.53240740740742}
@@ -756,12 +611,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                250
-              </title>
-            </circle>
+            />
             <circle
               cx={392.7272727272727}
               cy={228.00925925925927}
@@ -770,12 +620,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                380
-              </title>
-            </circle>
+            />
             <circle
               cx={471.27272727272725}
               cy={217.01388888888889}
@@ -784,12 +629,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                570
-              </title>
-            </circle>
+            />
             <circle
               cx={549.8181818181818}
               cy={200.8101851851852}
@@ -798,12 +638,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                850
-              </title>
-            </circle>
+            />
             <circle
               cx={628.3636363636364}
               cy={175.92592592592592}
@@ -812,12 +647,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,280
-              </title>
-            </circle>
+            />
             <circle
               cx={706.909090909091}
               cy={138.8888888888889}
@@ -826,12 +656,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,920
-              </title>
-            </circle>
+            />
             <circle
               cx={785.4545454545454}
               cy={83.33333333333334}
@@ -840,12 +665,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,880
-              </title>
-            </circle>
+            />
             <circle
               cx={864}
               cy={0}
@@ -854,38 +674,22 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                4,320
-              </title>
-            </circle>
+            />
           </g>
         </g>
-        <g
-          role="row"
-        >
-          <g
-            role="rowheader"
-          >
+        <g>
+          <g>
             <path
               d="M0,247.6851851851852L78.54545454545455,247.1064814814815L157.0909090909091,246.52777777777777L235.63636363636363,244.21296296296296L314.1818181818182,236.11111111111111L392.7272727272727,231.48148148148147L471.27272727272725,226.85185185185185L549.8181818181818,221.0648148148148L628.3636363636364,203.7037037037037L706.909090909091,105.32407407407408L785.4545454545454,76.38888888888889L864,47.453703703703695"
               fill="none"
               index={1}
-              role="img"
               stroke="#75C6C5"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="3px"
-            >
-              <title>
-                Value B
-              </title>
-            </path>
+            />
           </g>
-          <g
-            role="cell"
-          >
+          <g>
             <circle
               cx={0}
               cy={247.6851851851852}
@@ -894,12 +698,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                40
-              </title>
-            </circle>
+            />
             <circle
               cx={78.54545454545455}
               cy={247.1064814814815}
@@ -908,12 +707,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                50
-              </title>
-            </circle>
+            />
             <circle
               cx={157.0909090909091}
               cy={246.52777777777777}
@@ -922,12 +716,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                60
-              </title>
-            </circle>
+            />
             <circle
               cx={235.63636363636363}
               cy={244.21296296296296}
@@ -936,12 +725,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                100
-              </title>
-            </circle>
+            />
             <circle
               cx={314.1818181818182}
               cy={236.11111111111111}
@@ -950,12 +734,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                240
-              </title>
-            </circle>
+            />
             <circle
               cx={392.7272727272727}
               cy={231.48148148148147}
@@ -964,12 +743,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                320
-              </title>
-            </circle>
+            />
             <circle
               cx={471.27272727272725}
               cy={226.85185185185185}
@@ -978,12 +752,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                400
-              </title>
-            </circle>
+            />
             <circle
               cx={549.8181818181818}
               cy={221.0648148148148}
@@ -992,12 +761,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                500
-              </title>
-            </circle>
+            />
             <circle
               cx={628.3636363636364}
               cy={203.7037037037037}
@@ -1006,12 +770,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                800
-              </title>
-            </circle>
+            />
             <circle
               cx={706.909090909091}
               cy={105.32407407407408}
@@ -1020,12 +779,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,500
-              </title>
-            </circle>
+            />
             <circle
               cx={785.4545454545454}
               cy={76.38888888888889}
@@ -1034,12 +788,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                3,000
-              </title>
-            </circle>
+            />
             <circle
               cx={864}
               cy={47.453703703703695}
@@ -1048,38 +797,22 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                3,500
-              </title>
-            </circle>
+            />
           </g>
         </g>
-        <g
-          role="row"
-        >
-          <g
-            role="rowheader"
-          >
+        <g>
+          <g>
             <path
               d="M0,248.26388888888889L78.54545454545455,247.1064814814815L157.0909090909091,247.1064814814815L235.63636363636363,244.21296296296296L314.1818181818182,238.42592592592592L392.7272727272727,244.21296296296296L471.27272727272725,238.42592592592592L549.8181818181818,238.42592592592592L628.3636363636364,215.27777777777777L706.909090909091,192.12962962962962L785.4545454545454,105.32407407407408L864,87.96296296296296"
               fill="none"
               index={2}
-              role="img"
               stroke="#5A527E"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="3px"
-            >
-              <title>
-                Value C
-              </title>
-            </path>
+            />
           </g>
-          <g
-            role="cell"
-          >
+          <g>
             <circle
               cx={0}
               cy={248.26388888888889}
@@ -1088,12 +821,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                30
-              </title>
-            </circle>
+            />
             <circle
               cx={78.54545454545455}
               cy={247.1064814814815}
@@ -1102,12 +830,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                50
-              </title>
-            </circle>
+            />
             <circle
               cx={157.0909090909091}
               cy={247.1064814814815}
@@ -1116,12 +839,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                50
-              </title>
-            </circle>
+            />
             <circle
               cx={235.63636363636363}
               cy={244.21296296296296}
@@ -1130,12 +848,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                100
-              </title>
-            </circle>
+            />
             <circle
               cx={314.1818181818182}
               cy={238.42592592592592}
@@ -1144,12 +857,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                200
-              </title>
-            </circle>
+            />
             <circle
               cx={392.7272727272727}
               cy={244.21296296296296}
@@ -1158,12 +866,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                100
-              </title>
-            </circle>
+            />
             <circle
               cx={471.27272727272725}
               cy={238.42592592592592}
@@ -1172,12 +875,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                200
-              </title>
-            </circle>
+            />
             <circle
               cx={549.8181818181818}
               cy={238.42592592592592}
@@ -1186,12 +884,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                200
-              </title>
-            </circle>
+            />
             <circle
               cx={628.3636363636364}
               cy={215.27777777777777}
@@ -1200,12 +893,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                600
-              </title>
-            </circle>
+            />
             <circle
               cx={706.909090909091}
               cy={192.12962962962962}
@@ -1214,12 +902,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,000
-              </title>
-            </circle>
+            />
             <circle
               cx={785.4545454545454}
               cy={105.32407407407408}
@@ -1228,12 +911,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,500
-              </title>
-            </circle>
+            />
             <circle
               cx={864}
               cy={87.96296296296296}
@@ -1242,38 +920,22 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,800
-              </title>
-            </circle>
+            />
           </g>
         </g>
-        <g
-          role="row"
-        >
-          <g
-            role="rowheader"
-          >
+        <g>
+          <g>
             <path
               d="M0,248.84259259259258L78.54545454545455,246.52777777777777L157.0909090909091,245.37037037037038L235.63636363636363,238.42592592592592L314.1818181818182,232.63888888888889L392.7272727272727,197.91666666666666L471.27272727272725,192.12962962962962L549.8181818181818,134.25925925925924L628.3636363636364,134.25925925925924L706.909090909091,145.83333333333331L785.4545454545454,128.47222222222223L864,134.25925925925924"
               fill="none"
               index={3}
-              role="img"
               stroke="#8B0D16"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="3px"
-            >
-              <title>
-                Value D
-              </title>
-            </path>
+            />
           </g>
-          <g
-            role="cell"
-          >
+          <g>
             <circle
               cx={0}
               cy={248.84259259259258}
@@ -1282,12 +944,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                20
-              </title>
-            </circle>
+            />
             <circle
               cx={78.54545454545455}
               cy={246.52777777777777}
@@ -1296,12 +953,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                60
-              </title>
-            </circle>
+            />
             <circle
               cx={157.0909090909091}
               cy={245.37037037037038}
@@ -1310,12 +962,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                80
-              </title>
-            </circle>
+            />
             <circle
               cx={235.63636363636363}
               cy={238.42592592592592}
@@ -1324,12 +971,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                200
-              </title>
-            </circle>
+            />
             <circle
               cx={314.1818181818182}
               cy={232.63888888888889}
@@ -1338,12 +980,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                300
-              </title>
-            </circle>
+            />
             <circle
               cx={392.7272727272727}
               cy={197.91666666666666}
@@ -1352,12 +989,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                900
-              </title>
-            </circle>
+            />
             <circle
               cx={471.27272727272725}
               cy={192.12962962962962}
@@ -1366,12 +998,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,000
-              </title>
-            </circle>
+            />
             <circle
               cx={549.8181818181818}
               cy={134.25925925925924}
@@ -1380,12 +1007,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,000
-              </title>
-            </circle>
+            />
             <circle
               cx={628.3636363636364}
               cy={134.25925925925924}
@@ -1394,12 +1016,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,000
-              </title>
-            </circle>
+            />
             <circle
               cx={706.909090909091}
               cy={145.83333333333331}
@@ -1408,12 +1025,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,800
-              </title>
-            </circle>
+            />
             <circle
               cx={785.4545454545454}
               cy={128.47222222222223}
@@ -1422,12 +1034,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,100
-              </title>
-            </circle>
+            />
             <circle
               cx={864}
               cy={134.25925925925924}
@@ -1436,38 +1043,22 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,000
-              </title>
-            </circle>
+            />
           </g>
         </g>
-        <g
-          role="row"
-        >
-          <g
-            role="rowheader"
-          >
+        <g>
+          <g>
             <path
               d="M0,249.4212962962963L78.54545454545455,245.94907407407408L157.0909090909091,232.63888888888889L235.63636363636363,221.0648148148148L314.1818181818182,197.91666666666666L392.7272727272727,215.27777777777777L471.27272727272725,163.19444444444446L549.8181818181818,186.34259259259258L628.3636363636364,157.40740740740742L706.909090909091,76.38888888888889L785.4545454545454,47.453703703703695L864,105.32407407407408"
               fill="none"
               index={4}
-              role="img"
               stroke="#8FC297"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="3px"
-            >
-              <title>
-                Value E
-              </title>
-            </path>
+            />
           </g>
-          <g
-            role="cell"
-          >
+          <g>
             <circle
               cx={0}
               cy={249.4212962962963}
@@ -1476,12 +1067,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                10
-              </title>
-            </circle>
+            />
             <circle
               cx={78.54545454545455}
               cy={245.94907407407408}
@@ -1490,12 +1076,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                70
-              </title>
-            </circle>
+            />
             <circle
               cx={157.0909090909091}
               cy={232.63888888888889}
@@ -1504,12 +1085,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                300
-              </title>
-            </circle>
+            />
             <circle
               cx={235.63636363636363}
               cy={221.0648148148148}
@@ -1518,12 +1094,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                500
-              </title>
-            </circle>
+            />
             <circle
               cx={314.1818181818182}
               cy={197.91666666666666}
@@ -1532,12 +1103,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                900
-              </title>
-            </circle>
+            />
             <circle
               cx={392.7272727272727}
               cy={215.27777777777777}
@@ -1546,12 +1112,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                600
-              </title>
-            </circle>
+            />
             <circle
               cx={471.27272727272725}
               cy={163.19444444444446}
@@ -1560,12 +1121,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,500
-              </title>
-            </circle>
+            />
             <circle
               cx={549.8181818181818}
               cy={186.34259259259258}
@@ -1574,12 +1130,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,100
-              </title>
-            </circle>
+            />
             <circle
               cx={628.3636363636364}
               cy={157.40740740740742}
@@ -1588,12 +1139,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                1,600
-              </title>
-            </circle>
+            />
             <circle
               cx={706.909090909091}
               cy={76.38888888888889}
@@ -1602,12 +1148,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                3,000
-              </title>
-            </circle>
+            />
             <circle
               cx={785.4545454545454}
               cy={47.453703703703695}
@@ -1616,12 +1157,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                3,500
-              </title>
-            </circle>
+            />
             <circle
               cx={864}
               cy={105.32407407407408}
@@ -1630,12 +1166,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               r="4px"
-              role="img"
-            >
-              <title>
-                2,500
-              </title>
-            </circle>
+            />
           </g>
         </g>
       </g>
@@ -1675,17 +1206,11 @@ exports[`Storyshots Sections/Chart default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <rect
       aria-hidden={true}
       fill="#ffffff"
@@ -1694,1088 +1219,6 @@ exports[`Storyshots Sections/Chart default 1`] = `
       x="100px"
       y="10px"
     />
-    <g
-      role="table"
-      transform="translate(100,10)"
-    >
-      <g
-        opacity={0}
-        role="row"
-        transform="translate(0,250)"
-      >
-        <text
-          role="columnheader"
-        >
-           
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={0}
-          y={0}
-        >
-          2008
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={40}
-          y={0}
-        >
-          2009
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={80}
-          y={0}
-        >
-          2010
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={119.99999999999999}
-          y={0}
-        >
-          2011
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={160}
-          y={0}
-        >
-          2012
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={200}
-          y={0}
-        >
-          2013
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={239.99999999999997}
-          y={0}
-        >
-          2014
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={280}
-          y={0}
-        >
-          2015
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={320}
-          y={0}
-        >
-          2016
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={360}
-          y={0}
-        >
-          2017
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={400}
-          y={0}
-        >
-          2018
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={440}
-          y={0}
-        >
-          2019
-        </text>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
-          <path
-            d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
-            fill="none"
-            index={0}
-            role="img"
-            stroke="#EA5153"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="3px"
-          >
-            <title>
-              Value A
-            </title>
-          </path>
-        </g>
-        <g
-          role="cell"
-        >
-          <circle
-            cx={0}
-            cy={247.1064814814815}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
-          <circle
-            cx={40}
-            cy={245.37037037037038}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              80
-            </title>
-          </circle>
-          <circle
-            cx={80}
-            cy={243.63425925925927}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              110
-            </title>
-          </circle>
-          <circle
-            cx={119.99999999999999}
-            cy={240.16203703703704}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              170
-            </title>
-          </circle>
-          <circle
-            cx={160}
-            cy={235.53240740740742}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              250
-            </title>
-          </circle>
-          <circle
-            cx={200}
-            cy={228.00925925925927}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              380
-            </title>
-          </circle>
-          <circle
-            cx={239.99999999999997}
-            cy={217.01388888888889}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              570
-            </title>
-          </circle>
-          <circle
-            cx={280}
-            cy={200.8101851851852}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              850
-            </title>
-          </circle>
-          <circle
-            cx={320}
-            cy={175.92592592592592}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,280
-            </title>
-          </circle>
-          <circle
-            cx={360}
-            cy={138.8888888888889}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,920
-            </title>
-          </circle>
-          <circle
-            cx={400}
-            cy={83.33333333333334}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,880
-            </title>
-          </circle>
-          <circle
-            cx={440}
-            cy={0}
-            fill="#EA5153"
-            index={0}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              4,320
-            </title>
-          </circle>
-        </g>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
-          <path
-            d="M0,247.6851851851852L40,247.1064814814815L80,246.52777777777777L119.99999999999999,244.21296296296296L160,236.11111111111111L200,231.48148148148147L239.99999999999997,226.85185185185185L280,221.0648148148148L320,203.7037037037037L360,105.32407407407408L400,76.38888888888889L440,47.453703703703695"
-            fill="none"
-            index={1}
-            role="img"
-            stroke="#75C6C5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="3px"
-          >
-            <title>
-              Value B
-            </title>
-          </path>
-        </g>
-        <g
-          role="cell"
-        >
-          <circle
-            cx={0}
-            cy={247.6851851851852}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              40
-            </title>
-          </circle>
-          <circle
-            cx={40}
-            cy={247.1064814814815}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
-          <circle
-            cx={80}
-            cy={246.52777777777777}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              60
-            </title>
-          </circle>
-          <circle
-            cx={119.99999999999999}
-            cy={244.21296296296296}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
-          <circle
-            cx={160}
-            cy={236.11111111111111}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              240
-            </title>
-          </circle>
-          <circle
-            cx={200}
-            cy={231.48148148148147}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              320
-            </title>
-          </circle>
-          <circle
-            cx={239.99999999999997}
-            cy={226.85185185185185}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              400
-            </title>
-          </circle>
-          <circle
-            cx={280}
-            cy={221.0648148148148}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              500
-            </title>
-          </circle>
-          <circle
-            cx={320}
-            cy={203.7037037037037}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              800
-            </title>
-          </circle>
-          <circle
-            cx={360}
-            cy={105.32407407407408}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
-          <circle
-            cx={400}
-            cy={76.38888888888889}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              3,000
-            </title>
-          </circle>
-          <circle
-            cx={440}
-            cy={47.453703703703695}
-            fill="#75C6C5"
-            index={1}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              3,500
-            </title>
-          </circle>
-        </g>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
-          <path
-            d="M0,248.26388888888889L40,247.1064814814815L80,247.1064814814815L119.99999999999999,244.21296296296296L160,238.42592592592592L200,244.21296296296296L239.99999999999997,238.42592592592592L280,238.42592592592592L320,215.27777777777777L360,192.12962962962962L400,105.32407407407408L440,87.96296296296296"
-            fill="none"
-            index={2}
-            role="img"
-            stroke="#5A527E"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="3px"
-          >
-            <title>
-              Value C
-            </title>
-          </path>
-        </g>
-        <g
-          role="cell"
-        >
-          <circle
-            cx={0}
-            cy={248.26388888888889}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              30
-            </title>
-          </circle>
-          <circle
-            cx={40}
-            cy={247.1064814814815}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
-          <circle
-            cx={80}
-            cy={247.1064814814815}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
-          <circle
-            cx={119.99999999999999}
-            cy={244.21296296296296}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
-          <circle
-            cx={160}
-            cy={238.42592592592592}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
-          <circle
-            cx={200}
-            cy={244.21296296296296}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
-          <circle
-            cx={239.99999999999997}
-            cy={238.42592592592592}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
-          <circle
-            cx={280}
-            cy={238.42592592592592}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
-          <circle
-            cx={320}
-            cy={215.27777777777777}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              600
-            </title>
-          </circle>
-          <circle
-            cx={360}
-            cy={192.12962962962962}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,000
-            </title>
-          </circle>
-          <circle
-            cx={400}
-            cy={105.32407407407408}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
-          <circle
-            cx={440}
-            cy={87.96296296296296}
-            fill="#5A527E"
-            index={2}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,800
-            </title>
-          </circle>
-        </g>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
-          <path
-            d="M0,248.84259259259258L40,246.52777777777777L80,245.37037037037038L119.99999999999999,238.42592592592592L160,232.63888888888889L200,197.91666666666666L239.99999999999997,192.12962962962962L280,134.25925925925924L320,134.25925925925924L360,145.83333333333331L400,128.47222222222223L440,134.25925925925924"
-            fill="none"
-            index={3}
-            role="img"
-            stroke="#8B0D16"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="3px"
-          >
-            <title>
-              Value D
-            </title>
-          </path>
-        </g>
-        <g
-          role="cell"
-        >
-          <circle
-            cx={0}
-            cy={248.84259259259258}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              20
-            </title>
-          </circle>
-          <circle
-            cx={40}
-            cy={246.52777777777777}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              60
-            </title>
-          </circle>
-          <circle
-            cx={80}
-            cy={245.37037037037038}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              80
-            </title>
-          </circle>
-          <circle
-            cx={119.99999999999999}
-            cy={238.42592592592592}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
-          <circle
-            cx={160}
-            cy={232.63888888888889}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              300
-            </title>
-          </circle>
-          <circle
-            cx={200}
-            cy={197.91666666666666}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              900
-            </title>
-          </circle>
-          <circle
-            cx={239.99999999999997}
-            cy={192.12962962962962}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,000
-            </title>
-          </circle>
-          <circle
-            cx={280}
-            cy={134.25925925925924}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
-          <circle
-            cx={320}
-            cy={134.25925925925924}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
-          <circle
-            cx={360}
-            cy={145.83333333333331}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,800
-            </title>
-          </circle>
-          <circle
-            cx={400}
-            cy={128.47222222222223}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,100
-            </title>
-          </circle>
-          <circle
-            cx={440}
-            cy={134.25925925925924}
-            fill="#8B0D16"
-            index={3}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
-        </g>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
-          <path
-            d="M0,249.4212962962963L40,245.94907407407408L80,232.63888888888889L119.99999999999999,221.0648148148148L160,197.91666666666666L200,215.27777777777777L239.99999999999997,163.19444444444446L280,186.34259259259258L320,157.40740740740742L360,76.38888888888889L400,47.453703703703695L440,105.32407407407408"
-            fill="none"
-            index={4}
-            role="img"
-            stroke="#8FC297"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="3px"
-          >
-            <title>
-              Value E
-            </title>
-          </path>
-        </g>
-        <g
-          role="cell"
-        >
-          <circle
-            cx={0}
-            cy={249.4212962962963}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              10
-            </title>
-          </circle>
-          <circle
-            cx={40}
-            cy={245.94907407407408}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              70
-            </title>
-          </circle>
-          <circle
-            cx={80}
-            cy={232.63888888888889}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              300
-            </title>
-          </circle>
-          <circle
-            cx={119.99999999999999}
-            cy={221.0648148148148}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              500
-            </title>
-          </circle>
-          <circle
-            cx={160}
-            cy={197.91666666666666}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              900
-            </title>
-          </circle>
-          <circle
-            cx={200}
-            cy={215.27777777777777}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              600
-            </title>
-          </circle>
-          <circle
-            cx={239.99999999999997}
-            cy={163.19444444444446}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,500
-            </title>
-          </circle>
-          <circle
-            cx={280}
-            cy={186.34259259259258}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,100
-            </title>
-          </circle>
-          <circle
-            cx={320}
-            cy={157.40740740740742}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              1,600
-            </title>
-          </circle>
-          <circle
-            cx={360}
-            cy={76.38888888888889}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              3,000
-            </title>
-          </circle>
-          <circle
-            cx={400}
-            cy={47.453703703703695}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              3,500
-            </title>
-          </circle>
-          <circle
-            cx={440}
-            cy={105.32407407407408}
-            fill="#8FC297"
-            index={4}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
-        </g>
-      </g>
-    </g>
     <g
       aria-hidden={true}
       transform="translate(100,260)"
@@ -3187,6 +1630,625 @@ exports[`Storyshots Sections/Chart default 1`] = `
       >
         Y-axis legend text
       </text>
+    </g>
+    <g
+      transform="translate(100,10)"
+    >
+      <g>
+        <g>
+          <path
+            d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
+            fill="none"
+            index={0}
+            stroke="#EA5153"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3px"
+          />
+        </g>
+        <g>
+          <circle
+            cx={0}
+            cy={247.1064814814815}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={40}
+            cy={245.37037037037038}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={80}
+            cy={243.63425925925927}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={119.99999999999999}
+            cy={240.16203703703704}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={160}
+            cy={235.53240740740742}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={200}
+            cy={228.00925925925927}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={239.99999999999997}
+            cy={217.01388888888889}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={280}
+            cy={200.8101851851852}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={320}
+            cy={175.92592592592592}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={360}
+            cy={138.8888888888889}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={400}
+            cy={83.33333333333334}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={440}
+            cy={0}
+            fill="#EA5153"
+            index={0}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+        </g>
+      </g>
+      <g>
+        <g>
+          <path
+            d="M0,247.6851851851852L40,247.1064814814815L80,246.52777777777777L119.99999999999999,244.21296296296296L160,236.11111111111111L200,231.48148148148147L239.99999999999997,226.85185185185185L280,221.0648148148148L320,203.7037037037037L360,105.32407407407408L400,76.38888888888889L440,47.453703703703695"
+            fill="none"
+            index={1}
+            stroke="#75C6C5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3px"
+          />
+        </g>
+        <g>
+          <circle
+            cx={0}
+            cy={247.6851851851852}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={40}
+            cy={247.1064814814815}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={80}
+            cy={246.52777777777777}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={119.99999999999999}
+            cy={244.21296296296296}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={160}
+            cy={236.11111111111111}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={200}
+            cy={231.48148148148147}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={239.99999999999997}
+            cy={226.85185185185185}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={280}
+            cy={221.0648148148148}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={320}
+            cy={203.7037037037037}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={360}
+            cy={105.32407407407408}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={400}
+            cy={76.38888888888889}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={440}
+            cy={47.453703703703695}
+            fill="#75C6C5"
+            index={1}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+        </g>
+      </g>
+      <g>
+        <g>
+          <path
+            d="M0,248.26388888888889L40,247.1064814814815L80,247.1064814814815L119.99999999999999,244.21296296296296L160,238.42592592592592L200,244.21296296296296L239.99999999999997,238.42592592592592L280,238.42592592592592L320,215.27777777777777L360,192.12962962962962L400,105.32407407407408L440,87.96296296296296"
+            fill="none"
+            index={2}
+            stroke="#5A527E"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3px"
+          />
+        </g>
+        <g>
+          <circle
+            cx={0}
+            cy={248.26388888888889}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={40}
+            cy={247.1064814814815}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={80}
+            cy={247.1064814814815}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={119.99999999999999}
+            cy={244.21296296296296}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={160}
+            cy={238.42592592592592}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={200}
+            cy={244.21296296296296}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={239.99999999999997}
+            cy={238.42592592592592}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={280}
+            cy={238.42592592592592}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={320}
+            cy={215.27777777777777}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={360}
+            cy={192.12962962962962}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={400}
+            cy={105.32407407407408}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={440}
+            cy={87.96296296296296}
+            fill="#5A527E"
+            index={2}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+        </g>
+      </g>
+      <g>
+        <g>
+          <path
+            d="M0,248.84259259259258L40,246.52777777777777L80,245.37037037037038L119.99999999999999,238.42592592592592L160,232.63888888888889L200,197.91666666666666L239.99999999999997,192.12962962962962L280,134.25925925925924L320,134.25925925925924L360,145.83333333333331L400,128.47222222222223L440,134.25925925925924"
+            fill="none"
+            index={3}
+            stroke="#8B0D16"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3px"
+          />
+        </g>
+        <g>
+          <circle
+            cx={0}
+            cy={248.84259259259258}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={40}
+            cy={246.52777777777777}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={80}
+            cy={245.37037037037038}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={119.99999999999999}
+            cy={238.42592592592592}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={160}
+            cy={232.63888888888889}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={200}
+            cy={197.91666666666666}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={239.99999999999997}
+            cy={192.12962962962962}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={280}
+            cy={134.25925925925924}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={320}
+            cy={134.25925925925924}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={360}
+            cy={145.83333333333331}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={400}
+            cy={128.47222222222223}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={440}
+            cy={134.25925925925924}
+            fill="#8B0D16"
+            index={3}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+        </g>
+      </g>
+      <g>
+        <g>
+          <path
+            d="M0,249.4212962962963L40,245.94907407407408L80,232.63888888888889L119.99999999999999,221.0648148148148L160,197.91666666666666L200,215.27777777777777L239.99999999999997,163.19444444444446L280,186.34259259259258L320,157.40740740740742L360,76.38888888888889L400,47.453703703703695L440,105.32407407407408"
+            fill="none"
+            index={4}
+            stroke="#8FC297"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3px"
+          />
+        </g>
+        <g>
+          <circle
+            cx={0}
+            cy={249.4212962962963}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={40}
+            cy={245.94907407407408}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={80}
+            cy={232.63888888888889}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={119.99999999999999}
+            cy={221.0648148148148}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={160}
+            cy={197.91666666666666}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={200}
+            cy={215.27777777777777}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={239.99999999999997}
+            cy={163.19444444444446}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={280}
+            cy={186.34259259259258}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={320}
+            cy={157.40740740740742}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={360}
+            cy={76.38888888888889}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={400}
+            cy={47.453703703703695}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+          <circle
+            cx={440}
+            cy={105.32407407407408}
+            fill="#8FC297"
+            index={4}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            r="4px"
+          />
+        </g>
+      </g>
     </g>
   </svg>
 </div>
@@ -4105,17 +3167,11 @@ exports[`Storyshots Sections|Chart/Components/Background box default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <rect
       aria-hidden={true}
       fill="#ffffff"
@@ -4128,157 +3184,32 @@ exports[`Storyshots Sections|Chart/Components/Background box default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
+exports[`Storyshots Sections|Chart/Components/Data layer default 1`] = `
 <div
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <g
-      role="table"
       transform="translate(100,10)"
     >
-      <g
-        opacity={0}
-        role="row"
-        transform="translate(0,250)"
-      >
-        <text
-          role="columnheader"
-        >
-           
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={0}
-          y={0}
-        >
-          2008
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={40}
-          y={0}
-        >
-          2009
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={80}
-          y={0}
-        >
-          2010
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={119.99999999999999}
-          y={0}
-        >
-          2011
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={160}
-          y={0}
-        >
-          2012
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={200}
-          y={0}
-        >
-          2013
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={239.99999999999997}
-          y={0}
-        >
-          2014
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={280}
-          y={0}
-        >
-          2015
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={320}
-          y={0}
-        >
-          2016
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={360}
-          y={0}
-        >
-          2017
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={400}
-          y={0}
-        >
-          2018
-        </text>
-        <text
-          dy="1.5em"
-          role="columnheader"
-          x={440}
-          y={0}
-        >
-          2019
-        </text>
-      </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
+      <g>
+        <g>
           <path
             d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
             fill="none"
             index={0}
-            role="img"
             stroke="#EA5153"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="3px"
-          >
-            <title>
-              Value A
-            </title>
-          </path>
+          />
         </g>
-        <g
-          role="cell"
-        >
+        <g>
           <circle
             cx={0}
             cy={247.1064814814815}
@@ -4287,12 +3218,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
+          />
           <circle
             cx={40}
             cy={245.37037037037038}
@@ -4301,12 +3227,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              80
-            </title>
-          </circle>
+          />
           <circle
             cx={80}
             cy={243.63425925925927}
@@ -4315,12 +3236,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              110
-            </title>
-          </circle>
+          />
           <circle
             cx={119.99999999999999}
             cy={240.16203703703704}
@@ -4329,12 +3245,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              170
-            </title>
-          </circle>
+          />
           <circle
             cx={160}
             cy={235.53240740740742}
@@ -4343,12 +3254,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              250
-            </title>
-          </circle>
+          />
           <circle
             cx={200}
             cy={228.00925925925927}
@@ -4357,12 +3263,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              380
-            </title>
-          </circle>
+          />
           <circle
             cx={239.99999999999997}
             cy={217.01388888888889}
@@ -4371,12 +3272,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              570
-            </title>
-          </circle>
+          />
           <circle
             cx={280}
             cy={200.8101851851852}
@@ -4385,12 +3281,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              850
-            </title>
-          </circle>
+          />
           <circle
             cx={320}
             cy={175.92592592592592}
@@ -4399,12 +3290,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,280
-            </title>
-          </circle>
+          />
           <circle
             cx={360}
             cy={138.8888888888889}
@@ -4413,12 +3299,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,920
-            </title>
-          </circle>
+          />
           <circle
             cx={400}
             cy={83.33333333333334}
@@ -4427,12 +3308,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,880
-            </title>
-          </circle>
+          />
           <circle
             cx={440}
             cy={0}
@@ -4441,38 +3317,22 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              4,320
-            </title>
-          </circle>
+          />
         </g>
       </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
+      <g>
+        <g>
           <path
             d="M0,247.6851851851852L40,247.1064814814815L80,246.52777777777777L119.99999999999999,244.21296296296296L160,236.11111111111111L200,231.48148148148147L239.99999999999997,226.85185185185185L280,221.0648148148148L320,203.7037037037037L360,105.32407407407408L400,76.38888888888889L440,47.453703703703695"
             fill="none"
             index={1}
-            role="img"
             stroke="#75C6C5"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="3px"
-          >
-            <title>
-              Value B
-            </title>
-          </path>
+          />
         </g>
-        <g
-          role="cell"
-        >
+        <g>
           <circle
             cx={0}
             cy={247.6851851851852}
@@ -4481,12 +3341,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              40
-            </title>
-          </circle>
+          />
           <circle
             cx={40}
             cy={247.1064814814815}
@@ -4495,12 +3350,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
+          />
           <circle
             cx={80}
             cy={246.52777777777777}
@@ -4509,12 +3359,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              60
-            </title>
-          </circle>
+          />
           <circle
             cx={119.99999999999999}
             cy={244.21296296296296}
@@ -4523,12 +3368,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
+          />
           <circle
             cx={160}
             cy={236.11111111111111}
@@ -4537,12 +3377,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              240
-            </title>
-          </circle>
+          />
           <circle
             cx={200}
             cy={231.48148148148147}
@@ -4551,12 +3386,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              320
-            </title>
-          </circle>
+          />
           <circle
             cx={239.99999999999997}
             cy={226.85185185185185}
@@ -4565,12 +3395,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              400
-            </title>
-          </circle>
+          />
           <circle
             cx={280}
             cy={221.0648148148148}
@@ -4579,12 +3404,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              500
-            </title>
-          </circle>
+          />
           <circle
             cx={320}
             cy={203.7037037037037}
@@ -4593,12 +3413,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              800
-            </title>
-          </circle>
+          />
           <circle
             cx={360}
             cy={105.32407407407408}
@@ -4607,12 +3422,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
+          />
           <circle
             cx={400}
             cy={76.38888888888889}
@@ -4621,12 +3431,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              3,000
-            </title>
-          </circle>
+          />
           <circle
             cx={440}
             cy={47.453703703703695}
@@ -4635,38 +3440,22 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              3,500
-            </title>
-          </circle>
+          />
         </g>
       </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
+      <g>
+        <g>
           <path
             d="M0,248.26388888888889L40,247.1064814814815L80,247.1064814814815L119.99999999999999,244.21296296296296L160,238.42592592592592L200,244.21296296296296L239.99999999999997,238.42592592592592L280,238.42592592592592L320,215.27777777777777L360,192.12962962962962L400,105.32407407407408L440,87.96296296296296"
             fill="none"
             index={2}
-            role="img"
             stroke="#5A527E"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="3px"
-          >
-            <title>
-              Value C
-            </title>
-          </path>
+          />
         </g>
-        <g
-          role="cell"
-        >
+        <g>
           <circle
             cx={0}
             cy={248.26388888888889}
@@ -4675,12 +3464,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              30
-            </title>
-          </circle>
+          />
           <circle
             cx={40}
             cy={247.1064814814815}
@@ -4689,12 +3473,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
+          />
           <circle
             cx={80}
             cy={247.1064814814815}
@@ -4703,12 +3482,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              50
-            </title>
-          </circle>
+          />
           <circle
             cx={119.99999999999999}
             cy={244.21296296296296}
@@ -4717,12 +3491,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
+          />
           <circle
             cx={160}
             cy={238.42592592592592}
@@ -4731,12 +3500,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
+          />
           <circle
             cx={200}
             cy={244.21296296296296}
@@ -4745,12 +3509,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              100
-            </title>
-          </circle>
+          />
           <circle
             cx={239.99999999999997}
             cy={238.42592592592592}
@@ -4759,12 +3518,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
+          />
           <circle
             cx={280}
             cy={238.42592592592592}
@@ -4773,12 +3527,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
+          />
           <circle
             cx={320}
             cy={215.27777777777777}
@@ -4787,12 +3536,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              600
-            </title>
-          </circle>
+          />
           <circle
             cx={360}
             cy={192.12962962962962}
@@ -4801,12 +3545,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,000
-            </title>
-          </circle>
+          />
           <circle
             cx={400}
             cy={105.32407407407408}
@@ -4815,12 +3554,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
+          />
           <circle
             cx={440}
             cy={87.96296296296296}
@@ -4829,38 +3563,22 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,800
-            </title>
-          </circle>
+          />
         </g>
       </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
+      <g>
+        <g>
           <path
             d="M0,248.84259259259258L40,246.52777777777777L80,245.37037037037038L119.99999999999999,238.42592592592592L160,232.63888888888889L200,197.91666666666666L239.99999999999997,192.12962962962962L280,134.25925925925924L320,134.25925925925924L360,145.83333333333331L400,128.47222222222223L440,134.25925925925924"
             fill="none"
             index={3}
-            role="img"
             stroke="#8B0D16"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="3px"
-          >
-            <title>
-              Value D
-            </title>
-          </path>
+          />
         </g>
-        <g
-          role="cell"
-        >
+        <g>
           <circle
             cx={0}
             cy={248.84259259259258}
@@ -4869,12 +3587,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              20
-            </title>
-          </circle>
+          />
           <circle
             cx={40}
             cy={246.52777777777777}
@@ -4883,12 +3596,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              60
-            </title>
-          </circle>
+          />
           <circle
             cx={80}
             cy={245.37037037037038}
@@ -4897,12 +3605,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              80
-            </title>
-          </circle>
+          />
           <circle
             cx={119.99999999999999}
             cy={238.42592592592592}
@@ -4911,12 +3614,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              200
-            </title>
-          </circle>
+          />
           <circle
             cx={160}
             cy={232.63888888888889}
@@ -4925,12 +3623,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              300
-            </title>
-          </circle>
+          />
           <circle
             cx={200}
             cy={197.91666666666666}
@@ -4939,12 +3632,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              900
-            </title>
-          </circle>
+          />
           <circle
             cx={239.99999999999997}
             cy={192.12962962962962}
@@ -4953,12 +3641,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,000
-            </title>
-          </circle>
+          />
           <circle
             cx={280}
             cy={134.25925925925924}
@@ -4967,12 +3650,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
+          />
           <circle
             cx={320}
             cy={134.25925925925924}
@@ -4981,12 +3659,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
+          />
           <circle
             cx={360}
             cy={145.83333333333331}
@@ -4995,12 +3668,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,800
-            </title>
-          </circle>
+          />
           <circle
             cx={400}
             cy={128.47222222222223}
@@ -5009,12 +3677,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,100
-            </title>
-          </circle>
+          />
           <circle
             cx={440}
             cy={134.25925925925924}
@@ -5023,38 +3686,22 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,000
-            </title>
-          </circle>
+          />
         </g>
       </g>
-      <g
-        role="row"
-      >
-        <g
-          role="rowheader"
-        >
+      <g>
+        <g>
           <path
             d="M0,249.4212962962963L40,245.94907407407408L80,232.63888888888889L119.99999999999999,221.0648148148148L160,197.91666666666666L200,215.27777777777777L239.99999999999997,163.19444444444446L280,186.34259259259258L320,157.40740740740742L360,76.38888888888889L400,47.453703703703695L440,105.32407407407408"
             fill="none"
             index={4}
-            role="img"
             stroke="#8FC297"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="3px"
-          >
-            <title>
-              Value E
-            </title>
-          </path>
+          />
         </g>
-        <g
-          role="cell"
-        >
+        <g>
           <circle
             cx={0}
             cy={249.4212962962963}
@@ -5063,12 +3710,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              10
-            </title>
-          </circle>
+          />
           <circle
             cx={40}
             cy={245.94907407407408}
@@ -5077,12 +3719,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              70
-            </title>
-          </circle>
+          />
           <circle
             cx={80}
             cy={232.63888888888889}
@@ -5091,12 +3728,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              300
-            </title>
-          </circle>
+          />
           <circle
             cx={119.99999999999999}
             cy={221.0648148148148}
@@ -5105,12 +3737,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              500
-            </title>
-          </circle>
+          />
           <circle
             cx={160}
             cy={197.91666666666666}
@@ -5119,12 +3746,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              900
-            </title>
-          </circle>
+          />
           <circle
             cx={200}
             cy={215.27777777777777}
@@ -5133,12 +3755,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              600
-            </title>
-          </circle>
+          />
           <circle
             cx={239.99999999999997}
             cy={163.19444444444446}
@@ -5147,12 +3764,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,500
-            </title>
-          </circle>
+          />
           <circle
             cx={280}
             cy={186.34259259259258}
@@ -5161,12 +3773,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,100
-            </title>
-          </circle>
+          />
           <circle
             cx={320}
             cy={157.40740740740742}
@@ -5175,12 +3782,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              1,600
-            </title>
-          </circle>
+          />
           <circle
             cx={360}
             cy={76.38888888888889}
@@ -5189,12 +3791,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              3,000
-            </title>
-          </circle>
+          />
           <circle
             cx={400}
             cy={47.453703703703695}
@@ -5203,12 +3800,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              3,500
-            </title>
-          </circle>
+          />
           <circle
             cx={440}
             cy={105.32407407407408}
@@ -5217,12 +3809,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             r="4px"
-            role="img"
-          >
-            <title>
-              2,500
-            </title>
-          </circle>
+          />
         </g>
       </g>
     </g>
@@ -5235,20 +3822,12 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
-    <g
-      role="cell"
-    >
+    <g>
       <circle
         cx={0}
         cy={247.1064814814815}
@@ -5257,12 +3836,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          50
-        </title>
-      </circle>
+      />
       <circle
         cx={40}
         cy={245.37037037037038}
@@ -5271,12 +3845,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          80
-        </title>
-      </circle>
+      />
       <circle
         cx={80}
         cy={243.63425925925927}
@@ -5285,12 +3854,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          110
-        </title>
-      </circle>
+      />
       <circle
         cx={119.99999999999999}
         cy={240.16203703703704}
@@ -5299,12 +3863,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          170
-        </title>
-      </circle>
+      />
       <circle
         cx={160}
         cy={235.53240740740742}
@@ -5313,12 +3872,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          250
-        </title>
-      </circle>
+      />
       <circle
         cx={200}
         cy={228.00925925925927}
@@ -5327,12 +3881,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          380
-        </title>
-      </circle>
+      />
       <circle
         cx={239.99999999999997}
         cy={217.01388888888889}
@@ -5341,12 +3890,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          570
-        </title>
-      </circle>
+      />
       <circle
         cx={280}
         cy={200.8101851851852}
@@ -5355,12 +3899,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          850
-        </title>
-      </circle>
+      />
       <circle
         cx={320}
         cy={175.92592592592592}
@@ -5369,12 +3908,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,280
-        </title>
-      </circle>
+      />
       <circle
         cx={360}
         cy={138.8888888888889}
@@ -5383,12 +3917,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,920
-        </title>
-      </circle>
+      />
       <circle
         cx={400}
         cy={83.33333333333334}
@@ -5397,12 +3926,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,880
-        </title>
-      </circle>
+      />
       <circle
         cx={440}
         cy={0}
@@ -5411,12 +3935,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          4,320
-        </title>
-      </circle>
+      />
     </g>
   </svg>
 </div>
@@ -5427,20 +3946,12 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
-    <g
-      role="cell"
-    >
+    <g>
       <circle
         cx={0}
         cy={247.1064814814815}
@@ -5449,12 +3960,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          50
-        </title>
-      </circle>
+      />
       <circle
         cx={40}
         cy={245.37037037037038}
@@ -5463,12 +3969,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          80
-        </title>
-      </circle>
+      />
       <circle
         cx={80}
         cy={243.63425925925927}
@@ -5477,12 +3978,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          110
-        </title>
-      </circle>
+      />
       <circle
         cx={119.99999999999999}
         cy={240.16203703703704}
@@ -5491,12 +3987,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          170
-        </title>
-      </circle>
+      />
       <circle
         cx={160}
         cy={235.53240740740742}
@@ -5505,12 +3996,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          250
-        </title>
-      </circle>
+      />
       <circle
         cx={200}
         cy={228.00925925925927}
@@ -5519,12 +4005,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          380
-        </title>
-      </circle>
+      />
       <circle
         cx={239.99999999999997}
         cy={217.01388888888889}
@@ -5533,12 +4014,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          570
-        </title>
-      </circle>
+      />
       <circle
         cx={280}
         cy={200.8101851851852}
@@ -5547,12 +4023,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          850
-        </title>
-      </circle>
+      />
       <circle
         cx={320}
         cy={175.92592592592592}
@@ -5561,12 +4032,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,280
-        </title>
-      </circle>
+      />
       <circle
         cx={360}
         cy={138.8888888888889}
@@ -5575,12 +4041,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,920
-        </title>
-      </circle>
+      />
       <circle
         cx={400}
         cy={83.33333333333334}
@@ -5589,12 +4050,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,880
-        </title>
-      </circle>
+      />
       <circle
         cx={440}
         cy={0}
@@ -5603,16 +4059,9 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          4,320
-        </title>
-      </circle>
+      />
     </g>
-    <g
-      role="cell"
-    >
+    <g>
       <circle
         cx={0}
         cy={247.6851851851852}
@@ -5621,12 +4070,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          40
-        </title>
-      </circle>
+      />
       <circle
         cx={40}
         cy={247.1064814814815}
@@ -5635,12 +4079,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          50
-        </title>
-      </circle>
+      />
       <circle
         cx={80}
         cy={246.52777777777777}
@@ -5649,12 +4088,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          60
-        </title>
-      </circle>
+      />
       <circle
         cx={119.99999999999999}
         cy={244.21296296296296}
@@ -5663,12 +4097,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          100
-        </title>
-      </circle>
+      />
       <circle
         cx={160}
         cy={236.11111111111111}
@@ -5677,12 +4106,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          240
-        </title>
-      </circle>
+      />
       <circle
         cx={200}
         cy={231.48148148148147}
@@ -5691,12 +4115,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          320
-        </title>
-      </circle>
+      />
       <circle
         cx={239.99999999999997}
         cy={226.85185185185185}
@@ -5705,12 +4124,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          400
-        </title>
-      </circle>
+      />
       <circle
         cx={280}
         cy={221.0648148148148}
@@ -5719,12 +4133,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          500
-        </title>
-      </circle>
+      />
       <circle
         cx={320}
         cy={203.7037037037037}
@@ -5733,12 +4142,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          800
-        </title>
-      </circle>
+      />
       <circle
         cx={360}
         cy={105.32407407407408}
@@ -5747,12 +4151,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,500
-        </title>
-      </circle>
+      />
       <circle
         cx={400}
         cy={76.38888888888889}
@@ -5761,12 +4160,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          3,000
-        </title>
-      </circle>
+      />
       <circle
         cx={440}
         cy={47.453703703703695}
@@ -5775,16 +4169,9 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          3,500
-        </title>
-      </circle>
+      />
     </g>
-    <g
-      role="cell"
-    >
+    <g>
       <circle
         cx={0}
         cy={248.26388888888889}
@@ -5793,12 +4180,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          30
-        </title>
-      </circle>
+      />
       <circle
         cx={40}
         cy={247.1064814814815}
@@ -5807,12 +4189,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          50
-        </title>
-      </circle>
+      />
       <circle
         cx={80}
         cy={247.1064814814815}
@@ -5821,12 +4198,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          50
-        </title>
-      </circle>
+      />
       <circle
         cx={119.99999999999999}
         cy={244.21296296296296}
@@ -5835,12 +4207,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          100
-        </title>
-      </circle>
+      />
       <circle
         cx={160}
         cy={238.42592592592592}
@@ -5849,12 +4216,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          200
-        </title>
-      </circle>
+      />
       <circle
         cx={200}
         cy={244.21296296296296}
@@ -5863,12 +4225,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          100
-        </title>
-      </circle>
+      />
       <circle
         cx={239.99999999999997}
         cy={238.42592592592592}
@@ -5877,12 +4234,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          200
-        </title>
-      </circle>
+      />
       <circle
         cx={280}
         cy={238.42592592592592}
@@ -5891,12 +4243,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          200
-        </title>
-      </circle>
+      />
       <circle
         cx={320}
         cy={215.27777777777777}
@@ -5905,12 +4252,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          600
-        </title>
-      </circle>
+      />
       <circle
         cx={360}
         cy={192.12962962962962}
@@ -5919,12 +4261,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,000
-        </title>
-      </circle>
+      />
       <circle
         cx={400}
         cy={105.32407407407408}
@@ -5933,12 +4270,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,500
-        </title>
-      </circle>
+      />
       <circle
         cx={440}
         cy={87.96296296296296}
@@ -5947,16 +4279,9 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,800
-        </title>
-      </circle>
+      />
     </g>
-    <g
-      role="cell"
-    >
+    <g>
       <circle
         cx={0}
         cy={248.84259259259258}
@@ -5965,12 +4290,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          20
-        </title>
-      </circle>
+      />
       <circle
         cx={40}
         cy={246.52777777777777}
@@ -5979,12 +4299,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          60
-        </title>
-      </circle>
+      />
       <circle
         cx={80}
         cy={245.37037037037038}
@@ -5993,12 +4308,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          80
-        </title>
-      </circle>
+      />
       <circle
         cx={119.99999999999999}
         cy={238.42592592592592}
@@ -6007,12 +4317,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          200
-        </title>
-      </circle>
+      />
       <circle
         cx={160}
         cy={232.63888888888889}
@@ -6021,12 +4326,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          300
-        </title>
-      </circle>
+      />
       <circle
         cx={200}
         cy={197.91666666666666}
@@ -6035,12 +4335,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          900
-        </title>
-      </circle>
+      />
       <circle
         cx={239.99999999999997}
         cy={192.12962962962962}
@@ -6049,12 +4344,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,000
-        </title>
-      </circle>
+      />
       <circle
         cx={280}
         cy={134.25925925925924}
@@ -6063,12 +4353,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,000
-        </title>
-      </circle>
+      />
       <circle
         cx={320}
         cy={134.25925925925924}
@@ -6077,12 +4362,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,000
-        </title>
-      </circle>
+      />
       <circle
         cx={360}
         cy={145.83333333333331}
@@ -6091,12 +4371,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          1,800
-        </title>
-      </circle>
+      />
       <circle
         cx={400}
         cy={128.47222222222223}
@@ -6105,12 +4380,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,100
-        </title>
-      </circle>
+      />
       <circle
         cx={440}
         cy={134.25925925925924}
@@ -6119,12 +4389,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         r="4px"
-        role="img"
-      >
-        <title>
-          2,000
-        </title>
-      </circle>
+      />
     </g>
   </svg>
 </div>
@@ -6135,31 +4400,20 @@ exports[`Storyshots Sections|Chart/Components/Line default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <path
       d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
       fill="none"
       index={0}
-      role="img"
       stroke="#EA5153"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="3px"
-    >
-      <title>
-        Value A
-      </title>
-    </path>
+    />
   </svg>
 </div>
 `;
@@ -6169,73 +4423,47 @@ exports[`Storyshots Sections|Chart/Components/Line multiple 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <path
       d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
       fill="none"
       index={0}
-      role="img"
       stroke="#EA5153"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="3px"
-    >
-      <title>
-        Value A
-      </title>
-    </path>
+    />
     <path
       d="M0,247.6851851851852L40,247.1064814814815L80,246.52777777777777L119.99999999999999,244.21296296296296L160,236.11111111111111L200,231.48148148148147L239.99999999999997,226.85185185185185L280,221.0648148148148L320,203.7037037037037L360,105.32407407407408L400,76.38888888888889L440,47.453703703703695"
       fill="none"
       index={1}
-      role="img"
       stroke="#75C6C5"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="3px"
-    >
-      <title>
-        Value B
-      </title>
-    </path>
+    />
     <path
       d="M0,248.26388888888889L40,247.1064814814815L80,247.1064814814815L119.99999999999999,244.21296296296296L160,238.42592592592592L200,244.21296296296296L239.99999999999997,238.42592592592592L280,238.42592592592592L320,215.27777777777777L360,192.12962962962962L400,105.32407407407408L440,87.96296296296296"
       fill="none"
       index={2}
-      role="img"
       stroke="#5A527E"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="3px"
-    >
-      <title>
-        Value C
-      </title>
-    </path>
+    />
     <path
       d="M0,248.84259259259258L40,246.52777777777777L80,245.37037037037038L119.99999999999999,238.42592592592592L160,232.63888888888889L200,197.91666666666666L239.99999999999997,192.12962962962962L280,134.25925925925924L320,134.25925925925924L360,145.83333333333331L400,128.47222222222223L440,134.25925925925924"
       fill="none"
       index={3}
-      role="img"
       stroke="#8B0D16"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="3px"
-    >
-      <title>
-        Value D
-      </title>
-    </path>
+    />
   </svg>
 </div>
 `;
@@ -6245,17 +4473,11 @@ exports[`Storyshots Sections|Chart/Components/X-axis default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <g
       aria-hidden={true}
       transform="translate(100,260)"
@@ -6498,17 +4720,11 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <g
       aria-hidden={true}
       transform="translate(100,10)"
@@ -6685,17 +4901,11 @@ exports[`Storyshots Sections|Chart/Components/Y-axis legend default 1`] = `
   className="nature-graphic"
 >
   <svg
-    aria-labelledby="chart-title"
     focusable={false}
     height="300px"
     viewBox="0 0 560 300"
     width="560px"
   >
-    <title
-      id="chart-title"
-    >
-      Headline headline
-    </title>
     <g
       aria-hidden={true}
       transform="translate(0, 130) rotate(270)"
@@ -7750,17 +5960,11 @@ exports[`Storyshots Sections|Tooltip align left-bottom 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -7791,17 +5995,11 @@ exports[`Storyshots Sections|Tooltip align left-top 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -7832,17 +6030,11 @@ exports[`Storyshots Sections|Tooltip align right-bottom 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -7873,17 +6065,11 @@ exports[`Storyshots Sections|Tooltip align right-top 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -7914,17 +6100,11 @@ exports[`Storyshots Sections|Tooltip default 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -7955,17 +6135,11 @@ exports[`Storyshots Sections|Tooltip long text 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={240}
@@ -8001,17 +6175,11 @@ exports[`Storyshots Sections|Tooltip multi paragraph 1`] = `
       </p>
     </div>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}
@@ -8028,17 +6196,11 @@ exports[`Storyshots Sections|Tooltip show on hover 1`] = `
 >
   <figure>
     <svg
-      aria-labelledby="chart-title"
       focusable={false}
       height="300px"
       viewBox="0 0 560 300"
       width="560px"
     >
-      <title
-        id="chart-title"
-      >
-        Headline headline
-      </title>
       <circle
         cx={300}
         cy={150}

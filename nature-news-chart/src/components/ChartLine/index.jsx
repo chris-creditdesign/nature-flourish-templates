@@ -7,8 +7,6 @@ import useData from "../utils/useData"
 const ChartLine = ({ index }) => {
 	const { xScale, yScale, data, columnNames } = useData()
 
-	const title = data[index].key
-
 	const lineData = data[index].values.map((d, i) => {
 		const x = columnNames[i]
 		const y = d
@@ -23,15 +21,12 @@ const ChartLine = ({ index }) => {
 		<path
 			index={index}
 			d={path(lineData)}
-			role="img"
 			fill="none"
 			strokeWidth={theme.strokeWidth.xl}
 			stroke={theme.chartColor[index]}
 			strokeLinecap="round"
 			strokeLinejoin="round"
-		>
-			<title>{title}</title>
-		</path>
+		/>
 	)
 }
 

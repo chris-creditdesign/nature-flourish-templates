@@ -1,16 +1,57 @@
-import React, { useContext } from "react"
+import React, { useState, useContext, useEffect, useRef } from "react"
 import theme from "../utils/theme"
 import useDimensions from "../utils/useDimensions"
 import useData from "../utils/useData"
 import chartContext from "../GraphicContainer/chartContext"
 
+const widthReducer = (accumulator, currentValue) => {
+	const { width } = currentValue.getBBox()
+	return accumulator + width
+}
+
+const getAverageTextNodeWidth = (elem, settings = { padding: 20 }) => {
+	const textNodes = elem.getElementsByTagName("text")
+	const textWidth = Array.from(textNodes).reduce(widthReducer, 0)
+
+	const averageTextNodeWidth = textWidth / textNodes.length
+
+	return parseInt(averageTextNodeWidth, 10) + settings.padding
+}
+
 const ChartXAxis = () => {
-	const { xAxisTickcount, xAxisFormat } = useContext(chartContext)
-	const { innerLeft, innerTop, chartInnerHeight } = useDimensions()
+	const { xAxisTickCount, xAxisFormat } = useContext(chartContext)
+	const {
+		chartInnerHeight,
+		chartInnerWidth,
+		innerLeft,
+		innerTop,
+	} = useDimensions()
 	const { xScale } = useData()
 
+	// Reference to the rendered group element
+	const xAxisGroupEl = useRef()
+
+	// Set the amount of ticks visible based on the amount of
+	// text nodes that will fit the chart width.
+	// TODO: This is based on the average length, assuming that all
+	// text nodes are the same length. One long text node could cause overlap.
+	const [tickCount, setTickCount] = useState(xAxisTickCount)
+	useEffect(() => {
+		if (xAxisGroupEl.current) {
+			const averageTextNodeWidth = getAverageTextNodeWidth(
+				xAxisGroupEl.current
+			)
+
+			const numberOfTicks = Math.floor(
+				chartInnerWidth / averageTextNodeWidth
+			)
+
+			setTickCount(Math.min(numberOfTicks, xAxisTickCount))
+		}
+	}, [tickCount, chartInnerWidth])
+
 	const ticks = xScale
-		.ticks(xAxisTickcount)
+		.ticks(tickCount)
 		.map(tick => (
 			<line
 				key={tick}
@@ -25,7 +66,7 @@ const ChartXAxis = () => {
 			/>
 		))
 
-	const labels = xScale.ticks(xAxisTickcount).map(tick => (
+	const labels = xScale.ticks(tickCount).map(tick => (
 		<text
 			key={tick}
 			x={xScale(tick)}
@@ -40,13 +81,13 @@ const ChartXAxis = () => {
 
 	return (
 		<g
-			transform={`translate(${innerLeft},${innerTop})`}
+			transform={`translate(${innerLeft},${innerTop +
+				chartInnerHeight})`}
 			aria-hidden
+			ref={xAxisGroupEl}
 		>
-			<g transform={`translate(0,${chartInnerHeight})`}>
-				{ticks}
-				{labels}
-			</g>
+			{ticks}
+			{labels}
 		</g>
 	)
 }

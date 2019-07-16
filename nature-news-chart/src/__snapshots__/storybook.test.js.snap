@@ -5,10 +5,10 @@ exports[`Storyshots Layouts|Chart default 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-1wsjuhs-StyledHeader exvoon30"
+    className="css-e4vqg1-StyledHeader exvoon30"
   >
     <h1>
-      headline headline
+      Headline headline
     </h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.
@@ -114,7 +114,17 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       Value E
     </li>
   </ul>
-  <figure>
+  <figure
+    aria-live="polite"
+    className="css-zynsqs-StyledFigure e1je2b9p0"
+    id="nature-graphic-figure"
+    role="region"
+  >
+    <figcaption
+      className="visually-hidden"
+    >
+      Data displayed as a chart.
+    </figcaption>
     <svg
       aria-labelledby="chart-title"
       focusable={false}
@@ -125,7 +135,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <rect
         aria-hidden={true}
@@ -144,245 +154,241 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           fontSize="1rem"
           textAnchor="middle"
         >
-          Y-axis legend text just a test
+          Y-axis legend text
         </text>
       </g>
       <g
         aria-hidden={true}
-        transform="translate(100,10)"
+        transform="translate(100,260)"
       >
-        <g
-          transform="translate(0,250)"
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={0}
+          x2={0}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={78.54545454545455}
+          x2={78.54545454545455}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={157.0909090909091}
+          x2={157.0909090909091}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={235.63636363636363}
+          x2={235.63636363636363}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={314.1818181818182}
+          x2={314.1818181818182}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={392.7272727272727}
+          x2={392.7272727272727}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={471.27272727272725}
+          x2={471.27272727272725}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={549.8181818181818}
+          x2={549.8181818181818}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={628.3636363636364}
+          x2={628.3636363636364}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={706.909090909091}
+          x2={706.909090909091}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={785.4545454545454}
+          x2={785.4545454545454}
+          y1={0}
+          y2="0.5em"
+        />
+        <line
+          shapeRendering="crispEdges"
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="1px"
+          x1={864}
+          x2={864}
+          y1={0}
+          y2="0.5em"
+        />
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={0}
+          y={0}
         >
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={0}
-            x2={0}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={78.54545454545455}
-            x2={78.54545454545455}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={157.0909090909091}
-            x2={157.0909090909091}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={235.63636363636363}
-            x2={235.63636363636363}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={314.1818181818182}
-            x2={314.1818181818182}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={392.7272727272727}
-            x2={392.7272727272727}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={471.27272727272725}
-            x2={471.27272727272725}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={549.8181818181818}
-            x2={549.8181818181818}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={628.3636363636364}
-            x2={628.3636363636364}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={706.909090909091}
-            x2={706.909090909091}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={785.4545454545454}
-            x2={785.4545454545454}
-            y1={0}
-            y2="0.5em"
-          />
-          <line
-            shapeRendering="crispEdges"
-            stroke="#121212"
-            strokeDasharray="none"
-            strokeWidth="1px"
-            x1={864}
-            x2={864}
-            y1={0}
-            y2="0.5em"
-          />
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={0}
-            y={0}
-          >
-            2008
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={78.54545454545455}
-            y={0}
-          >
-            2009
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={157.0909090909091}
-            y={0}
-          >
-            2010
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={235.63636363636363}
-            y={0}
-          >
-            2011
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={314.1818181818182}
-            y={0}
-          >
-            2012
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={392.7272727272727}
-            y={0}
-          >
-            2013
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={471.27272727272725}
-            y={0}
-          >
-            2014
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={549.8181818181818}
-            y={0}
-          >
-            2015
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={628.3636363636364}
-            y={0}
-          >
-            2016
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={706.909090909091}
-            y={0}
-          >
-            2017
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={785.4545454545454}
-            y={0}
-          >
-            2018
-          </text>
-          <text
-            dy="1.5em"
-            fontSize="1rem"
-            textAnchor="middle"
-            x={864}
-            y={0}
-          >
-            2019
-          </text>
-        </g>
+          2008
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={78.54545454545455}
+          y={0}
+        >
+          2009
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={157.0909090909091}
+          y={0}
+        >
+          2010
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={235.63636363636363}
+          y={0}
+        >
+          2011
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={314.1818181818182}
+          y={0}
+        >
+          2012
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={392.7272727272727}
+          y={0}
+        >
+          2013
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={471.27272727272725}
+          y={0}
+        >
+          2014
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={549.8181818181818}
+          y={0}
+        >
+          2015
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={628.3636363636364}
+          y={0}
+        >
+          2016
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={706.909090909091}
+          y={0}
+        >
+          2017
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={785.4545454545454}
+          y={0}
+        >
+          2018
+        </text>
+        <text
+          dy="1.5em"
+          fontSize="1rem"
+          textAnchor="middle"
+          x={864}
+          y={0}
+        >
+          2019
+        </text>
       </g>
       <g
         aria-hidden={true}
@@ -470,7 +476,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           4,000
         </text>
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="none"
           strokeWidth="3px"
           x1={-8}
@@ -479,7 +485,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={250}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -488,7 +494,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={221.0648148148148}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -497,7 +503,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={192.12962962962962}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -506,7 +512,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={163.19444444444446}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -515,7 +521,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={134.25925925925924}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -524,7 +530,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={105.32407407407408}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -533,7 +539,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={76.38888888888889}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -542,7 +548,7 @@ exports[`Storyshots Layouts|Chart default 1`] = `
           y2={47.453703703703695}
         />
         <line
-          stroke="#121212"
+          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -1635,55 +1641,32 @@ exports[`Storyshots Layouts|Chart default 1`] = `
       </g>
     </svg>
   </figure>
-  <form
-    className="css-lzdszq-StyledForm e1a6cbhf0"
+  <button
+    aria-checked={false}
+    aria-controls="nature-graphic-figure"
+    aria-labelledby="toggle-chart"
+    className="css-1w205j1-ButtonStyled e1trsnej0"
+    disabled={false}
+    onClick={[Function]}
+    role="switch"
   >
-    <fieldset
-      className=" edqsrkw0 css-h85td1-StyledFieldSet-StyledToggelButtons ejvy9hz0"
-      disabled={false}
+    <span
+      className="label"
+      id="toggle-chart"
     >
-      <legend
-        className="bold"
-        id="chart-toggle-buttons"
-      >
-        Display a chart or a table
-      </legend>
-      <div
-        aria-labelledby="chart-toggle-buttons"
-        className="radiogroup"
-        role="radiogroup"
-      >
-        <input
-          aria-checked={true}
-          checked={true}
-          id="chart"
-          name="chart-toggle-buttons"
-          onChange={[Function]}
-          type="radio"
-          value="chart"
-        />
-        <label
-          htmlFor="chart"
-        >
-          Chart
-        </label>
-        <input
-          aria-checked={false}
-          checked={false}
-          id="table"
-          name="chart-toggle-buttons"
-          onChange={[Function]}
-          type="radio"
-          value="table"
-        />
-        <label
-          htmlFor="table"
-        >
-          Table
-        </label>
-      </div>
-    </fieldset>
-  </form>
+      Show data as table
+    </span>
+    <span
+      className="on"
+    >
+      on
+    </span>
+    <span
+      className="off"
+    >
+      off
+    </span>
+  </button>
 </div>
 `;
 
@@ -1701,7 +1684,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <rect
       aria-hidden={true}
@@ -2795,240 +2778,236 @@ exports[`Storyshots Sections/Chart default 1`] = `
     </g>
     <g
       aria-hidden={true}
-      transform="translate(100,10)"
+      transform="translate(100,260)"
     >
-      <g
-        transform="translate(0,250)"
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={0}
+        x2={0}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={40}
+        x2={40}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={80}
+        x2={80}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={119.99999999999999}
+        x2={119.99999999999999}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={160}
+        x2={160}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={200}
+        x2={200}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={239.99999999999997}
+        x2={239.99999999999997}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={280}
+        x2={280}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={320}
+        x2={320}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={360}
+        x2={360}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={400}
+        x2={400}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={440}
+        x2={440}
+        y1={0}
+        y2="0.5em"
+      />
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={0}
+        y={0}
       >
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={0}
-          x2={0}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={40}
-          x2={40}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={80}
-          x2={80}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={119.99999999999999}
-          x2={119.99999999999999}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={160}
-          x2={160}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={200}
-          x2={200}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={239.99999999999997}
-          x2={239.99999999999997}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={280}
-          x2={280}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={320}
-          x2={320}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={360}
-          x2={360}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={400}
-          x2={400}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={440}
-          x2={440}
-          y1={0}
-          y2="0.5em"
-        />
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={0}
-          y={0}
-        >
-          2008
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={40}
-          y={0}
-        >
-          2009
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={80}
-          y={0}
-        >
-          2010
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={119.99999999999999}
-          y={0}
-        >
-          2011
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={160}
-          y={0}
-        >
-          2012
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={200}
-          y={0}
-        >
-          2013
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={239.99999999999997}
-          y={0}
-        >
-          2014
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={280}
-          y={0}
-        >
-          2015
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={320}
-          y={0}
-        >
-          2016
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={360}
-          y={0}
-        >
-          2017
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={400}
-          y={0}
-        >
-          2018
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={440}
-          y={0}
-        >
-          2019
-        </text>
-      </g>
+        2008
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={40}
+        y={0}
+      >
+        2009
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={80}
+        y={0}
+      >
+        2010
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={119.99999999999999}
+        y={0}
+      >
+        2011
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={160}
+        y={0}
+      >
+        2012
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={200}
+        y={0}
+      >
+        2013
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={239.99999999999997}
+        y={0}
+      >
+        2014
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={280}
+        y={0}
+      >
+        2015
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={320}
+        y={0}
+      >
+        2016
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={360}
+        y={0}
+      >
+        2017
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={400}
+        y={0}
+      >
+        2018
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={440}
+        y={0}
+      >
+        2019
+      </text>
     </g>
     <g
       aria-hidden={true}
@@ -3116,7 +3095,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         4,000
       </text>
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="none"
         strokeWidth="3px"
         x1={-8}
@@ -3125,7 +3104,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={250}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3134,7 +3113,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={221.0648148148148}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3143,7 +3122,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={192.12962962962962}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3152,7 +3131,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={163.19444444444446}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3161,7 +3140,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={134.25925925925924}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3170,7 +3149,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={105.32407407407408}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3179,7 +3158,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={76.38888888888889}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3188,7 +3167,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         y2={47.453703703703695}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -3206,7 +3185,7 @@ exports[`Storyshots Sections/Chart default 1`] = `
         fontSize="1rem"
         textAnchor="middle"
       >
-        Y-axis legend text just a test
+        Y-axis legend text
       </text>
     </g>
   </svg>
@@ -4135,7 +4114,7 @@ exports[`Storyshots Sections|Chart/Components/Background box default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <rect
       aria-hidden={true}
@@ -4163,7 +4142,7 @@ exports[`Storyshots Sections|Chart/Components/Data table default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       role="table"
@@ -5265,7 +5244,7 @@ exports[`Storyshots Sections|Chart/Components/Dots default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       role="cell"
@@ -5457,7 +5436,7 @@ exports[`Storyshots Sections|Chart/Components/Dots multiple 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       role="cell"
@@ -6165,7 +6144,7 @@ exports[`Storyshots Sections|Chart/Components/Line default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <path
       d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
@@ -6199,7 +6178,7 @@ exports[`Storyshots Sections|Chart/Components/Line multiple 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <path
       d="M0,247.1064814814815L40,245.37037037037038L80,243.63425925925927L119.99999999999999,240.16203703703704L160,235.53240740740742L200,228.00925925925927L239.99999999999997,217.01388888888889L280,200.8101851851852L320,175.92592592592592L360,138.8888888888889L400,83.33333333333334L440,0"
@@ -6275,244 +6254,240 @@ exports[`Storyshots Sections|Chart/Components/X-axis default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       aria-hidden={true}
-      transform="translate(100,10)"
+      transform="translate(100,260)"
     >
-      <g
-        transform="translate(0,250)"
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={0}
+        x2={0}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={40}
+        x2={40}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={80}
+        x2={80}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={119.99999999999999}
+        x2={119.99999999999999}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={160}
+        x2={160}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={200}
+        x2={200}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={239.99999999999997}
+        x2={239.99999999999997}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={280}
+        x2={280}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={320}
+        x2={320}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={360}
+        x2={360}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={400}
+        x2={400}
+        y1={0}
+        y2="0.5em"
+      />
+      <line
+        shapeRendering="crispEdges"
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="1px"
+        x1={440}
+        x2={440}
+        y1={0}
+        y2="0.5em"
+      />
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={0}
+        y={0}
       >
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={0}
-          x2={0}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={40}
-          x2={40}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={80}
-          x2={80}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={119.99999999999999}
-          x2={119.99999999999999}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={160}
-          x2={160}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={200}
-          x2={200}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={239.99999999999997}
-          x2={239.99999999999997}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={280}
-          x2={280}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={320}
-          x2={320}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={360}
-          x2={360}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={400}
-          x2={400}
-          y1={0}
-          y2="0.5em"
-        />
-        <line
-          shapeRendering="crispEdges"
-          stroke="#121212"
-          strokeDasharray="none"
-          strokeWidth="1px"
-          x1={440}
-          x2={440}
-          y1={0}
-          y2="0.5em"
-        />
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={0}
-          y={0}
-        >
-          2008
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={40}
-          y={0}
-        >
-          2009
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={80}
-          y={0}
-        >
-          2010
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={119.99999999999999}
-          y={0}
-        >
-          2011
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={160}
-          y={0}
-        >
-          2012
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={200}
-          y={0}
-        >
-          2013
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={239.99999999999997}
-          y={0}
-        >
-          2014
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={280}
-          y={0}
-        >
-          2015
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={320}
-          y={0}
-        >
-          2016
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={360}
-          y={0}
-        >
-          2017
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={400}
-          y={0}
-        >
-          2018
-        </text>
-        <text
-          dy="1.5em"
-          fontSize="1rem"
-          textAnchor="middle"
-          x={440}
-          y={0}
-        >
-          2019
-        </text>
-      </g>
+        2008
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={40}
+        y={0}
+      >
+        2009
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={80}
+        y={0}
+      >
+        2010
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={119.99999999999999}
+        y={0}
+      >
+        2011
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={160}
+        y={0}
+      >
+        2012
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={200}
+        y={0}
+      >
+        2013
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={239.99999999999997}
+        y={0}
+      >
+        2014
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={280}
+        y={0}
+      >
+        2015
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={320}
+        y={0}
+      >
+        2016
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={360}
+        y={0}
+      >
+        2017
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={400}
+        y={0}
+      >
+        2018
+      </text>
+      <text
+        dy="1.5em"
+        fontSize="1rem"
+        textAnchor="middle"
+        x={440}
+        y={0}
+      >
+        2019
+      </text>
     </g>
   </svg>
 </div>
@@ -6532,7 +6507,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       aria-hidden={true}
@@ -6620,7 +6595,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         4,000
       </text>
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="none"
         strokeWidth="3px"
         x1={-8}
@@ -6629,7 +6604,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={250}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6638,7 +6613,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={221.0648148148148}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6647,7 +6622,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={192.12962962962962}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6656,7 +6631,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={163.19444444444446}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6665,7 +6640,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={134.25925925925924}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6674,7 +6649,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={105.32407407407408}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6683,7 +6658,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={76.38888888888889}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6692,7 +6667,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis default 1`] = `
         y2={47.453703703703695}
       />
       <line
-        stroke="#121212"
+        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -6719,7 +6694,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis legend default 1`] = `
     <title
       id="chart-title"
     >
-      Chart Title
+      Headline headline
     </title>
     <g
       aria-hidden={true}
@@ -6730,7 +6705,7 @@ exports[`Storyshots Sections|Chart/Components/Y-axis legend default 1`] = `
         fontSize="1rem"
         textAnchor="middle"
       >
-        Y-axis legend text just a test
+        Y-axis legend text
       </text>
     </g>
   </svg>
@@ -7041,10 +7016,10 @@ exports[`Storyshots Sections|Header default 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-1wsjuhs-StyledHeader exvoon30"
+    className="css-e4vqg1-StyledHeader exvoon30"
   >
     <h1>
-      headline headline
+      Headline headline
     </h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.
@@ -7394,11 +7369,11 @@ exports[`Storyshots Sections|Table default 1`] = `
   className="nature-graphic"
 >
   <div
-    className="css-1rphuaj-StyledTable epit5ih0"
+    className="css-out6jd-StyledTable epit5ih0"
   >
     <table>
       <caption>
-        Chart Title
+        Y-axis legend text
       </caption>
       <thead>
         <tr>
@@ -7695,6 +7670,7 @@ exports[`Storyshots Sections|Toggle button default 1`] = `
 >
   <button
     aria-checked={false}
+    aria-controls="nature-graphic-figure"
     aria-labelledby="toggle-button"
     className="css-1w205j1-ButtonStyled e1trsnej0"
     disabled={false}
@@ -7727,6 +7703,7 @@ exports[`Storyshots Sections|Toggle button disabled 1`] = `
 >
   <button
     aria-checked={false}
+    aria-controls="nature-graphic-figure"
     aria-labelledby="toggle-button"
     className="css-1w205j1-ButtonStyled e1trsnej0"
     disabled={true}
@@ -7782,7 +7759,7 @@ exports[`Storyshots Sections|Tooltip align left-bottom 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -7823,7 +7800,7 @@ exports[`Storyshots Sections|Tooltip align left-top 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -7864,7 +7841,7 @@ exports[`Storyshots Sections|Tooltip align right-bottom 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -7905,7 +7882,7 @@ exports[`Storyshots Sections|Tooltip align right-top 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -7946,7 +7923,7 @@ exports[`Storyshots Sections|Tooltip default 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -7987,7 +7964,7 @@ exports[`Storyshots Sections|Tooltip long text 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -8033,7 +8010,7 @@ exports[`Storyshots Sections|Tooltip multi paragraph 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}
@@ -8060,7 +8037,7 @@ exports[`Storyshots Sections|Tooltip show on hover 1`] = `
       <title
         id="chart-title"
       >
-        Chart Title
+        Headline headline
       </title>
       <circle
         cx={300}

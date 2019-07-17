@@ -1,5 +1,5 @@
 id: nature-news-chart
-version: 1.1.7
+version: 1.1.8-prerelease.2
 name: Nature News Chart
 description: Flourish graphic template for @NatureNews
 author: chris_ryan
@@ -42,4 +42,3 @@ data:
     key: values
     type: columns
     columns: 'data::B-M'
-

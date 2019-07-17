@@ -50,7 +50,7 @@ const ButtonStyled = styled.button`
 
 	&[aria-checked="false"] .on,
 	&[aria-checked="true"] .off {
-		background: ${props => props.theme.backgroundColor.midDark};
+		background: ${props => props.theme.backgroundColor.dark};
 		color: ${props => props.theme.textColor.onDarkFade};
 	}
 `

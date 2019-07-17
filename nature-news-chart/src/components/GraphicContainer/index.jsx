@@ -132,80 +132,85 @@ const GraphicContainer = ({ settings, data }) => {
 				/>
 			) : null}
 
-			<StyledFigure
+			<main
 				id="nature-graphic-figure"
-				role="region"
+				aria-labelledby="nature-graphic-figure-caption"
 				aria-live="polite"
 			>
-				<figcaption className="visually-hidden">
-					{showChart
-						? "Data displayed as a chart."
-						: "Data displayed as a table."}
-				</figcaption>
-				<chartContext.Provider
-					value={{
-						...settings,
-						data,
-						width,
-						yAxisFormat,
-						xAxisFormat,
-						handleMouseEnterDataElem,
-						handleMouseLeaveDataElem,
-					}}
-				>
-					{showChart ? (
-						<Fragment>
-							<CSSTransition
-								in={
-									tooltipState.visible
-								}
-								timeout={
-									theme.transitionTime
-								}
-								classNames="tooltip"
-								unmountOnExit
-								appear
-							>
-								<Tooltip
-									x={
-										tooltipState.x
+				<StyledFigure>
+					<figcaption
+						className="visually-hidden"
+						id="nature-graphic-figure-caption"
+					>
+						{showChart
+							? "Data displayed as a chart."
+							: "Data displayed as a table."}
+					</figcaption>
+					<chartContext.Provider
+						value={{
+							...settings,
+							data,
+							width,
+							yAxisFormat,
+							xAxisFormat,
+							handleMouseEnterDataElem,
+							handleMouseLeaveDataElem,
+						}}
+					>
+						{showChart ? (
+							<Fragment>
+								<CSSTransition
+									in={
+										tooltipState.visible
 									}
-									y={
-										tooltipState.y
+									timeout={
+										theme.transitionTime
 									}
-									alignment={
-										tooltipState.alignment
-									}
+									classNames="tooltip"
+									unmountOnExit
+									appear
 								>
-									<p>
-										{
-											tooltipState.value
+									<Tooltip
+										x={
+											tooltipState.x
 										}
-									</p>
-								</Tooltip>
-							</CSSTransition>
-							<Chart>
-								<ChartBackgroundBox />
-								<ChartYAxisLegend />
-								<ChartXAxis />
-								<ChartYAxis />
-								<ChartDataLayer />
-							</Chart>
-						</Fragment>
-					) : (
-						<Table />
-					)}
-				</chartContext.Provider>
-			</StyledFigure>
+										y={
+											tooltipState.y
+										}
+										alignment={
+											tooltipState.alignment
+										}
+									>
+										<p>
+											{
+												tooltipState.value
+											}
+										</p>
+									</Tooltip>
+								</CSSTransition>
+								<Chart>
+									<ChartBackgroundBox />
+									<ChartYAxisLegend />
+									<ChartXAxis />
+									<ChartYAxis />
+									<ChartDataLayer />
+								</Chart>
+							</Fragment>
+						) : (
+							<Table />
+						)}
+					</chartContext.Provider>
+				</StyledFigure>
 
-			<ToggleButton
-				onClick={() => setShowChart(!showChart)}
-				checked={!showChart}
-				id="toggle-chart"
-				label="Show data as table"
-				disabled={false}
-				controls="nature-graphic-figure"
-			/>
+				<ToggleButton
+					onClick={() => setShowChart(!showChart)}
+					checked={!showChart}
+					id="toggle-chart"
+					label="Show data as table"
+					disabled={false}
+					controls="nature-graphic-figure"
+				/>
+			</main>
 		</ThemeProvider>
 	)
 }

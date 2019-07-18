@@ -4,6 +4,7 @@ Documentation for developers working on the template, in Markdown format.
 
 Use the [Flourish SDK](https://www.npmjs.com/package/@flourish/sdk) to try it out.
 
+TODO: Make chart height grow with y-axis text length
 TODO: Account for blank fields in CSV file
 TODO: Allow switching between different chart types
 TODO: Add animation to chart toggle button

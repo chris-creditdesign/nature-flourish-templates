@@ -24,6 +24,7 @@ const state = {
 	xAxisTickCount: 10,
 	yAxisLegendText: "Y-axis legend text",
 	xAxisLegendText: "X-axis legend text",
+	independentVariableType: "linear",
 }
 
 export default state

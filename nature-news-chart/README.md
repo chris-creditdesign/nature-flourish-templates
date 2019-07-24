@@ -24,6 +24,7 @@ To run jest snapshot tests of all components
 
 ## TODO:
 - Make chart height grow with y-axis text length
+- Allow reader to choose max value for y-axis
 - Account for blank fields in CSV file
 - Allow switching between different chart types
 - Add animation to chart toggle button

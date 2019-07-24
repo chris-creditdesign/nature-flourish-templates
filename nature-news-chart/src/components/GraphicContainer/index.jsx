@@ -1,38 +1,19 @@
-import React, { useState, useEffect, Fragment } from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
-import { CSSTransition } from "react-transition-group"
 import { ThemeProvider } from "emotion-theming"
-import { format as d3Format } from "d3-format"
-import StyledFigure from "./styles"
-import Header from "../Header/index"
-import Key from "../Key/index"
-import Tooltip from "../Tooltip/index"
-import Chart from "../Chart/index"
-import ChartBackgroundBox from "../ChartBackgroundBox/index"
+
+import FigureContainer from "../FigureContainer/index"
+import Header from "../presentational/Header/index"
+import Key from "../presentational/Key/index"
 import theme from "../utils/theme"
-import ChartDataLayer from "../ChartDataLayer/index"
-import ChartXAxis from "../ChartXAxis/index"
-import ChartYAxis from "../ChartYAxis/index"
-import ChartYAxisLegend from "../ChartYAxisLegend/index"
-import chartContext from "./chartContext"
-import Table from "../Table/index"
-import ToggleButton from "../ToggleButton/index"
+
+import ToggleButton from "../presentational/ToggleButton/index"
 
 const GraphicContainer = ({ settings, data }) => {
 	/* -------------------------------------------------------------------------- */
 	/*                                  SETTINGS                                  */
 	/* -------------------------------------------------------------------------- */
 	const { headLine, standFirst } = settings
-
-	/* -------------------------------------------------------------------------- */
-	/*                      CHART AXIS TEXT FORMAT FUNCTIONS                      */
-	/* -------------------------------------------------------------------------- */
-
-	// TODO: Axis: These should be set up externally and suppiled to the chart container
-	// The type of axis depends on the chart type and the data being displayed...
-	// ie time series or ordinal data.
-	const yAxisFormat = d3Format(",")
-	const xAxisFormat = str => str
 
 	/* -------------------------------------------------------------------------- */
 	/*                                    STATE                                   */
@@ -48,15 +29,6 @@ const GraphicContainer = ({ settings, data }) => {
 
 	// Determine if a chart or a table should be shown.
 	const [showChart, setShowChart] = useState(true)
-
-	/* ------------------------------ Tooltip State ----------------------------- */
-	const [tooltipState, setTooltipState] = useState({
-		visible: false,
-		x: 100,
-		y: 100,
-		alignment: "middle-bottom",
-		value: "",
-	})
 
 	/* -------------------------------------------------------------------------- */
 	/*                                   EFFECTS                                  */
@@ -97,28 +69,6 @@ const GraphicContainer = ({ settings, data }) => {
 		}
 	})
 
-	/* -------------------------------------------------------------------------- */
-	/*                            Mouse over datapoint                            */
-	/* -------------------------------------------------------------------------- */
-
-	const handleMouseEnterDataElem = d => {
-		setTooltipState({
-			...tooltipState,
-			x: d.x,
-			y: d.y,
-			value: d.value,
-			alignment: d.alignment,
-			visible: true,
-		})
-	}
-
-	const handleMouseLeaveDataElem = () => {
-		setTooltipState({
-			...tooltipState,
-			visible: false,
-		})
-	}
-
 	return (
 		<ThemeProvider theme={theme}>
 			<Header headLine={headLine} standFirst={standFirst} />
@@ -137,70 +87,12 @@ const GraphicContainer = ({ settings, data }) => {
 				aria-labelledby="nature-graphic-figure-caption"
 				aria-live="polite"
 			>
-				<StyledFigure>
-					<figcaption
-						className="visually-hidden"
-						id="nature-graphic-figure-caption"
-					>
-						{showChart
-							? "Data displayed as a chart."
-							: "Data displayed as a table."}
-					</figcaption>
-					<chartContext.Provider
-						value={{
-							...settings,
-							data,
-							width,
-							yAxisFormat,
-							xAxisFormat,
-							handleMouseEnterDataElem,
-							handleMouseLeaveDataElem,
-						}}
-					>
-						{showChart ? (
-							<Fragment>
-								<CSSTransition
-									in={
-										tooltipState.visible
-									}
-									timeout={
-										theme.transitionTime
-									}
-									classNames="tooltip"
-									unmountOnExit
-									appear
-								>
-									<Tooltip
-										x={
-											tooltipState.x
-										}
-										y={
-											tooltipState.y
-										}
-										alignment={
-											tooltipState.alignment
-										}
-									>
-										<p>
-											{
-												tooltipState.value
-											}
-										</p>
-									</Tooltip>
-								</CSSTransition>
-								<Chart>
-									<ChartBackgroundBox />
-									<ChartYAxisLegend />
-									<ChartXAxis />
-									<ChartYAxis />
-									<ChartDataLayer />
-								</Chart>
-							</Fragment>
-						) : (
-							<Table />
-						)}
-					</chartContext.Provider>
-				</StyledFigure>
+				<FigureContainer
+					data={data}
+					settings={settings}
+					showChart={showChart}
+					width={width}
+				/>
 
 				<ToggleButton
 					onClick={() => setShowChart(!showChart)}

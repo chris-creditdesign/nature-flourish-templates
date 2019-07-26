@@ -8,7 +8,21 @@ import TooltipContainer from "../TooltipContainer/index"
 import TableContainer from "../TableContainer"
 import figureContext from "./figureContext"
 
-const FigureContainer = ({ showChart, settings, data, width }) => {
+const FigureContainer = ({
+	chartInnerMargin,
+	chartMargin,
+	chartType,
+	data,
+	headLine,
+	height,
+	showChart,
+	standFirst,
+	width,
+	xAxisLegendText,
+	xAxisTickCount,
+	yAxisLegendText,
+	yAxisTickCount,
+}) => {
 	/* -------------------------------------------------------------------------- */
 	/*                      CHART AXIS TEXT FORMAT FUNCTIONS                      */
 	/* -------------------------------------------------------------------------- */
@@ -53,14 +67,24 @@ const FigureContainer = ({ showChart, settings, data, width }) => {
 	return (
 		<figureContext.Provider
 			value={{
-				...settings,
+				chartInnerMargin,
+				chartMargin,
+				chartType,
 				data,
-				width,
-				yAxisFormat,
-				xAxisFormat,
-				tooltipState,
 				handleMouseEnterDataElem,
 				handleMouseLeaveDataElem,
+				headLine,
+				height,
+				showChart,
+				standFirst,
+				tooltipState,
+				width,
+				xAxisFormat,
+				xAxisLegendText,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
 			}}
 		>
 			<StyledFigure>
@@ -88,28 +112,20 @@ const FigureContainer = ({ showChart, settings, data, width }) => {
 export default FigureContainer
 
 FigureContainer.propTypes = {
-	settings: PropTypes.shape({
-		headLine: PropTypes.string.isRequired,
-		standFirst: PropTypes.string.isRequired,
-		width: PropTypes.number.isRequired,
-		height: PropTypes.number.isRequired,
-		chartMargin: PropTypes.shape({
-			top: PropTypes.number.isRequired,
-			right: PropTypes.number.isRequired,
-			bottom: PropTypes.number.isRequired,
-			left: PropTypes.number.isRequired,
-		}),
-		chartInnerMargin: PropTypes.shape({
-			top: PropTypes.number.isRequired,
-			right: PropTypes.number.isRequired,
-			bottom: PropTypes.number.isRequired,
-			left: PropTypes.number.isRequired,
-		}),
-		yAxisTickCount: PropTypes.number.isRequired,
-		xAxisTickCount: PropTypes.number.isRequired,
-		yAxisLegendText: PropTypes.string.isRequired,
-		xAxisLegendText: PropTypes.string.isRequired,
+	chartInnerMargin: PropTypes.shape({
+		top: PropTypes.number.isRequired,
+		right: PropTypes.number.isRequired,
+		bottom: PropTypes.number.isRequired,
+		left: PropTypes.number.isRequired,
 	}).isRequired,
+	chartMargin: PropTypes.shape({
+		top: PropTypes.number.isRequired,
+		right: PropTypes.number.isRequired,
+		bottom: PropTypes.number.isRequired,
+		left: PropTypes.number.isRequired,
+	}).isRequired,
+	chartType: PropTypes.oneOf(["lineChart", "verticalBarChart"])
+		.isRequired,
 	data: PropTypes.shape({
 		data: PropTypes.arrayOf(
 			PropTypes.shape({
@@ -123,6 +139,13 @@ FigureContainer.propTypes = {
 			values: PropTypes.arrayOf(PropTypes.string).isRequired,
 		}),
 	}).isRequired,
+	headLine: PropTypes.string.isRequired,
+	height: PropTypes.number.isRequired,
 	showChart: PropTypes.bool.isRequired,
+	standFirst: PropTypes.string.isRequired,
 	width: PropTypes.number.isRequired,
+	xAxisLegendText: PropTypes.string.isRequired,
+	xAxisTickCount: PropTypes.number.isRequired,
+	yAxisLegendText: PropTypes.string.isRequired,
+	yAxisTickCount: PropTypes.number.isRequired,
 }

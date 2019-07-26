@@ -17,8 +17,33 @@ const update = () => {
 		"*"
 	)
 
+	const {
+		chartInnerMargin,
+		chartMargin,
+		chartType,
+		headLine,
+		height,
+		standFirst,
+		xAxisLegendText,
+		xAxisTickCount,
+		yAxisLegendText,
+		yAxisTickCount,
+	} = state
+
 	ReactDOM.render(
-		<GraphicContainer settings={state} data={data} />,
+		<GraphicContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType={chartType}
+			data={data}
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+		/>,
 		document.getElementById("graphic-container")
 	)
 }

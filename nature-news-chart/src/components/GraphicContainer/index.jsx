@@ -9,12 +9,19 @@ import theme from "../utils/theme"
 
 import ToggleButton from "../presentational/ToggleButton/index"
 
-const GraphicContainer = ({ settings, data }) => {
-	/* -------------------------------------------------------------------------- */
-	/*                                  SETTINGS                                  */
-	/* -------------------------------------------------------------------------- */
-	const { headLine, standFirst } = settings
-
+const GraphicContainer = ({
+	chartInnerMargin,
+	chartMargin,
+	chartType,
+	data,
+	headLine,
+	height,
+	standFirst,
+	xAxisLegendText,
+	xAxisTickCount,
+	yAxisLegendText,
+	yAxisTickCount,
+}) => {
 	/* -------------------------------------------------------------------------- */
 	/*                                    STATE                                   */
 	/* -------------------------------------------------------------------------- */
@@ -69,16 +76,32 @@ const GraphicContainer = ({ settings, data }) => {
 		}
 	})
 
+	let keyType
+
+	if (chartType === "lineChart") {
+		keyType = "line"
+	} else {
+		keyType = "box"
+	}
+
+	let showKey
+
+	if (chartType === "lineChart") {
+		showKey = true
+	} else {
+		showKey = false
+	}
+
 	return (
 		<ThemeProvider theme={theme}>
 			<Header headLine={headLine} standFirst={standFirst} />
 
-			{showChart ? (
+			{showChart && showKey ? (
 				<Key
 					columnNames={data.data.map(
 						elem => elem.key
 					)}
-					type="line"
+					type={keyType}
 				/>
 			) : null}
 
@@ -88,10 +111,19 @@ const GraphicContainer = ({ settings, data }) => {
 				aria-live="polite"
 			>
 				<FigureContainer
+					chartInnerMargin={chartInnerMargin}
+					chartMargin={chartMargin}
+					chartType={chartType}
 					data={data}
-					settings={settings}
+					headLine={headLine}
+					height={height}
 					showChart={showChart}
+					standFirst={standFirst}
 					width={width}
+					xAxisLegendText={xAxisLegendText}
+					xAxisTickCount={xAxisTickCount}
+					yAxisLegendText={yAxisLegendText}
+					yAxisTickCount={yAxisTickCount}
 				/>
 
 				<ToggleButton
@@ -110,28 +142,20 @@ const GraphicContainer = ({ settings, data }) => {
 export default GraphicContainer
 
 GraphicContainer.propTypes = {
-	settings: PropTypes.shape({
-		headLine: PropTypes.string.isRequired,
-		standFirst: PropTypes.string.isRequired,
-		width: PropTypes.number.isRequired,
-		height: PropTypes.number.isRequired,
-		chartMargin: PropTypes.shape({
-			top: PropTypes.number.isRequired,
-			right: PropTypes.number.isRequired,
-			bottom: PropTypes.number.isRequired,
-			left: PropTypes.number.isRequired,
-		}),
-		chartInnerMargin: PropTypes.shape({
-			top: PropTypes.number.isRequired,
-			right: PropTypes.number.isRequired,
-			bottom: PropTypes.number.isRequired,
-			left: PropTypes.number.isRequired,
-		}),
-		yAxisTickCount: PropTypes.number.isRequired,
-		xAxisTickCount: PropTypes.number.isRequired,
-		yAxisLegendText: PropTypes.string.isRequired,
-		xAxisLegendText: PropTypes.string.isRequired,
+	chartInnerMargin: PropTypes.shape({
+		top: PropTypes.number.isRequired,
+		right: PropTypes.number.isRequired,
+		bottom: PropTypes.number.isRequired,
+		left: PropTypes.number.isRequired,
 	}).isRequired,
+	chartMargin: PropTypes.shape({
+		top: PropTypes.number.isRequired,
+		right: PropTypes.number.isRequired,
+		bottom: PropTypes.number.isRequired,
+		left: PropTypes.number.isRequired,
+	}).isRequired,
+	chartType: PropTypes.oneOf(["lineChart", "verticalBarChart"])
+		.isRequired,
 	data: PropTypes.shape({
 		data: PropTypes.arrayOf(
 			PropTypes.shape({
@@ -145,4 +169,11 @@ GraphicContainer.propTypes = {
 			values: PropTypes.arrayOf(PropTypes.string).isRequired,
 		}),
 	}).isRequired,
+	headLine: PropTypes.string.isRequired,
+	height: PropTypes.number.isRequired,
+	standFirst: PropTypes.string.isRequired,
+	xAxisLegendText: PropTypes.string.isRequired,
+	xAxisTickCount: PropTypes.number.isRequired,
+	yAxisLegendText: PropTypes.string.isRequired,
+	yAxisTickCount: PropTypes.number.isRequired,
 }

@@ -18,7 +18,11 @@ storiesOf("Container|Table", module)
 	.addDecorator(story => (
 		<figureContext.Provider
 			value={{
-				...state,
+				yAxisLegendText: state.yAxisLegendText,
+				chartInnerMargin: state.chartInnerMargin,
+				chartMargin: state.chartMargin,
+				height: state.height,
+				width: 600,
 				data,
 				yAxisFormat,
 			}}

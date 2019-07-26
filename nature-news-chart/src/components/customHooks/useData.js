@@ -14,7 +14,7 @@ const valuesReducer = (accumlator, currentValue) => {
 }
 
 const useData = () => {
-	const { data, independentVariableType } = useContext(figureContext)
+	const { data, chartType } = useContext(figureContext)
 	const { chartInnerWidth, chartInnerHeight } = useDimensions()
 
 	// 1. Covert each of the values to numbers
@@ -40,14 +40,16 @@ const useData = () => {
 
 	let xScale
 
-	if (independentVariableType === "linear") {
+	if (chartType === "lineChart") {
 		xScale = scaleLinear()
 			.domain([minColumnName, maxColumnName])
 			.range([0, chartInnerWidth])
-	} else if (independentVariableType === "linear") {
+	} else if (chartType === "verticalBarChart") {
 		xScale = scaleBand()
 			.domain(data.data.column_names.values)
 			.range([0, chartInnerWidth])
+			.paddingOuter(0.1)
+			.paddingInner(0.5)
 	}
 
 	const yScale = scaleLinear()

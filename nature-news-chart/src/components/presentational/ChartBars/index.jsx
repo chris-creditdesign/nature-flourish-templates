@@ -2,8 +2,9 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import theme from "../../utils/theme"
 
-const ChartDots = ({
+const ChartBars = ({
 	chartInnerWidth,
+	chartInnerHeight,
 	columnNames,
 	data,
 	handleMouseEnterDataElem,
@@ -17,27 +18,33 @@ const ChartDots = ({
 }) => {
 	const [mouseOver, setMouseOver] = useState(null)
 
-	const dotData = data[index].values.map((d, i) => {
+	const bandwidth = xScale.bandwidth()
+	const fill = theme.chartColor[index]
+
+	const barData = data[index].values.map((d, i) => {
 		const x = columnNames[i]
 		const y = d
 		return { x, y }
 	})
 
-	const circles = dotData.map((d, i) => {
+	const bars = barData.map((d, i) => {
 		const scaledX = xScale(d.x)
 		const scaledY = yScale(d.y)
-		const radius =
-			i === mouseOver ? theme.dotRadius.l : theme.dotRadius.s
+		const opacity = i === mouseOver ? 0.6 : 1
 		return (
-			<circle
-				key={`${d.y}-${d.x}`}
-				cx={scaledX}
-				cy={scaledY}
-				r={radius}
-				fill={theme.chartColor[index]}
-				index={index}
+			<rect
+				key={`${d.x}-${d.y}`}
+				x={scaledX /* + nudgeBarRightAmount */}
+				y={scaledY}
+				height={chartInnerHeight - scaledY}
+				width={bandwidth}
+				fill={fill}
+				opacity={opacity}
 				onMouseEnter={() => {
-					const x = scaledX + innerLeft
+					const x =
+						scaledX +
+						innerLeft +
+						bandwidth / 2
 					const y = scaledY + innerTop
 					const value = yAxisFormat(d.y)
 					let alignment = "middle-bottom"
@@ -66,13 +73,14 @@ const ChartDots = ({
 		)
 	})
 
-	return <g>{circles}</g>
+	return <g transform={`translate(${innerLeft},${innerTop})`}>{bars}</g>
 }
 
-export default ChartDots
+export default ChartBars
 
-ChartDots.propTypes = {
+ChartBars.propTypes = {
 	chartInnerWidth: PropTypes.number.isRequired,
+	chartInnerHeight: PropTypes.number.isRequired,
 	columnNames: PropTypes.arrayOf(
 		PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 	).isRequired,

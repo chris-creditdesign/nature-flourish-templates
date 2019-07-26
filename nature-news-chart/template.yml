@@ -24,20 +24,17 @@ settings:
     description: This is teh default height of the chart
     type: number
     step: 10
-  - property: independentVariableType
-    name: Indpenedent Variable Type
+  - property: chartType
+    name: Chart Type
     type: string
-    description: These are the types of values placed normally on the x-axis
+    description: The type of chart to display
     choices:
-      - 
-        - Numbers
-        - linear
       -
-        - Dates
-        - time
+        - Line chart
+        - lineChart
       -
-        - Names/categories
-        - band
+        - Vertical bar chart
+        - verticalBarChart
 build:
   javascript:
     script: npm run build

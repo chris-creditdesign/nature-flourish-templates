@@ -10,7 +10,8 @@ import figureContext from "../FigureContainer/figureContext"
 import StyledFigure from "../presentational/Figure/styles"
 import ChartSVG from "../presentational/ChartSVG/index"
 
-import settings from "../../state"
+const width = 600
+const height = 300
 
 const tooltipStore = new Store({
 	visible: false,
@@ -80,66 +81,32 @@ storiesOf("Container|Tooltip", module)
 					<StyledFigure>
 						<TooltipContainer />
 						<ChartSVG
-							chartHeight={
-								settings.height
-							}
-							chartWidth={
-								settings.width
-							}
+							chartHeight={height}
+							chartWidth={width}
 						>
 							<TestCircle
-								x={
-									settings.width *
-									0.5
-								}
-								y={
-									settings.height *
-									0.5
-								}
+								x={width * 0.5}
+								y={height * 0.5}
 								alignment="middle-bottom"
 							/>
 							<TestCircle
-								x={
-									settings.width *
-									0.2
-								}
-								y={
-									settings.height *
-									0.2
-								}
+								x={width * 0.2}
+								y={height * 0.2}
 								alignment="left-top"
 							/>
 							<TestCircle
-								x={
-									settings.width *
-									0.8
-								}
-								y={
-									settings.height *
-									0.2
-								}
+								x={width * 0.8}
+								y={height * 0.2}
 								alignment="right-top"
 							/>
 							<TestCircle
-								x={
-									settings.width *
-									0.2
-								}
-								y={
-									settings.height *
-									0.8
-								}
+								x={width * 0.2}
+								y={height * 0.8}
 								alignment="left-bottom"
 							/>
 							<TestCircle
-								x={
-									settings.width *
-									0.8
-								}
-								y={
-									settings.height *
-									0.8
-								}
+								x={width * 0.8}
+								y={height * 0.8}
 								alignment="right-bottom"
 							/>
 						</ChartSVG>

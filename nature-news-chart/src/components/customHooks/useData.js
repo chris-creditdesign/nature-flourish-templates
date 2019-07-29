@@ -39,17 +39,26 @@ const useData = () => {
 	const maxColumnName = Math.max(...columnNamesAsNumbers)
 
 	let xScale
+	let xScaleInternal
 
 	if (chartType === "lineChart") {
 		xScale = scaleLinear()
 			.domain([minColumnName, maxColumnName])
 			.range([0, chartInnerWidth])
-	} else if (chartType === "verticalBarChart") {
+	} else if (
+		chartType === "verticalBarChart" ||
+		chartType === "groupedBarChart"
+	) {
 		xScale = scaleBand()
 			.domain(data.data.column_names.values)
 			.range([0, chartInnerWidth])
 			.paddingOuter(0.1)
 			.paddingInner(0.5)
+
+		xScaleInternal = scaleBand()
+			.domain(data.data.map(d => d.key))
+			.range([0, xScale.bandwidth()])
+			.paddingInner(0.3)
 	}
 
 	const yScale = scaleLinear()
@@ -61,6 +70,7 @@ const useData = () => {
 		columnNames: columnNamesAsNumbers,
 		yScale,
 		xScale,
+		xScaleInternal,
 	}
 }
 

@@ -39,6 +39,9 @@ settings:
       -
         - Vertical bar chart
         - verticalBarChart
+      -
+        - Grouped bar chart
+        - groupedBarChart
 build:
   javascript:
     script: npm run build

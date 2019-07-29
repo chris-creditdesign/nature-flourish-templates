@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import theme from "../../utils/theme"
 
-const ChartBars = ({
+const ChartGroupedBars = ({
 	chartInnerWidth,
 	chartInnerHeight,
 	columnNames,
@@ -13,12 +13,15 @@ const ChartBars = ({
 	innerLeft,
 	innerTop,
 	xScale,
+	xScaleInternal,
 	yAxisFormat,
 	yScale,
 }) => {
 	const [mouseOver, setMouseOver] = useState(null)
 
-	const bandwidth = xScale.bandwidth()
+	const { key } = data[index]
+	const internalPosition = xScaleInternal(key)
+	const internalBandwith = xScaleInternal.bandwidth()
 	const fill = theme.chartColor[index]
 
 	const barData = data[index].values.map((d, i) => {
@@ -28,7 +31,7 @@ const ChartBars = ({
 	})
 
 	const bars = barData.map((d, i) => {
-		const scaledX = xScale(d.x)
+		const scaledX = xScale(d.x) + internalPosition
 		const scaledY = yScale(d.y)
 		const opacity = i === mouseOver ? 0.6 : 1
 		return (
@@ -37,14 +40,14 @@ const ChartBars = ({
 				x={scaledX}
 				y={scaledY}
 				height={chartInnerHeight - scaledY}
-				width={bandwidth}
+				width={internalBandwith}
 				fill={fill}
 				opacity={opacity}
 				onMouseEnter={() => {
 					const x =
 						scaledX +
 						innerLeft +
-						bandwidth / 2
+						internalBandwith / 2
 					const y = scaledY + innerTop
 					const value = yAxisFormat(d.y)
 					let alignment = "middle-bottom"
@@ -76,9 +79,9 @@ const ChartBars = ({
 	return <g transform={`translate(${innerLeft},${innerTop})`}>{bars}</g>
 }
 
-export default ChartBars
+export default ChartGroupedBars
 
-ChartBars.propTypes = {
+ChartGroupedBars.propTypes = {
 	chartInnerWidth: PropTypes.number.isRequired,
 	chartInnerHeight: PropTypes.number.isRequired,
 	columnNames: PropTypes.arrayOf(
@@ -97,6 +100,7 @@ ChartBars.propTypes = {
 	innerLeft: PropTypes.number.isRequired,
 	innerTop: PropTypes.number.isRequired,
 	xScale: PropTypes.func.isRequired,
+	xScaleInternal: PropTypes.func.isRequired,
 	yAxisFormat: PropTypes.func.isRequired,
 	yScale: PropTypes.func.isRequired,
 }

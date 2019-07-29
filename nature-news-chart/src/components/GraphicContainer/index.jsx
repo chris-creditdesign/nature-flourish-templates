@@ -84,11 +84,9 @@ const GraphicContainer = ({
 		keyType = "box"
 	}
 
-	let showKey
+	let showKey = true
 
-	if (chartType === "lineChart") {
-		showKey = true
-	} else {
+	if (chartType === "verticalBarChart") {
 		showKey = false
 	}
 
@@ -154,8 +152,11 @@ GraphicContainer.propTypes = {
 		bottom: PropTypes.number.isRequired,
 		left: PropTypes.number.isRequired,
 	}).isRequired,
-	chartType: PropTypes.oneOf(["lineChart", "verticalBarChart"])
-		.isRequired,
+	chartType: PropTypes.oneOf([
+		"lineChart",
+		"verticalBarChart",
+		"groupedBarChart",
+	]).isRequired,
 	data: PropTypes.shape({
 		data: PropTypes.arrayOf(
 			PropTypes.shape({

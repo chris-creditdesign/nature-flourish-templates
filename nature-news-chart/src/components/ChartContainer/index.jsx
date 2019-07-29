@@ -8,6 +8,7 @@ import ChartYAxis from "../presentational/ChartYAxis/index"
 import ChartYAxisBaseline from "../presentational/ChartYAxisBaseline/index"
 import ChartDataLayerLine from "../presentational/ChartDataLayerLine/index"
 import ChartBars from "../presentational/ChartBars/index"
+import ChartDataLayerGroupedBars from "../presentational/ChartDataLayerGroupedBars/index"
 
 import figureContext from "../FigureContainer/figureContext"
 
@@ -34,7 +35,7 @@ const ChartContainer = () => {
 		innerTop,
 	} = useDimensions()
 
-	const { data, columnNames, yScale, xScale } = useData()
+	const { data, columnNames, yScale, xScale, xScaleInternal } = useData()
 
 	let xAxis
 
@@ -50,7 +51,10 @@ const ChartContainer = () => {
 				xScale={xScale}
 			/>
 		)
-	} else if (chartType === "verticalBarChart") {
+	} else if (
+		chartType === "verticalBarChart" ||
+		chartType === "groupedBarChart"
+	) {
 		xAxis = (
 			<ChartXAxisBand
 				chartInnerHeight={chartInnerHeight}
@@ -101,6 +105,27 @@ const ChartContainer = () => {
 				innerLeft={innerLeft}
 				innerTop={innerTop}
 				xScale={xScale}
+				yAxisFormat={yAxisFormat}
+				yScale={yScale}
+			/>
+		)
+	} else if (chartType === "groupedBarChart") {
+		dataLayer = (
+			<ChartDataLayerGroupedBars
+				chartInnerWidth={chartInnerWidth}
+				chartInnerHeight={chartInnerHeight}
+				columnNames={columnNames}
+				data={data}
+				handleMouseEnterDataElem={
+					handleMouseEnterDataElem
+				}
+				handleMouseLeaveDataElem={
+					handleMouseLeaveDataElem
+				}
+				innerLeft={innerLeft}
+				innerTop={innerTop}
+				xScale={xScale}
+				xScaleInternal={xScaleInternal}
 				yAxisFormat={yAxisFormat}
 				yScale={yScale}
 			/>

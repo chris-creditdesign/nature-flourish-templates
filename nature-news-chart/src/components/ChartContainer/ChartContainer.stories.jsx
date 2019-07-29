@@ -75,3 +75,25 @@ storiesOf("Container|Chart", module)
 			<ChartContainer />
 		</figureContext.Provider>
 	))
+	.add("grouped bar", () => (
+		<figureContext.Provider
+			value={{
+				chartInnerMargin,
+				chartMargin,
+				chartType: "groupedBarChart",
+				data,
+				handleMouseEnterDataElem,
+				handleMouseLeaveDataElem,
+				height,
+				width: 600,
+				xAxisFormat,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
+				yAxisWidth: 0,
+			}}
+		>
+			<ChartContainer />
+		</figureContext.Provider>
+	))

@@ -59,6 +59,23 @@ storiesOf("Container|Figure", module)
 			showChart
 		/>
 	))
+	.add("grouped bar", () => (
+		<FigureContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="groupedBarChart"
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			width={600}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+			data={data}
+			showChart
+		/>
+	))
 	.add("table", () => (
 		<FigureContainer
 			chartInnerMargin={chartInnerMargin}

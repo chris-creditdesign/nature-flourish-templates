@@ -50,3 +50,18 @@ storiesOf("Page|Graphic", module)
 			yAxisTickCount={yAxisTickCount}
 		/>
 	))
+	.add("grouped bar", () => (
+		<GraphicContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="groupedBarChart"
+			data={data}
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+		/>
+	))

@@ -6,6 +6,7 @@ import ChartYAxisLegend from "../presentational/ChartYAxisLegend/index"
 import ChartXAxisLinear from "../presentational/ChartXAxisLinear/index"
 import ChartXAxisBand from "../presentational/ChartXAxisBand/index"
 import ChartYAxis from "../presentational/ChartYAxis/index"
+import ChartYAxisBaseline from "../presentational/ChartYAxisBaseline/index"
 import ChartDataLayerLine from "../presentational/ChartDataLayerLine/index"
 import ChartBars from "../presentational/ChartBars/index"
 
@@ -134,6 +135,15 @@ const ChartContainer = () => {
 			/>
 
 			{dataLayer}
+
+			<ChartYAxisBaseline
+				chartInnerWidth={chartInnerWidth}
+				innerLeft={innerLeft}
+				innerTop={innerTop}
+				yAxisFormat={yAxisFormat}
+				yAxisTickCount={yAxisTickCount}
+				yScale={yScale}
+			/>
 		</ChartSVG>
 	)
 }

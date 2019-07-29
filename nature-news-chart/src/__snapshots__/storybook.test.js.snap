@@ -311,15 +311,6 @@ exports[`Storyshots Container|Chart bar 1`] = `
       </text>
       <line
         stroke="#333333"
-        strokeDasharray="none"
-        strokeWidth="3px"
-        x1={-8}
-        x2={440}
-        y1={250}
-        y2={250}
-      />
-      <line
-        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -477,6 +468,19 @@ exports[`Storyshots Container|Chart bar 1`] = `
         width={18.803418803418804}
         x={417.43589743589746}
         y={0}
+      />
+    </g>
+    <g
+      transform="translate(100,10)"
+    >
+      <line
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="3px"
+        x1={-8}
+        x2={440}
+        y1={250}
+        y2={250}
       />
     </g>
   </svg>
@@ -792,15 +796,6 @@ exports[`Storyshots Container|Chart default 1`] = `
       >
         4,000
       </text>
-      <line
-        stroke="#333333"
-        strokeDasharray="none"
-        strokeWidth="3px"
-        x1={-8}
-        x2={440}
-        y1={250}
-        y2={250}
-      />
       <line
         stroke="#333333"
         strokeDasharray="2, 3"
@@ -1447,6 +1442,19 @@ exports[`Storyshots Container|Chart default 1`] = `
         </g>
       </g>
     </g>
+    <g
+      transform="translate(100,10)"
+    >
+      <line
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="3px"
+        x1={-8}
+        x2={440}
+        y1={250}
+        y2={250}
+      />
+    </g>
   </svg>
 </div>
 `;
@@ -1771,15 +1779,6 @@ exports[`Storyshots Container|Figure bar 1`] = `
         </text>
         <line
           stroke="#333333"
-          strokeDasharray="none"
-          strokeWidth="3px"
-          x1={-8}
-          x2={440}
-          y1={250}
-          y2={250}
-        />
-        <line
-          stroke="#333333"
           strokeDasharray="2, 3"
           strokeWidth="1px"
           x1={-8}
@@ -1937,6 +1936,19 @@ exports[`Storyshots Container|Figure bar 1`] = `
           width={18.803418803418804}
           x={417.43589743589746}
           y={0}
+        />
+      </g>
+      <g
+        transform="translate(100,10)"
+      >
+        <line
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="3px"
+          x1={-8}
+          x2={440}
+          y1={250}
+          y2={250}
         />
       </g>
     </svg>
@@ -2262,15 +2274,6 @@ exports[`Storyshots Container|Figure default 1`] = `
         >
           4,000
         </text>
-        <line
-          stroke="#333333"
-          strokeDasharray="none"
-          strokeWidth="3px"
-          x1={-8}
-          x2={440}
-          y1={250}
-          y2={250}
-        />
         <line
           stroke="#333333"
           strokeDasharray="2, 3"
@@ -2916,6 +2919,19 @@ exports[`Storyshots Container|Figure default 1`] = `
             />
           </g>
         </g>
+      </g>
+      <g
+        transform="translate(100,10)"
+      >
+        <line
+          stroke="#333333"
+          strokeDasharray="none"
+          strokeWidth="3px"
+          x1={-8}
+          x2={440}
+          y1={250}
+          y2={250}
+        />
       </g>
     </svg>
   </figure>
@@ -3921,15 +3937,6 @@ exports[`Storyshots Page|Graphic bar 1`] = `
           </text>
           <line
             stroke="#333333"
-            strokeDasharray="none"
-            strokeWidth="3px"
-            x1={-8}
-            x2={864}
-            y1={250}
-            y2={250}
-          />
-          <line
-            stroke="#333333"
             strokeDasharray="2, 3"
             strokeWidth="1px"
             x1={-8}
@@ -4087,6 +4094,19 @@ exports[`Storyshots Page|Graphic bar 1`] = `
             width={36.92307692307693}
             x={819.6923076923077}
             y={0}
+          />
+        </g>
+        <g
+          transform="translate(100,10)"
+        >
+          <line
+            stroke="#333333"
+            strokeDasharray="none"
+            strokeWidth="3px"
+            x1={-8}
+            x2={864}
+            y1={250}
+            y2={250}
           />
         </g>
       </svg>
@@ -4554,15 +4574,6 @@ exports[`Storyshots Page|Graphic default 1`] = `
           >
             4,000
           </text>
-          <line
-            stroke="#333333"
-            strokeDasharray="none"
-            strokeWidth="3px"
-            x1={-8}
-            x2={864}
-            y1={250}
-            y2={250}
-          />
           <line
             stroke="#333333"
             strokeDasharray="2, 3"
@@ -5208,6 +5219,19 @@ exports[`Storyshots Page|Graphic default 1`] = `
               />
             </g>
           </g>
+        </g>
+        <g
+          transform="translate(100,10)"
+        >
+          <line
+            stroke="#333333"
+            strokeDasharray="none"
+            strokeWidth="3px"
+            x1={-8}
+            x2={864}
+            y1={250}
+            y2={250}
+          />
         </g>
       </svg>
     </figure>
@@ -7319,7 +7343,35 @@ exports[`Storyshots Presentational|Chart/Components/X-axis/Linear default 1`] = 
 </div>
 `;
 
-exports[`Storyshots Presentational|Chart/Components/Y-axis default 1`] = `
+exports[`Storyshots Presentational|Chart/Components/Y-axis/Baseline default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <svg
+    aria-hidden={true}
+    focusable={false}
+    height="300px"
+    viewBox="0 0 600 300"
+    width="600px"
+  >
+    <g
+      transform="translate(50,20)"
+    >
+      <line
+        stroke="#333333"
+        strokeDasharray="none"
+        strokeWidth="3px"
+        x1={-8}
+        x2={500}
+        y1={260}
+        y2={260}
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Presentational|Chart/Components/Y-axis/Lines and labels default 1`] = `
 <div
   className="nature-graphic"
 >
@@ -7398,15 +7450,6 @@ exports[`Storyshots Presentational|Chart/Components/Y-axis default 1`] = `
       </text>
       <line
         stroke="#333333"
-        strokeDasharray="none"
-        strokeWidth="3px"
-        x1={-8}
-        x2={500}
-        y1={260}
-        y2={260}
-      />
-      <line
-        stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
@@ -7464,7 +7507,7 @@ exports[`Storyshots Presentational|Chart/Components/Y-axis default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Presentational|Chart/Components/Y-axis legend default 1`] = `
+exports[`Storyshots Presentational|Chart/Components/Y-axis/legend default 1`] = `
 <div
   className="nature-graphic"
 >

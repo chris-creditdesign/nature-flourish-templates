@@ -23,6 +23,7 @@ To run jest snapshot tests of all components
 	npm run test
 
 ## TODO:
+- Set right margin based on longest text label
 - Add footnote component
 - Make chart height grow with y-axis text length
 - Allow reader to choose max value for y-axis

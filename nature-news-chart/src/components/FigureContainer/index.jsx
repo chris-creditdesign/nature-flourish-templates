@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { format } from "d3-format"
 
@@ -7,6 +7,7 @@ import ChartContainer from "../ChartContainer/index"
 import TooltipContainer from "../TooltipContainer/index"
 import TableContainer from "../TableContainer"
 import figureContext from "./figureContext"
+import useClientRect from "../customHooks/useClientRect"
 
 const FigureContainer = ({
 	chartInnerMargin,
@@ -23,6 +24,20 @@ const FigureContainer = ({
 	yAxisLegendText,
 	yAxisTickCount,
 }) => {
+	/* -------------------------------------------------------------------------- */
+	/*                                Y-AXIS WIDTH                                */
+	/* -------------------------------------------------------------------------- */
+
+	// Create a ref for the y-axis p tag and use this to measure its width so that
+	// that width can be taken away from the svg width in the useDimensions hook
+
+	const [yAxisRect, yAxisRef] = useClientRect()
+	let yAxisWidth = 0
+
+	if (yAxisRect) {
+		yAxisWidth = parseInt(yAxisRect.width, 10)
+	}
+
 	/* -------------------------------------------------------------------------- */
 	/*                      CHART AXIS TEXT FORMAT FUNCTIONS                      */
 	/* -------------------------------------------------------------------------- */
@@ -85,6 +100,7 @@ const FigureContainer = ({
 				yAxisFormat,
 				yAxisLegendText,
 				yAxisTickCount,
+				yAxisWidth,
 			}}
 		>
 			<StyledFigure>
@@ -97,10 +113,24 @@ const FigureContainer = ({
 						: "Data displayed as a table."}
 				</figcaption>
 				{showChart ? (
-					<Fragment>
-						<TooltipContainer />
-						<ChartContainer />
-					</Fragment>
+					<div
+						className="figure-grid-container"
+						aria-hidden
+					>
+						<p
+							className="y-axis"
+							ref={yAxisRef}
+						>
+							{yAxisLegendText}
+						</p>
+						<div className="figure-chart-tooltip-container">
+							<TooltipContainer />
+							<ChartContainer />
+						</div>
+						<p className="x-axis">
+							{xAxisLegendText}
+						</p>
+					</div>
 				) : (
 					<TableContainer />
 				)}

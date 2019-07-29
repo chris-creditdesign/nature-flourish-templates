@@ -19,6 +19,10 @@ settings:
     name: Y Axis legend
     description: Text to label the y axis chart
     type: string
+  - property: xAxisLegendText
+    name: X Axis legend
+    description: Text to label the x axis chart
+    type: string
   - property: height
     name: Chart height
     description: This is teh default height of the chart

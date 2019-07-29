@@ -6,8 +6,8 @@ const state = {
 	chartInnerMargin: {
 		top: 10,
 		right: 20,
-		bottom: 40,
-		left: 100,
+		bottom: 30,
+		left: 75,
 	},
 	chartMargin: {
 		top: 0,

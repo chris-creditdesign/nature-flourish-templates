@@ -47,6 +47,7 @@ storiesOf("Container|Chart", module)
 				yAxisFormat,
 				yAxisLegendText,
 				yAxisTickCount,
+				yAxisWidth: 0,
 			}}
 		>
 			<ChartContainer />
@@ -68,6 +69,7 @@ storiesOf("Container|Chart", module)
 				yAxisFormat,
 				yAxisLegendText,
 				yAxisTickCount,
+				yAxisWidth: 0,
 			}}
 		>
 			<ChartContainer />

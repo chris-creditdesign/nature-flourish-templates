@@ -2,7 +2,6 @@ import React, { useContext } from "react"
 
 import ChartSVG from "../presentational/ChartSVG/index"
 import ChartBackgroundBox from "../presentational/ChartBackgroundBox/index"
-import ChartYAxisLegend from "../presentational/ChartYAxisLegend/index"
 import ChartXAxisLinear from "../presentational/ChartXAxisLinear/index"
 import ChartXAxisBand from "../presentational/ChartXAxisBand/index"
 import ChartYAxis from "../presentational/ChartYAxis/index"
@@ -23,7 +22,6 @@ const ChartContainer = () => {
 		xAxisFormat,
 		xAxisTickCount,
 		yAxisFormat,
-		yAxisLegendText,
 		yAxisTickCount,
 	} = useContext(figureContext)
 
@@ -115,11 +113,6 @@ const ChartContainer = () => {
 				chartInnerHeight={chartInnerHeight}
 				chartInnerWidth={chartInnerWidth}
 				innerLeft={innerLeft}
-				innerTop={innerTop}
-			/>
-			<ChartYAxisLegend
-				yAxisLegendText={yAxisLegendText}
-				chartInnerHeight={chartInnerHeight}
 				innerTop={innerTop}
 			/>
 

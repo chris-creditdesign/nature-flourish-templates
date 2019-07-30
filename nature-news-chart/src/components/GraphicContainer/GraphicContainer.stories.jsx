@@ -65,3 +65,18 @@ storiesOf("Page|Graphic", module)
 			yAxisTickCount={yAxisTickCount}
 		/>
 	))
+	.add("stacked bar", () => (
+		<GraphicContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="stackedBarChart"
+			data={data}
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+		/>
+	))

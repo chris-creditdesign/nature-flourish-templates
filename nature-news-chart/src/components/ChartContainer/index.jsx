@@ -9,6 +9,7 @@ import ChartYAxisBaseline from "../presentational/ChartYAxisBaseline/index"
 import ChartDataLayerLine from "../presentational/ChartDataLayerLine/index"
 import ChartBars from "../presentational/ChartBars/index"
 import ChartDataLayerGroupedBars from "../presentational/ChartDataLayerGroupedBars/index"
+import ChartDataLayerStackedBars from "../presentational/ChartDataLayerStackedBars/index"
 
 import figureContext from "../FigureContainer/figureContext"
 
@@ -35,7 +36,14 @@ const ChartContainer = () => {
 		innerTop,
 	} = useDimensions()
 
-	const { data, columnNames, yScale, xScale, xScaleInternal } = useData()
+	const {
+		data,
+		columnNames,
+		yScale,
+		xScale,
+		xScaleInternal,
+		stacked,
+	} = useData()
 
 	let xAxis
 
@@ -53,7 +61,8 @@ const ChartContainer = () => {
 		)
 	} else if (
 		chartType === "verticalBarChart" ||
-		chartType === "groupedBarChart"
+		chartType === "groupedBarChart" ||
+		chartType === "stackedBarChart"
 	) {
 		xAxis = (
 			<ChartXAxisBand
@@ -126,6 +135,24 @@ const ChartContainer = () => {
 				innerTop={innerTop}
 				xScale={xScale}
 				xScaleInternal={xScaleInternal}
+				yAxisFormat={yAxisFormat}
+				yScale={yScale}
+			/>
+		)
+	} else if (chartType === "stackedBarChart") {
+		dataLayer = (
+			<ChartDataLayerStackedBars
+				chartInnerWidth={chartInnerWidth}
+				handleMouseEnterDataElem={
+					handleMouseEnterDataElem
+				}
+				handleMouseLeaveDataElem={
+					handleMouseLeaveDataElem
+				}
+				innerLeft={innerLeft}
+				innerTop={innerTop}
+				stacked={stacked}
+				xScale={xScale}
 				yAxisFormat={yAxisFormat}
 				yScale={yScale}
 			/>

@@ -97,3 +97,25 @@ storiesOf("Container|Chart", module)
 			<ChartContainer />
 		</figureContext.Provider>
 	))
+	.add("stacked bar", () => (
+		<figureContext.Provider
+			value={{
+				chartInnerMargin,
+				chartMargin,
+				chartType: "stackedBarChart",
+				data,
+				handleMouseEnterDataElem,
+				handleMouseLeaveDataElem,
+				height,
+				width: 600,
+				xAxisFormat,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
+				yAxisWidth: 0,
+			}}
+		>
+			<ChartContainer />
+		</figureContext.Provider>
+	))

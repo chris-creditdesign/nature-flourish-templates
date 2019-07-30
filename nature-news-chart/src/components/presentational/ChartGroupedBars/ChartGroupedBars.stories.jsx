@@ -53,9 +53,9 @@ const barProps = {
 	yScale,
 }
 
-storiesOf("Presentational|Chart/Components/Grouped bars", module)
+storiesOf("Presentational|Chart/Components/Bars", module)
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
-	.add("default", () => (
+	.add("grouped", () => (
 		<ChartSVG chartHeight={300} chartWidth={600}>
 			<ChartGroupedBars {...barProps} />
 		</ChartSVG>

@@ -1,30 +1,24 @@
 import React from "react"
 import PropTypes from "prop-types"
-import ChartGroupedBars from "../ChartGroupedBars/index"
+import ChartStackedBars from "../ChartStackedBars/index"
 
-const ChartDataLayerGroupedBars = ({
+const ChartDataLayerStackedBars = ({
 	chartInnerWidth,
-	chartInnerHeight,
-	columnNames,
-	data,
 	handleMouseEnterDataElem,
 	handleMouseLeaveDataElem,
 	innerLeft,
 	innerTop,
+	stacked,
 	xScale,
-	xScaleInternal,
 	yAxisFormat,
 	yScale,
 }) => {
-	const rows = data.map((d, i) => {
+	const rows = stacked.map((d, i) => {
 		const { key } = d
 		return (
 			<g key={key}>
-				<ChartGroupedBars
+				<ChartStackedBars
 					chartInnerWidth={chartInnerWidth}
-					chartInnerHeight={chartInnerHeight}
-					columnNames={columnNames}
-					data={data}
 					handleMouseEnterDataElem={
 						handleMouseEnterDataElem
 					}
@@ -34,8 +28,8 @@ const ChartDataLayerGroupedBars = ({
 					index={i}
 					innerLeft={innerLeft}
 					innerTop={innerTop}
+					stacked={stacked}
 					xScale={xScale}
-					xScaleInternal={xScaleInternal}
 					yAxisFormat={yAxisFormat}
 					yScale={yScale}
 				/>
@@ -46,26 +40,18 @@ const ChartDataLayerGroupedBars = ({
 	return <g transform={`translate(${innerLeft},${innerTop})`}>{rows}</g>
 }
 
-export default ChartDataLayerGroupedBars
+export default ChartDataLayerStackedBars
 
-ChartDataLayerGroupedBars.propTypes = {
+ChartDataLayerStackedBars.propTypes = {
 	chartInnerWidth: PropTypes.number.isRequired,
-	chartInnerHeight: PropTypes.number.isRequired,
-	columnNames: PropTypes.arrayOf(
-		PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-	).isRequired,
-	data: PropTypes.arrayOf(
-		PropTypes.shape({
-			key: PropTypes.string,
-			values: PropTypes.array,
-		})
-	).isRequired,
 	handleMouseEnterDataElem: PropTypes.func.isRequired,
 	handleMouseLeaveDataElem: PropTypes.func.isRequired,
 	innerLeft: PropTypes.number.isRequired,
 	innerTop: PropTypes.number.isRequired,
+	stacked: PropTypes.arrayOf(
+		PropTypes.arrayOf(PropTypes.array.isRequired)
+	).isRequired,
 	xScale: PropTypes.func.isRequired,
-	xScaleInternal: PropTypes.func.isRequired,
 	yAxisFormat: PropTypes.func.isRequired,
 	yScale: PropTypes.func.isRequired,
 }

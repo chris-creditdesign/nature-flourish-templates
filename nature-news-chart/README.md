@@ -23,6 +23,7 @@ To run jest snapshot tests of all components
 	npm run test
 
 ## TODO:
+- Make sure that useData doesn't run on every render
 - Set right margin based on longest text label
 - Add footnote component
 - Make chart height grow with y-axis text length

@@ -2,10 +2,11 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { scaleLinear, scaleBand } from "d3-scale"
+import { stack } from "d3-shape"
 import { format } from "d3-format"
 
 import ChartSVG from "../ChartSVG/index"
-import ChartDataLayerGroupedBars from "./index"
+import ChartStackedBars from "./index"
 import data from "../../utils/testData"
 
 const yAxisFormat = format(",")
@@ -20,19 +21,32 @@ const dataAsNumbers = data.data.map(obj => {
 	}
 })
 
+const keys = data.data.map(d => d.key)
+const columnNamesAsText = data.data.column_names.values
+
 const xScale = scaleBand()
 	.domain(data.data.column_names.values)
 	.range([0, 540])
 	.paddingInner(0.5)
 
-const xScaleInternal = scaleBand()
-	.domain(data.data.map(d => d.key))
-	.range([0, xScale.bandwidth()])
-	.paddingInner(0.3)
-
 const yScale = scaleLinear()
-	.domain([0, 4000])
+	.domain([0, 16000])
 	.range([240, 0])
+
+const dataToBeStacked = columnNamesAsText.map((d, i) => {
+	const result = {}
+	result.x = d
+
+	keys.forEach(key => {
+		const foundData = dataAsNumbers.find(k => k.key === key)
+		result[key] = foundData.values[i]
+	})
+	return result
+})
+
+const stacker = stack().keys(keys)
+
+const stacked = stacker(dataToBeStacked)
 
 const handleMouseEnterDataElem = () => console.log("handleMouseEnterDataElem")
 const handleMouseLeaveDataElem = () => console.log("handleMouseLeaveDataElem")
@@ -42,20 +56,21 @@ const barProps = {
 	chartInnerHeight: 260,
 	columnNames: data.data.column_names.values,
 	data: dataAsNumbers,
+	stacked,
 	handleMouseEnterDataElem,
 	handleMouseLeaveDataElem,
+	index: 0,
 	innerLeft: 20,
 	innerTop: 20,
 	xScale,
-	xScaleInternal,
 	yAxisFormat,
 	yScale,
 }
 
-storiesOf("Presentational|Chart/Components/Data layer/Bars", module)
+storiesOf("Presentational|Chart/Components/Bars", module)
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
-	.add("grouped", () => (
+	.add("stacked", () => (
 		<ChartSVG chartHeight={300} chartWidth={600}>
-			<ChartDataLayerGroupedBars {...barProps} />
+			<ChartStackedBars {...barProps} />
 		</ChartSVG>
 	))

@@ -158,6 +158,7 @@ FigureContainer.propTypes = {
 		"lineChart",
 		"verticalBarChart",
 		"groupedBarChart",
+		"stackedBarChart",
 	]).isRequired,
 	data: PropTypes.shape({
 		data: PropTypes.arrayOf(

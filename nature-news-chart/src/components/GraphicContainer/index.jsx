@@ -130,6 +130,10 @@ const GraphicContainer = ({
 					<SmallText text={footnoteText} />
 				) : null}
 
+				{sourceText.length ? (
+					<SmallText text={sourceText} />
+				) : null}
+
 				<ToggleButton
 					onClick={() => setShowChart(!showChart)}
 					checked={!showChart}
@@ -138,10 +142,6 @@ const GraphicContainer = ({
 					disabled={false}
 					controls="nature-graphic-figure"
 				/>
-
-				{sourceText.length ? (
-					<SmallText text={sourceText} />
-				) : null}
 			</main>
 		</ThemeProvider>
 	)

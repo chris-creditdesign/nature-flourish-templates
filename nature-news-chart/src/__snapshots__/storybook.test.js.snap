@@ -11722,11 +11722,19 @@ exports[`Storyshots Page|Graphic axis labels with line breaks 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -11748,14 +11756,6 @@ exports[`Storyshots Page|Graphic axis labels with line breaks 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -12099,11 +12099,19 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -12125,14 +12133,6 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -12672,11 +12672,19 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -12698,14 +12706,6 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -13112,11 +13112,19 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -13138,14 +13146,6 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -14260,11 +14260,19 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -14286,14 +14294,6 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -15418,11 +15418,19 @@ exports[`Storyshots Page|Graphic line 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -15444,14 +15452,6 @@ exports[`Storyshots Page|Graphic line 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -16576,11 +16576,19 @@ exports[`Storyshots Page|Graphic long footnote 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -16602,14 +16610,6 @@ exports[`Storyshots Page|Graphic long footnote 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -17734,11 +17734,19 @@ exports[`Storyshots Page|Graphic long source 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<strong>Lorem ipsum dolor</strong> sit amet, <i>Nature</i> adipisicing elit, sed do eiusmod tempor incididunt ut <a href='http://www.nature.com'>nature.com</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -17760,14 +17768,6 @@ exports[`Storyshots Page|Graphic long source 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "<strong>Lorem ipsum dolor</strong> sit amet, <i>Nature</i> adipisicing elit, sed do eiusmod tempor incididunt ut <a href='http://www.nature.com'>nature.com</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -18138,11 +18138,19 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -18164,14 +18172,6 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -19340,11 +19340,19 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         }
       }
     />
+    <p
+      className="css-wiejhz-StyledSmallText e1fq30l70"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "This is the source text",
+        }
+      }
+    />
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
       aria-labelledby="toggle-chart"
-      className="css-52xgch-ButtonStyled e1dshyly0"
+      className="css-11ha9py-ButtonStyled e1dshyly0"
       disabled={false}
       onClick={[Function]}
       role="switch"
@@ -19366,14 +19374,6 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-wiejhz-StyledSmallText e1fq30l70"
-      dangerouslySetInnerHTML={
-        Object {
-          "__html": "This is the source text",
-        }
-      }
-    />
   </main>
 </div>
 `;
@@ -25393,7 +25393,7 @@ exports[`Storyshots Presentational|Toggle button default 1`] = `
     aria-checked={false}
     aria-controls="nature-graphic-figure"
     aria-labelledby="toggle-button"
-    className="css-52xgch-ButtonStyled e1dshyly0"
+    className="css-11ha9py-ButtonStyled e1dshyly0"
     disabled={false}
     onClick={[Function]}
     role="switch"
@@ -25426,7 +25426,7 @@ exports[`Storyshots Presentational|Toggle button disabled 1`] = `
     aria-checked={false}
     aria-controls="nature-graphic-figure"
     aria-labelledby="toggle-button"
-    className="css-52xgch-ButtonStyled e1dshyly0"
+    className="css-11ha9py-ButtonStyled e1dshyly0"
     disabled={true}
     onClick={[Function]}
     role="switch"

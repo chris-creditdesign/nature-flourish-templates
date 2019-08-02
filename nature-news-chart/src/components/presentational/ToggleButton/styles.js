@@ -15,8 +15,7 @@ const ButtonStyled = styled.button`
 
 	/* This is to align the button to the right */
 	width: max-content;
-	/* margin: 0 0 0 100%; */
-	margin: ${props => `0 0 ${props.theme.space.l} 100%`};
+	margin: 0 0 0 100%;
 	transform: translateX(-100%);
 
 	cursor: pointer;

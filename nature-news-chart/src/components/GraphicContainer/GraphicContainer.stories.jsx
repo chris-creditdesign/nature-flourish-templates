@@ -150,3 +150,20 @@ storiesOf("Page|Graphic", module)
 			yAxisTickCount={yAxisTickCount}
 		/>
 	))
+
+	.add("axis labels with line breaks", () => (
+		<GraphicContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType={chartType}
+			footnoteText={footnoteText}
+			data={data}
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			xAxisLegendText="Lorem ipsum dolor sit amet,<br />consectetur adipisicing elit<br />sed do eiusmod tempor incididunt ut labore<br />"
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText="Lorem ipsum dolor sit amet,<br />consectetur adipisicing elit<br />sed do eiusmod tempor incididunt ut labore<br />"
+			yAxisTickCount={yAxisTickCount}
+		/>
+	))

@@ -162,3 +162,20 @@ storiesOf("Container|Figure", module)
 			showChart={false}
 		/>
 	))
+	.add("axis labels with line breaks", () => (
+		<FigureContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType={chartType}
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			width={600}
+			xAxisLegendText="line break <br /> line break <br /> line break <br />"
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText="line break <br /> line break <br /> line break <br />"
+			yAxisTickCount={yAxisTickCount}
+			data={data}
+			showChart
+		/>
+	))

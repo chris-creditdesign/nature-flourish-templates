@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from "react"
 import PropTypes from "prop-types"
 import StyledHeader from "./styles"
@@ -5,7 +6,7 @@ import StyledHeader from "./styles"
 const Header = ({ headLine, standFirst }) => (
 	<StyledHeader>
 		<h1>{headLine}</h1>
-		<p>{standFirst}</p>
+		<p dangerouslySetInnerHTML={{ __html: standFirst }} />
 	</StyledHeader>
 )
 

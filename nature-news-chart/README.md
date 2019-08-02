@@ -23,6 +23,7 @@ To run jest snapshot tests of all components
 	npm run test
 
 ## TODO:
+- Permit only `i` `strong` and `br` tags in dangerouslySetInnerHTML.
 - Add a log scale option to y-axis
 - Make sure that useData doesn't run on every render
 - Set right margin based on longest text label

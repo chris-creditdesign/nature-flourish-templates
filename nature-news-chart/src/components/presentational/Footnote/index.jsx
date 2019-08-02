@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import StyledFootnote from "./styles"
 
 const Header = ({ footnoteText }) => (
-	<StyledFootnote>{footnoteText}</StyledFootnote>
+	<StyledFootnote dangerouslySetInnerHTML={{ __html: footnoteText }} />
 )
 
 export default Header

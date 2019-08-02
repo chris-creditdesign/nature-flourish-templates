@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { format } from "d3-format"
@@ -120,16 +121,20 @@ const FigureContainer = ({
 						<p
 							className="y-axis"
 							ref={yAxisRef}
-						>
-							{yAxisLegendText}
-						</p>
+							dangerouslySetInnerHTML={{
+								__html: yAxisLegendText,
+							}}
+						/>
 						<div className="figure-chart-tooltip-container">
 							<TooltipContainer />
 							<ChartContainer />
 						</div>
-						<p className="x-axis">
-							{xAxisLegendText}
-						</p>
+						<p
+							className="x-axis"
+							dangerouslySetInnerHTML={{
+								__html: xAxisLegendText,
+							}}
+						/>
 					</div>
 				) : (
 					<TableContainer />

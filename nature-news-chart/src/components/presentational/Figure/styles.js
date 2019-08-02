@@ -14,9 +14,9 @@ const StyledFigure = styled.figure`
 			align-self: center;
 		}
 
-		p {
+		/* p {
 			line-height: 1em;
-		}
+		} */
 
 		.y-axis {
 			grid-column: 1 / 2;

@@ -8,6 +8,7 @@ import GraphicContainer from "./components/GraphicContainer/index"
  * Initialise the graphic
  */
 const draw = () => {
+	console.log(data)
 	window.requestData = {}
 
 	window.addEventListener("message", function resize(event) {

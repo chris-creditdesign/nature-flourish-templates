@@ -38,7 +38,8 @@ const ChartContainer = () => {
 
 	const {
 		data,
-		columnNames,
+		columnNamesAsNumbers,
+		columnNamesAsText,
 		yScale,
 		xScale,
 		xScaleInternal,
@@ -82,7 +83,7 @@ const ChartContainer = () => {
 		dataLayer = (
 			<ChartDataLayerLine
 				chartInnerWidth={chartInnerWidth}
-				columnNames={columnNames}
+				columnNames={columnNamesAsNumbers}
 				data={data}
 				handleMouseEnterDataElem={
 					handleMouseEnterDataElem
@@ -102,7 +103,7 @@ const ChartContainer = () => {
 			<ChartBars
 				chartInnerWidth={chartInnerWidth}
 				chartInnerHeight={chartInnerHeight}
-				columnNames={columnNames}
+				columnNames={columnNamesAsText}
 				data={data}
 				handleMouseEnterDataElem={
 					handleMouseEnterDataElem
@@ -123,7 +124,7 @@ const ChartContainer = () => {
 			<ChartDataLayerGroupedBars
 				chartInnerWidth={chartInnerWidth}
 				chartInnerHeight={chartInnerHeight}
-				columnNames={columnNames}
+				columnNames={columnNamesAsText}
 				data={data}
 				handleMouseEnterDataElem={
 					handleMouseEnterDataElem

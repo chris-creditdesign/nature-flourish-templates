@@ -8,14 +8,16 @@ import Table from "./index"
 import figureContext from "../FigureContainer/figureContext"
 import state from "../../state"
 import data from "../utils/testData"
+import data2 from "../utils/testData-2"
 
 const yAxisFormat = format(",")
 
 storiesOf("Container|Table", module)
+	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
 	.addDecorator(story => (
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))
-	.addDecorator(story => (
+	.add("default", () => (
 		<figureContext.Provider
 			value={{
 				yAxisLegendText: state.yAxisLegendText,
@@ -27,8 +29,21 @@ storiesOf("Container|Table", module)
 				yAxisFormat,
 			}}
 		>
-			{story()}
+			<Table />
 		</figureContext.Provider>
 	))
-	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
-	.add("default", () => <Table />)
+	.add("data 2", () => (
+		<figureContext.Provider
+			value={{
+				yAxisLegendText: state.yAxisLegendText,
+				chartInnerMargin: state.chartInnerMargin,
+				chartMargin: state.chartMargin,
+				height: state.height,
+				width: 600,
+				data: data2,
+				yAxisFormat,
+			}}
+		>
+			<Table />
+		</figureContext.Provider>
+	))

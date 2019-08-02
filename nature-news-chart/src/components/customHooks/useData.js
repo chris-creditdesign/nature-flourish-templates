@@ -69,6 +69,7 @@ const useData = () => {
 	}
 
 	// TODO: TEMP! Convert the column names to numbers
+	// Will also need to convert to dates
 	const columnNamesAsNumbers = columnNamesAsText.map(str =>
 		parseInt(str, 10)
 	)
@@ -89,7 +90,7 @@ const useData = () => {
 		chartType === "stackedBarChart"
 	) {
 		xScale = scaleBand()
-			.domain(data.data.column_names.values)
+			.domain(columnNamesAsText)
 			.range([0, chartInnerWidth])
 			.paddingOuter(0.1)
 			.paddingInner(0.5)
@@ -106,7 +107,8 @@ const useData = () => {
 
 	return {
 		data: dataAsNumbers,
-		columnNames: columnNamesAsNumbers,
+		columnNamesAsText,
+		columnNamesAsNumbers,
 		yScale,
 		xScale,
 		xScaleInternal,

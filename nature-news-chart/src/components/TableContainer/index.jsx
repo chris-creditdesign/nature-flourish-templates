@@ -6,11 +6,11 @@ import useData from "../customHooks/useData"
 
 const TableContainer = () => {
 	const { yAxisLegendText, yAxisFormat } = useContext(figureContext)
-	const { data, columnNames } = useData()
+	const { data, columnNamesAsText } = useData()
 
 	return (
 		<Table
-			columnNames={columnNames}
+			columnNames={columnNamesAsText}
 			data={data}
 			yAxisFormat={yAxisFormat}
 			yAxisLegendText={yAxisLegendText}

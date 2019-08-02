@@ -8,6 +8,7 @@ import theme from "../utils/theme"
 import ChartContainer from "./index"
 import figureContext from "../FigureContainer/figureContext"
 import data from "../utils/testData"
+import data2 from "../utils/testData-2"
 import state from "../../state"
 
 const {
@@ -31,7 +32,7 @@ storiesOf("Container|Chart", module)
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
-	.add("default", () => (
+	.add("line", () => (
 		<figureContext.Provider
 			value={{
 				chartInnerMargin,
@@ -75,6 +76,28 @@ storiesOf("Container|Chart", module)
 			<ChartContainer />
 		</figureContext.Provider>
 	))
+	.add("bar - data 2", () => (
+		<figureContext.Provider
+			value={{
+				chartInnerMargin,
+				chartMargin,
+				chartType: "verticalBarChart",
+				data: data2,
+				handleMouseEnterDataElem,
+				handleMouseLeaveDataElem,
+				height,
+				width: 600,
+				xAxisFormat,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
+				yAxisWidth: 0,
+			}}
+		>
+			<ChartContainer />
+		</figureContext.Provider>
+	))
 	.add("grouped bar", () => (
 		<figureContext.Provider
 			value={{
@@ -97,6 +120,28 @@ storiesOf("Container|Chart", module)
 			<ChartContainer />
 		</figureContext.Provider>
 	))
+	.add("grouped bar - data 2", () => (
+		<figureContext.Provider
+			value={{
+				chartInnerMargin,
+				chartMargin,
+				chartType: "groupedBarChart",
+				data: data2,
+				handleMouseEnterDataElem,
+				handleMouseLeaveDataElem,
+				height,
+				width: 600,
+				xAxisFormat,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
+				yAxisWidth: 0,
+			}}
+		>
+			<ChartContainer />
+		</figureContext.Provider>
+	))
 	.add("stacked bar", () => (
 		<figureContext.Provider
 			value={{
@@ -104,6 +149,28 @@ storiesOf("Container|Chart", module)
 				chartMargin,
 				chartType: "stackedBarChart",
 				data,
+				handleMouseEnterDataElem,
+				handleMouseLeaveDataElem,
+				height,
+				width: 600,
+				xAxisFormat,
+				xAxisTickCount,
+				yAxisFormat,
+				yAxisLegendText,
+				yAxisTickCount,
+				yAxisWidth: 0,
+			}}
+		>
+			<ChartContainer />
+		</figureContext.Provider>
+	))
+	.add("stacked bar - data 2", () => (
+		<figureContext.Provider
+			value={{
+				chartInnerMargin,
+				chartMargin,
+				chartType: "stackedBarChart",
+				data: data2,
 				handleMouseEnterDataElem,
 				handleMouseLeaveDataElem,
 				height,

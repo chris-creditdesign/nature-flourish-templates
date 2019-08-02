@@ -6,6 +6,7 @@ import theme from "../utils/theme"
 import FigureContainer from "./index"
 import state from "../../state"
 import data from "../utils/testData"
+import data2 from "../utils/testData-2"
 
 const {
 	chartInnerMargin,
@@ -25,7 +26,7 @@ storiesOf("Container|Figure", module)
 		<ThemeProvider theme={theme}>{story()}</ThemeProvider>
 	))
 	.addDecorator(story => <div className="nature-graphic">{story()}</div>)
-	.add("default", () => (
+	.add("line", () => (
 		<FigureContainer
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
@@ -59,6 +60,23 @@ storiesOf("Container|Figure", module)
 			showChart
 		/>
 	))
+	.add("bar - data 2", () => (
+		<FigureContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="verticalBarChart"
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			width={600}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+			data={data2}
+			showChart
+		/>
+	))
 	.add("grouped bar", () => (
 		<FigureContainer
 			chartInnerMargin={chartInnerMargin}
@@ -76,6 +94,23 @@ storiesOf("Container|Figure", module)
 			showChart
 		/>
 	))
+	.add("grouped bar - data 2", () => (
+		<FigureContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="groupedBarChart"
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			width={600}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+			data={data2}
+			showChart
+		/>
+	))
 	.add("stacked bar", () => (
 		<FigureContainer
 			chartInnerMargin={chartInnerMargin}
@@ -90,6 +125,23 @@ storiesOf("Container|Figure", module)
 			yAxisLegendText={yAxisLegendText}
 			yAxisTickCount={yAxisTickCount}
 			data={data}
+			showChart
+		/>
+	))
+	.add("stacked bar - data 2", () => (
+		<FigureContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType="stackedBarChart"
+			headLine={headLine}
+			height={height}
+			standFirst={standFirst}
+			width={600}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+			data={data2}
 			showChart
 		/>
 	))

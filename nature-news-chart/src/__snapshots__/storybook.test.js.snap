@@ -9885,6 +9885,11 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -9911,11 +9916,6 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -10437,6 +10437,11 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -10463,11 +10468,6 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -10856,6 +10856,11 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -10882,11 +10887,6 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -11983,6 +11983,11 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -12009,11 +12014,6 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -13120,6 +13120,11 @@ exports[`Storyshots Page|Graphic line 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -13146,11 +13151,1143 @@ exports[`Storyshots Page|Graphic line 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
+  </main>
+</div>
+`;
+
+exports[`Storyshots Page|Graphic long footnote 1`] = `
+<div
+  className="nature-graphic"
+>
+  <header
+    className="css-e4vqg1-StyledHeader ei43se30"
+  >
+    <h1>
+      Headline headline
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.
     </p>
+  </header>
+  <ul
+    aria-hidden={true}
+    className="css-fi0olr-StyledList expxfw10"
+  >
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#EA5153"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value A
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#75C6C5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value B
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#5A527E"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value C
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8B0D16"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value D
+    </li>
+    <li>
+      <svg
+        focusable={false}
+        height="15"
+        width="15"
+      >
+        <line
+          stroke="#8FC297"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3px"
+          x1="2"
+          x2="13"
+          y1="8"
+          y2="8"
+        />
+      </svg>
+      Value E
+    </li>
+  </ul>
+  <main
+    aria-labelledby="nature-graphic-figure-caption"
+    aria-live="polite"
+    id="nature-graphic-figure"
+  >
+    <figure
+      className="css-owh1pi-StyledFigure evuvph40"
+    >
+      <figcaption
+        className="visually-hidden"
+        id="nature-graphic-figure-caption"
+      >
+        Data displayed as a chart.
+      </figcaption>
+      <div
+        aria-hidden={true}
+        className="figure-grid-container"
+      >
+        <p
+          className="y-axis"
+        >
+          Y-axis legend text
+        </p>
+        <div
+          className="figure-chart-tooltip-container"
+        >
+          <svg
+            aria-hidden={true}
+            focusable={false}
+            height="300px"
+            viewBox="0 0 984 300"
+            width="984px"
+          >
+            <rect
+              fill="#ffffff"
+              height="260px"
+              width="889px"
+              x="75px"
+              y="10px"
+            />
+            <g
+              transform="translate(75,270)"
+            >
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={0}
+                x2={0}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={80.81818181818183}
+                x2={80.81818181818183}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={161.63636363636365}
+                x2={161.63636363636365}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={242.45454545454544}
+                x2={242.45454545454544}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={323.2727272727273}
+                x2={323.2727272727273}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={404.09090909090907}
+                x2={404.09090909090907}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={484.9090909090909}
+                x2={484.9090909090909}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={565.7272727272727}
+                x2={565.7272727272727}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={646.5454545454546}
+                x2={646.5454545454546}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={727.3636363636364}
+                x2={727.3636363636364}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={808.1818181818181}
+                x2={808.1818181818181}
+                y1={0}
+                y2="0.5em"
+              />
+              <line
+                shapeRendering="crispEdges"
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="1px"
+                x1={889}
+                x2={889}
+                y1={0}
+                y2="0.5em"
+              />
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={0}
+                y={0}
+              >
+                2008
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={80.81818181818183}
+                y={0}
+              >
+                2009
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={161.63636363636365}
+                y={0}
+              >
+                2010
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={242.45454545454544}
+                y={0}
+              >
+                2011
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={323.2727272727273}
+                y={0}
+              >
+                2012
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={404.09090909090907}
+                y={0}
+              >
+                2013
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={484.9090909090909}
+                y={0}
+              >
+                2014
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={565.7272727272727}
+                y={0}
+              >
+                2015
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={646.5454545454546}
+                y={0}
+              >
+                2016
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={727.3636363636364}
+                y={0}
+              >
+                2017
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={808.1818181818181}
+                y={0}
+              >
+                2018
+              </text>
+              <text
+                dy="1.5em"
+                fontSize="1rem"
+                textAnchor="middle"
+                x={889}
+                y={0}
+              >
+                2019
+              </text>
+            </g>
+            <g
+              transform="translate(75,10)"
+            >
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={260}
+              >
+                0
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={199.8148148148148}
+              >
+                1,000
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={139.62962962962962}
+              >
+                2,000
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={79.44444444444446}
+              >
+                3,000
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={19.259259259259267}
+              >
+                4,000
+              </text>
+              <line
+                stroke="#333333"
+                strokeDasharray="2, 3"
+                strokeWidth="1px"
+                x1={-8}
+                x2={889}
+                y1={199.8148148148148}
+                y2={199.8148148148148}
+              />
+              <line
+                stroke="#333333"
+                strokeDasharray="2, 3"
+                strokeWidth="1px"
+                x1={-8}
+                x2={889}
+                y1={139.62962962962962}
+                y2={139.62962962962962}
+              />
+              <line
+                stroke="#333333"
+                strokeDasharray="2, 3"
+                strokeWidth="1px"
+                x1={-8}
+                x2={889}
+                y1={79.44444444444446}
+                y2={79.44444444444446}
+              />
+              <line
+                stroke="#333333"
+                strokeDasharray="2, 3"
+                strokeWidth="1px"
+                x1={-8}
+                x2={889}
+                y1={19.259259259259267}
+                y2={19.259259259259267}
+              />
+            </g>
+            <g
+              transform="translate(75,10)"
+            >
+              <g>
+                <path
+                  d="M0,256.99074074074076L80.81818181818183,255.1851851851852L161.63636363636365,253.37962962962962L242.45454545454544,249.76851851851853L323.2727272727273,244.9537037037037L404.09090909090907,237.12962962962962L484.9090909090909,225.69444444444446L565.7272727272727,208.84259259259258L646.5454545454546,182.96296296296296L727.3636363636364,144.44444444444446L808.1818181818181,86.66666666666669L889,0"
+                  fill="none"
+                  index={0}
+                  stroke="#EA5153"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3px"
+                />
+                <g>
+                  <circle
+                    cx={0}
+                    cy={256.99074074074076}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={80.81818181818183}
+                    cy={255.1851851851852}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={161.63636363636365}
+                    cy={253.37962962962962}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={242.45454545454544}
+                    cy={249.76851851851853}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={323.2727272727273}
+                    cy={244.9537037037037}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={404.09090909090907}
+                    cy={237.12962962962962}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={484.9090909090909}
+                    cy={225.69444444444446}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={565.7272727272727}
+                    cy={208.84259259259258}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={646.5454545454546}
+                    cy={182.96296296296296}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={727.3636363636364}
+                    cy={144.44444444444446}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={808.1818181818181}
+                    cy={86.66666666666669}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={889}
+                    cy={0}
+                    fill="#EA5153"
+                    index={0}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                </g>
+              </g>
+              <g>
+                <path
+                  d="M0,257.5925925925926L80.81818181818183,256.99074074074076L161.63636363636365,256.3888888888889L242.45454545454544,253.9814814814815L323.2727272727273,245.55555555555554L404.09090909090907,240.74074074074073L484.9090909090909,235.92592592592592L565.7272727272727,229.90740740740742L646.5454545454546,211.85185185185185L727.3636363636364,109.53703703703704L808.1818181818181,79.44444444444446L889,49.35185185185185"
+                  fill="none"
+                  index={1}
+                  stroke="#75C6C5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3px"
+                />
+                <g>
+                  <circle
+                    cx={0}
+                    cy={257.5925925925926}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={80.81818181818183}
+                    cy={256.99074074074076}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={161.63636363636365}
+                    cy={256.3888888888889}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={242.45454545454544}
+                    cy={253.9814814814815}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={323.2727272727273}
+                    cy={245.55555555555554}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={404.09090909090907}
+                    cy={240.74074074074073}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={484.9090909090909}
+                    cy={235.92592592592592}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={565.7272727272727}
+                    cy={229.90740740740742}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={646.5454545454546}
+                    cy={211.85185185185185}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={727.3636363636364}
+                    cy={109.53703703703704}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={808.1818181818181}
+                    cy={79.44444444444446}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={889}
+                    cy={49.35185185185185}
+                    fill="#75C6C5"
+                    index={1}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                </g>
+              </g>
+              <g>
+                <path
+                  d="M0,258.19444444444446L80.81818181818183,256.99074074074076L161.63636363636365,256.99074074074076L242.45454545454544,253.9814814814815L323.2727272727273,247.96296296296296L404.09090909090907,253.9814814814815L484.9090909090909,247.96296296296296L565.7272727272727,247.96296296296296L646.5454545454546,223.88888888888889L727.3636363636364,199.8148148148148L808.1818181818181,109.53703703703704L889,91.4814814814815"
+                  fill="none"
+                  index={2}
+                  stroke="#5A527E"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3px"
+                />
+                <g>
+                  <circle
+                    cx={0}
+                    cy={258.19444444444446}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={80.81818181818183}
+                    cy={256.99074074074076}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={161.63636363636365}
+                    cy={256.99074074074076}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={242.45454545454544}
+                    cy={253.9814814814815}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={323.2727272727273}
+                    cy={247.96296296296296}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={404.09090909090907}
+                    cy={253.9814814814815}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={484.9090909090909}
+                    cy={247.96296296296296}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={565.7272727272727}
+                    cy={247.96296296296296}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={646.5454545454546}
+                    cy={223.88888888888889}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={727.3636363636364}
+                    cy={199.8148148148148}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={808.1818181818181}
+                    cy={109.53703703703704}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={889}
+                    cy={91.4814814814815}
+                    fill="#5A527E"
+                    index={2}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                </g>
+              </g>
+              <g>
+                <path
+                  d="M0,258.7962962962963L80.81818181818183,256.3888888888889L161.63636363636365,255.1851851851852L242.45454545454544,247.96296296296296L323.2727272727273,241.94444444444446L404.09090909090907,205.83333333333331L484.9090909090909,199.8148148148148L565.7272727272727,139.62962962962962L646.5454545454546,139.62962962962962L727.3636363636364,151.66666666666666L808.1818181818181,133.61111111111111L889,139.62962962962962"
+                  fill="none"
+                  index={3}
+                  stroke="#8B0D16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3px"
+                />
+                <g>
+                  <circle
+                    cx={0}
+                    cy={258.7962962962963}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={80.81818181818183}
+                    cy={256.3888888888889}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={161.63636363636365}
+                    cy={255.1851851851852}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={242.45454545454544}
+                    cy={247.96296296296296}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={323.2727272727273}
+                    cy={241.94444444444446}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={404.09090909090907}
+                    cy={205.83333333333331}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={484.9090909090909}
+                    cy={199.8148148148148}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={565.7272727272727}
+                    cy={139.62962962962962}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={646.5454545454546}
+                    cy={139.62962962962962}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={727.3636363636364}
+                    cy={151.66666666666666}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={808.1818181818181}
+                    cy={133.61111111111111}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={889}
+                    cy={139.62962962962962}
+                    fill="#8B0D16"
+                    index={3}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                </g>
+              </g>
+              <g>
+                <path
+                  d="M0,259.39814814814815L80.81818181818183,255.78703703703704L161.63636363636365,241.94444444444446L242.45454545454544,229.90740740740742L323.2727272727273,205.83333333333331L404.09090909090907,223.88888888888889L484.9090909090909,169.72222222222223L565.7272727272727,193.7962962962963L646.5454545454546,163.7037037037037L727.3636363636364,79.44444444444446L808.1818181818181,49.35185185185185L889,109.53703703703704"
+                  fill="none"
+                  index={4}
+                  stroke="#8FC297"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3px"
+                />
+                <g>
+                  <circle
+                    cx={0}
+                    cy={259.39814814814815}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={80.81818181818183}
+                    cy={255.78703703703704}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={161.63636363636365}
+                    cy={241.94444444444446}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={242.45454545454544}
+                    cy={229.90740740740742}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={323.2727272727273}
+                    cy={205.83333333333331}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={404.09090909090907}
+                    cy={223.88888888888889}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={484.9090909090909}
+                    cy={169.72222222222223}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={565.7272727272727}
+                    cy={193.7962962962963}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={646.5454545454546}
+                    cy={163.7037037037037}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={727.3636363636364}
+                    cy={79.44444444444446}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={808.1818181818181}
+                    cy={49.35185185185185}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                  <circle
+                    cx={889}
+                    cy={109.53703703703704}
+                    fill="#8FC297"
+                    index={4}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    r="4px"
+                  />
+                </g>
+              </g>
+            </g>
+            <g
+              transform="translate(75,10)"
+            >
+              <line
+                stroke="#333333"
+                strokeDasharray="none"
+                strokeWidth="3px"
+                x1={-8}
+                x2={889}
+                y1={260}
+                y2={260}
+              />
+            </g>
+          </svg>
+        </div>
+        <p
+          className="x-axis"
+        >
+          X-axis legend text
+        </p>
+      </div>
+    </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <button
+      aria-checked={false}
+      aria-controls="nature-graphic-figure"
+      aria-labelledby="toggle-chart"
+      className="css-eeyljg-ButtonStyled e1dshyly0"
+      disabled={false}
+      onClick={[Function]}
+      role="switch"
+    >
+      <span
+        className="label"
+        id="toggle-chart"
+      >
+        Show data as table
+      </span>
+      <span
+        className="on"
+      >
+        on
+      </span>
+      <span
+        className="off"
+      >
+        off
+      </span>
+    </button>
   </main>
 </div>
 `;
@@ -13503,6 +14640,11 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -13529,11 +14671,6 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -14684,6 +15821,11 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         </p>
       </div>
     </figure>
+    <p
+      className="css-tlempk-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </p>
     <button
       aria-checked={false}
       aria-controls="nature-graphic-figure"
@@ -14710,11 +15852,6 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         off
       </span>
     </button>
-    <p
-      className="css-1uwzzrl-StyledFootnote epnzlu90"
-    >
-      *This is the footnote text
-    </p>
   </main>
 </div>
 `;
@@ -18739,7 +19876,7 @@ exports[`Storyshots Presentational|Footnote default 1`] = `
   className="nature-graphic"
 >
   <p
-    className="css-1uwzzrl-StyledFootnote epnzlu90"
+    className="css-tlempk-StyledFootnote epnzlu90"
   >
     *This is the footnote text
   </p>
@@ -18751,7 +19888,7 @@ exports[`Storyshots Presentational|Footnote long text 1`] = `
   className="nature-graphic"
 >
   <p
-    className="css-1uwzzrl-StyledFootnote epnzlu90"
+    className="css-tlempk-StyledFootnote epnzlu90"
   >
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>

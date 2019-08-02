@@ -125,6 +125,10 @@ const GraphicContainer = ({
 					yAxisTickCount={yAxisTickCount}
 				/>
 
+				{footnoteText.length ? (
+					<Footnote footnoteText={footnoteText} />
+				) : null}
+
 				<ToggleButton
 					onClick={() => setShowChart(!showChart)}
 					checked={!showChart}
@@ -133,10 +137,6 @@ const GraphicContainer = ({
 					disabled={false}
 					controls="nature-graphic-figure"
 				/>
-
-				{footnoteText.length ? (
-					<Footnote footnoteText={footnoteText} />
-				) : null}
 			</main>
 		</ThemeProvider>
 	)

@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 
 const StyledList = styled.ul`
 	list-style: none;
-	margin: ${props => props.theme.margin.below.s};
+	margin: ${props => props.theme.margin.below.l};
 	padding: 0;
 
 	li {

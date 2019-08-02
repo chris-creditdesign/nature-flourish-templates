@@ -5,7 +5,7 @@ const StyledTable = styled.div`
 
 	table {
 		max-width: max-content;
-		max-width: 100%;
+		min-width: 100%;
 		white-space: nowrap;
 		border-collapse: collapse;
 		margin: ${props => props.theme.margin.below.s};

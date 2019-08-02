@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
-	margin: ${props => props.theme.margin.below.s};
+	margin: ${props => props.theme.margin.below.l};
 
 	h1 {
 		font-size: ${props => props.theme.fontSize.xxl};

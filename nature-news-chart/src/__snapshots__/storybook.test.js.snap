@@ -9869,7 +9869,7 @@ exports[`Storyshots Container|Figure table 1`] = `
       Data displayed as a table.
     </figcaption>
     <div
-      className="css-out6jd-StyledTable el355v0"
+      className="css-185unfz-StyledTable el355v0"
     >
       <table>
         <caption>
@@ -10170,7 +10170,7 @@ exports[`Storyshots Container|Table data 2 1`] = `
   className="nature-graphic"
 >
   <div
-    className="css-out6jd-StyledTable el355v0"
+    className="css-185unfz-StyledTable el355v0"
   >
     <table>
       <caption>
@@ -10253,7 +10253,7 @@ exports[`Storyshots Container|Table default 1`] = `
   className="nature-graphic"
 >
   <div
-    className="css-out6jd-StyledTable el355v0"
+    className="css-185unfz-StyledTable el355v0"
   >
     <table>
       <caption>
@@ -10607,7 +10607,7 @@ exports[`Storyshots Page|Graphic axis labels with line breaks 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -10622,7 +10622,7 @@ exports[`Storyshots Page|Graphic axis labels with line breaks 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -11757,7 +11757,7 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -12126,7 +12126,7 @@ exports[`Storyshots Page|Graphic bar 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -12691,7 +12691,7 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -12706,7 +12706,7 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -13123,7 +13123,7 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -13138,7 +13138,7 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -14263,7 +14263,7 @@ exports[`Storyshots Page|Graphic line 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -14278,7 +14278,7 @@ exports[`Storyshots Page|Graphic line 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -15413,7 +15413,7 @@ exports[`Storyshots Page|Graphic long footnote 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -15428,7 +15428,7 @@ exports[`Storyshots Page|Graphic long footnote 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -16563,7 +16563,7 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -16578,7 +16578,7 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -16959,7 +16959,7 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -16974,7 +16974,7 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
   </header>
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -23405,7 +23405,7 @@ exports[`Storyshots Presentational|Header default 1`] = `
   className="nature-graphic"
 >
   <header
-    className="css-e4vqg1-StyledHeader ei43se30"
+    className="css-64z723-StyledHeader ei43se30"
   >
     <h1>
       Headline headline
@@ -23427,7 +23427,7 @@ exports[`Storyshots Presentational|Key default 1`] = `
 >
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -23509,7 +23509,7 @@ exports[`Storyshots Presentational|Key dot 1`] = `
 >
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -23596,7 +23596,7 @@ exports[`Storyshots Presentational|Key line 1`] = `
 >
   <ul
     aria-hidden={true}
-    className="css-fi0olr-StyledList expxfw10"
+    className="css-o74j4t-StyledList expxfw10"
   >
     <li>
       <svg
@@ -23762,7 +23762,7 @@ exports[`Storyshots Presentational|Table alt data 1`] = `
   className="nature-graphic"
 >
   <div
-    className="css-out6jd-StyledTable el355v0"
+    className="css-185unfz-StyledTable el355v0"
   >
     <table>
       <caption>
@@ -23845,7 +23845,7 @@ exports[`Storyshots Presentational|Table default 1`] = `
   className="nature-graphic"
 >
   <div
-    className="css-out6jd-StyledTable el355v0"
+    className="css-185unfz-StyledTable el355v0"
   >
     <table>
       <caption>

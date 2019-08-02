@@ -1,5 +1,5 @@
 id: nature-news-chart
-version: 1.1.8-prerelease.6
+version: 1.1.8-prerelease.7
 name: Nature News Chart
 description: Flourish graphic template for @NatureNews
 author: chris_ryan
@@ -31,7 +31,9 @@ settings:
     type: string
   - property: footnoteText
     name: Footnote text
-    description: Optional text to add as a footnote
+    description: >
+      Optional text to add as a footnote
+      Type &#60;br /&#62; to add a line break.
     type: string
   - property: height
     name: Chart height

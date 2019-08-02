@@ -23,6 +23,9 @@ To run jest snapshot tests of all components
 	npm run test
 
 ## TODO:
+- Make table min-width 100%;
+- Add option to assign colors to values
+- Add field for source information
 - Permit only `i` `strong` and `br` tags in dangerouslySetInnerHTML.
 - Add a log scale option to y-axis
 - Make sure that useData doesn't run on every render

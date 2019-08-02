@@ -115,7 +115,16 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         fontSize="1rem"
         textAnchor="end"
         x={-15}
-        y={210.47619047619048}
+        y={218.73015873015873}
+      >
+        1
+      </text>
+      <text
+        dy="0.3em"
+        fontSize="1rem"
+        textAnchor="end"
+        x={-15}
+        y={177.46031746031747}
       >
         2
       </text>
@@ -124,7 +133,16 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         fontSize="1rem"
         textAnchor="end"
         x={-15}
-        y={160.95238095238096}
+        y={136.1904761904762}
+      >
+        3
+      </text>
+      <text
+        dy="0.3em"
+        fontSize="1rem"
+        textAnchor="end"
+        x={-15}
+        y={94.92063492063494}
       >
         4
       </text>
@@ -133,36 +151,27 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         fontSize="1rem"
         textAnchor="end"
         x={-15}
-        y={111.42857142857144}
+        y={53.650793650793645}
+      >
+        5
+      </text>
+      <text
+        dy="0.3em"
+        fontSize="1rem"
+        textAnchor="end"
+        x={-15}
+        y={12.38095238095238}
       >
         6
       </text>
-      <text
-        dy="0.3em"
-        fontSize="1rem"
-        textAnchor="end"
-        x={-15}
-        y={61.904761904761926}
-      >
-        8
-      </text>
-      <text
-        dy="0.3em"
-        fontSize="1rem"
-        textAnchor="end"
-        x={-15}
-        y={12.380952380952408}
-      >
-        10
-      </text>
       <line
         stroke="#333333"
         strokeDasharray="2, 3"
         strokeWidth="1px"
         x1={-8}
         x2={465}
-        y1={210.47619047619048}
-        y2={210.47619047619048}
+        y1={218.73015873015873}
+        y2={218.73015873015873}
       />
       <line
         stroke="#333333"
@@ -170,8 +179,8 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         strokeWidth="1px"
         x1={-8}
         x2={465}
-        y1={160.95238095238096}
-        y2={160.95238095238096}
+        y1={177.46031746031747}
+        y2={177.46031746031747}
       />
       <line
         stroke="#333333"
@@ -179,8 +188,8 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         strokeWidth="1px"
         x1={-8}
         x2={465}
-        y1={111.42857142857144}
-        y2={111.42857142857144}
+        y1={136.1904761904762}
+        y2={136.1904761904762}
       />
       <line
         stroke="#333333"
@@ -188,8 +197,8 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         strokeWidth="1px"
         x1={-8}
         x2={465}
-        y1={61.904761904761926}
-        y2={61.904761904761926}
+        y1={94.92063492063494}
+        y2={94.92063492063494}
       />
       <line
         stroke="#333333"
@@ -197,8 +206,17 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
         strokeWidth="1px"
         x1={-8}
         x2={465}
-        y1={12.380952380952408}
-        y2={12.380952380952408}
+        y1={53.650793650793645}
+        y2={53.650793650793645}
+      />
+      <line
+        stroke="#333333"
+        strokeDasharray="2, 3"
+        strokeWidth="1px"
+        x1={-8}
+        x2={465}
+        y1={12.38095238095238}
+        y2={12.38095238095238}
       />
     </g>
     <g
@@ -206,43 +224,43 @@ exports[`Storyshots Container|Chart bar - data 2 1`] = `
     >
       <rect
         fill="#EA5153"
-        height={156}
+        height={260}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         opacity={1}
         width={62.83783783783783}
         x={12.567567567567579}
-        y={104}
+        y={0}
       />
       <rect
         fill="#EA5153"
-        height={27.23809523809524}
+        height={45.39682539682539}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         opacity={1}
         width={62.83783783783783}
         x={138.24324324324323}
-        y={232.76190476190476}
+        y={214.6031746031746}
       />
       <rect
         fill="#EA5153"
-        height={17.333333333333343}
+        height={28.888888888888886}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         opacity={1}
         width={62.83783783783783}
         x={263.9189189189189}
-        y={242.66666666666666}
+        y={231.11111111111111}
       />
       <rect
         fill="#EA5153"
-        height={0.024761904761930964}
+        height={0.04126984126986599}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         opacity={1}
         width={62.83783783783783}
         x={389.5945945945946}
-        y={259.97523809523807}
+        y={259.95873015873013}
       />
     </g>
     <g
@@ -4425,7 +4443,16 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               fontSize="1rem"
               textAnchor="end"
               x={-15}
-              y={210.47619047619048}
+              y={218.73015873015873}
+            >
+              1
+            </text>
+            <text
+              dy="0.3em"
+              fontSize="1rem"
+              textAnchor="end"
+              x={-15}
+              y={177.46031746031747}
             >
               2
             </text>
@@ -4434,7 +4461,16 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               fontSize="1rem"
               textAnchor="end"
               x={-15}
-              y={160.95238095238096}
+              y={136.1904761904762}
+            >
+              3
+            </text>
+            <text
+              dy="0.3em"
+              fontSize="1rem"
+              textAnchor="end"
+              x={-15}
+              y={94.92063492063494}
             >
               4
             </text>
@@ -4443,36 +4479,27 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               fontSize="1rem"
               textAnchor="end"
               x={-15}
-              y={111.42857142857144}
+              y={53.650793650793645}
+            >
+              5
+            </text>
+            <text
+              dy="0.3em"
+              fontSize="1rem"
+              textAnchor="end"
+              x={-15}
+              y={12.38095238095238}
             >
               6
             </text>
-            <text
-              dy="0.3em"
-              fontSize="1rem"
-              textAnchor="end"
-              x={-15}
-              y={61.904761904761926}
-            >
-              8
-            </text>
-            <text
-              dy="0.3em"
-              fontSize="1rem"
-              textAnchor="end"
-              x={-15}
-              y={12.380952380952408}
-            >
-              10
-            </text>
             <line
               stroke="#333333"
               strokeDasharray="2, 3"
               strokeWidth="1px"
               x1={-8}
               x2={465}
-              y1={210.47619047619048}
-              y2={210.47619047619048}
+              y1={218.73015873015873}
+              y2={218.73015873015873}
             />
             <line
               stroke="#333333"
@@ -4480,8 +4507,8 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               strokeWidth="1px"
               x1={-8}
               x2={465}
-              y1={160.95238095238096}
-              y2={160.95238095238096}
+              y1={177.46031746031747}
+              y2={177.46031746031747}
             />
             <line
               stroke="#333333"
@@ -4489,8 +4516,8 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               strokeWidth="1px"
               x1={-8}
               x2={465}
-              y1={111.42857142857144}
-              y2={111.42857142857144}
+              y1={136.1904761904762}
+              y2={136.1904761904762}
             />
             <line
               stroke="#333333"
@@ -4498,8 +4525,8 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               strokeWidth="1px"
               x1={-8}
               x2={465}
-              y1={61.904761904761926}
-              y2={61.904761904761926}
+              y1={94.92063492063494}
+              y2={94.92063492063494}
             />
             <line
               stroke="#333333"
@@ -4507,8 +4534,17 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
               strokeWidth="1px"
               x1={-8}
               x2={465}
-              y1={12.380952380952408}
-              y2={12.380952380952408}
+              y1={53.650793650793645}
+              y2={53.650793650793645}
+            />
+            <line
+              stroke="#333333"
+              strokeDasharray="2, 3"
+              strokeWidth="1px"
+              x1={-8}
+              x2={465}
+              y1={12.38095238095238}
+              y2={12.38095238095238}
             />
           </g>
           <g
@@ -4516,43 +4552,43 @@ exports[`Storyshots Container|Figure bar - data 2 1`] = `
           >
             <rect
               fill="#EA5153"
-              height={156}
+              height={260}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               opacity={1}
               width={62.83783783783783}
               x={12.567567567567579}
-              y={104}
+              y={0}
             />
             <rect
               fill="#EA5153"
-              height={27.23809523809524}
+              height={45.39682539682539}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               opacity={1}
               width={62.83783783783783}
               x={138.24324324324323}
-              y={232.76190476190476}
+              y={214.6031746031746}
             />
             <rect
               fill="#EA5153"
-              height={17.333333333333343}
+              height={28.888888888888886}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               opacity={1}
               width={62.83783783783783}
               x={263.9189189189189}
-              y={242.66666666666666}
+              y={231.11111111111111}
             />
             <rect
               fill="#EA5153"
-              height={0.024761904761930964}
+              height={0.04126984126986599}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               opacity={1}
               width={62.83783783783783}
               x={389.5945945945946}
-              y={259.97523809523807}
+              y={259.95873015873013}
             />
           </g>
           <g
@@ -9679,7 +9715,16 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 fontSize="1rem"
                 textAnchor="end"
                 x={-15}
-                y={210.47619047619048}
+                y={218.73015873015873}
+              >
+                1
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={177.46031746031747}
               >
                 2
               </text>
@@ -9688,7 +9733,16 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 fontSize="1rem"
                 textAnchor="end"
                 x={-15}
-                y={160.95238095238096}
+                y={136.1904761904762}
+              >
+                3
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={94.92063492063494}
               >
                 4
               </text>
@@ -9697,36 +9751,27 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 fontSize="1rem"
                 textAnchor="end"
                 x={-15}
-                y={111.42857142857144}
+                y={53.650793650793645}
+              >
+                5
+              </text>
+              <text
+                dy="0.3em"
+                fontSize="1rem"
+                textAnchor="end"
+                x={-15}
+                y={12.38095238095238}
               >
                 6
               </text>
-              <text
-                dy="0.3em"
-                fontSize="1rem"
-                textAnchor="end"
-                x={-15}
-                y={61.904761904761926}
-              >
-                8
-              </text>
-              <text
-                dy="0.3em"
-                fontSize="1rem"
-                textAnchor="end"
-                x={-15}
-                y={12.380952380952408}
-              >
-                10
-              </text>
               <line
                 stroke="#333333"
                 strokeDasharray="2, 3"
                 strokeWidth="1px"
                 x1={-8}
                 x2={889}
-                y1={210.47619047619048}
-                y2={210.47619047619048}
+                y1={218.73015873015873}
+                y2={218.73015873015873}
               />
               <line
                 stroke="#333333"
@@ -9734,8 +9779,8 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 strokeWidth="1px"
                 x1={-8}
                 x2={889}
-                y1={160.95238095238096}
-                y2={160.95238095238096}
+                y1={177.46031746031747}
+                y2={177.46031746031747}
               />
               <line
                 stroke="#333333"
@@ -9743,8 +9788,8 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 strokeWidth="1px"
                 x1={-8}
                 x2={889}
-                y1={111.42857142857144}
-                y2={111.42857142857144}
+                y1={136.1904761904762}
+                y2={136.1904761904762}
               />
               <line
                 stroke="#333333"
@@ -9752,8 +9797,8 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 strokeWidth="1px"
                 x1={-8}
                 x2={889}
-                y1={61.904761904761926}
-                y2={61.904761904761926}
+                y1={94.92063492063494}
+                y2={94.92063492063494}
               />
               <line
                 stroke="#333333"
@@ -9761,8 +9806,17 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
                 strokeWidth="1px"
                 x1={-8}
                 x2={889}
-                y1={12.380952380952408}
-                y2={12.380952380952408}
+                y1={53.650793650793645}
+                y2={53.650793650793645}
+              />
+              <line
+                stroke="#333333"
+                strokeDasharray="2, 3"
+                strokeWidth="1px"
+                x1={-8}
+                x2={889}
+                y1={12.38095238095238}
+                y2={12.38095238095238}
               />
             </g>
             <g
@@ -9770,43 +9824,43 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
             >
               <rect
                 fill="#EA5153"
-                height={156}
+                height={260}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 opacity={1}
                 width={120.13513513513513}
                 x={24.02702702702703}
-                y={104}
+                y={0}
               />
               <rect
                 fill="#EA5153"
-                height={27.23809523809524}
+                height={45.39682539682539}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 opacity={1}
                 width={120.13513513513513}
                 x={264.2972972972973}
-                y={232.76190476190476}
+                y={214.6031746031746}
               />
               <rect
                 fill="#EA5153"
-                height={17.333333333333343}
+                height={28.888888888888886}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 opacity={1}
                 width={120.13513513513513}
                 x={504.56756756756755}
-                y={242.66666666666666}
+                y={231.11111111111111}
               />
               <rect
                 fill="#EA5153"
-                height={0.024761904761930964}
+                height={0.04126984126986599}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 opacity={1}
                 width={120.13513513513513}
                 x={744.8378378378379}
-                y={259.97523809523807}
+                y={259.95873015873013}
               />
             </g>
             <g

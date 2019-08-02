@@ -64,6 +64,13 @@ const useData = () => {
 	if (chartType === "stackedBarChart") {
 		const flattened = flattenDeep(stacked)
 		maxDataPoint = Math.max(...flattened)
+	} else if (chartType === "verticalBarChart") {
+		// If it is a simple barchart, we just want the max data point of
+		// the first item in the array as this is the only one that
+		// will be displayed.
+		maxDataPoint = dataAsNumbers
+			.slice(0, 1)
+			.reduce(valuesReducer, 0)
 	} else {
 		maxDataPoint = dataAsNumbers.reduce(valuesReducer, 0)
 	}

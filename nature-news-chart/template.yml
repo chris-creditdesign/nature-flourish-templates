@@ -1,5 +1,5 @@
 id: nature-news-chart
-version: 1.1.8-prerelease.7
+version: 1.1.8-prerelease.8
 name: Nature News Chart
 description: Flourish graphic template for @NatureNews
 author: chris_ryan
@@ -14,26 +14,37 @@ settings:
   - property: standFirst
     name: Stand first
     description: >
-      Explanatory text to appear below the headline.
-      Type &#60;br /&#62; to add a line break.
+      Explanatory text to appear below the headline.<br />
+      Type &#60;br /&#62; to add a line break.<br />
+      You can add &#60;strong&#62;, &#60;i&#62; or &#60;a&#62; tags to make text bold, italic or to add links.
     type: text
   - property: yAxisLegendText
     name: Y Axis legend
     description: >
       Text to label the y axis chart.<br />
-      Type &#60;br /&#62; to add a line break.
+      Type &#60;br /&#62; to add a line break.<br />
+      You can add &#60;strong&#62;, &#60;i&#62; or &#60;a&#62; tags to make text bold, italic or to add links.
     type: string
   - property: xAxisLegendText
     name: X Axis legend
     description: >
       Text to label the x axis chart.<br />
-      Type &#60;br /&#62; to add a line break.
+      Type &#60;br /&#62; to add a line break.<br />
+      You can add &#60;strong&#62;, &#60;i&#62; or &#60;a&#62; tags to make text bold, italic or to add links.
     type: string
   - property: footnoteText
     name: Footnote text
     description: >
-      Optional text to add as a footnote
-      Type &#60;br /&#62; to add a line break.
+      Optional text to add as a footnote.
+      Type &#60;br /&#62; to add a line break.<br />
+      You can add &#60;strong&#62;, &#60;i&#62; or &#60;a&#62; tags to make text bold, italic or to add links.
+    type: string
+  - property: sourceText
+    name: Source text
+    description: >
+      Optional text to add as a source for the graphic.
+      Type &#60;br /&#62; to add a line break.<br />
+      You can add &#60;strong&#62;, &#60;i&#62; or &#60;a&#62; tags to make text bold, italic or to add links.
     type: string
   - property: height
     name: Chart height

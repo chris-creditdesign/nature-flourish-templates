@@ -8,7 +8,6 @@ import GraphicContainer from "./components/GraphicContainer/index"
  * Initialise the graphic
  */
 const draw = () => {
-	console.log(data)
 	window.requestData = {}
 
 	window.addEventListener("message", function resize(event) {
@@ -33,6 +32,7 @@ const draw = () => {
 		footnoteText,
 		headLine,
 		height,
+		sourceText,
 		standFirst,
 		xAxisLegendText,
 		xAxisTickCount,
@@ -49,6 +49,7 @@ const draw = () => {
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}

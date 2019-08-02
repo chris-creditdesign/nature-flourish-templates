@@ -6,7 +6,7 @@ const ButtonStyled = styled.button`
 	border: none;
 	background: none;
 	color: ${props => props.theme.textColor.normal};
-	margin: 0;
+
 	padding: 0;
 
 	/* This is to make the focus hightlight surrount the whole button */
@@ -15,7 +15,8 @@ const ButtonStyled = styled.button`
 
 	/* This is to align the button to the right */
 	width: max-content;
-	margin: 0 0 0 100%;
+	/* margin: 0 0 0 100%; */
+	margin: ${props => `0 0 ${props.theme.space.l} 100%`};
 	transform: translateX(-100%);
 
 	cursor: pointer;

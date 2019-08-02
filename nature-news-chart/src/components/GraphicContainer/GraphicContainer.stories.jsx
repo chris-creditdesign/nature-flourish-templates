@@ -13,6 +13,7 @@ const {
 	footnoteText,
 	headLine,
 	height,
+	sourceText,
 	standFirst,
 	xAxisLegendText,
 	xAxisTickCount,
@@ -31,6 +32,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -47,6 +49,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -63,6 +66,7 @@ storiesOf("Page|Graphic", module)
 			data={data2}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -79,6 +83,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -95,6 +100,7 @@ storiesOf("Page|Graphic", module)
 			data={data2}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -111,6 +117,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -127,6 +134,7 @@ storiesOf("Page|Graphic", module)
 			data={data2}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -143,6 +151,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}
@@ -150,7 +159,23 @@ storiesOf("Page|Graphic", module)
 			yAxisTickCount={yAxisTickCount}
 		/>
 	))
-
+	.add("long source", () => (
+		<GraphicContainer
+			chartInnerMargin={chartInnerMargin}
+			chartMargin={chartMargin}
+			chartType={chartType}
+			footnoteText={footnoteText}
+			data={data}
+			headLine={headLine}
+			height={height}
+			sourceText="<strong>Lorem ipsum dolor</strong> sit amet, <i>Nature</i> adipisicing elit, sed do eiusmod tempor incididunt ut <a href='http://www.nature.com'>nature.com</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			standFirst={standFirst}
+			xAxisLegendText={xAxisLegendText}
+			xAxisTickCount={xAxisTickCount}
+			yAxisLegendText={yAxisLegendText}
+			yAxisTickCount={yAxisTickCount}
+		/>
+	))
 	.add("axis labels with line breaks", () => (
 		<GraphicContainer
 			chartInnerMargin={chartInnerMargin}
@@ -160,6 +185,7 @@ storiesOf("Page|Graphic", module)
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText="Lorem ipsum dolor sit amet,<br />consectetur adipisicing elit<br />sed do eiusmod tempor incididunt ut labore<br />"
 			xAxisTickCount={xAxisTickCount}

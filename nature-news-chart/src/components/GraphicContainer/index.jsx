@@ -7,16 +7,17 @@ import FigureContainer from "../FigureContainer/index"
 import Header from "../presentational/Header/index"
 import Key from "../presentational/Key/index"
 import ToggleButton from "../presentational/ToggleButton/index"
-import Footnote from "../presentational/Footnote/index"
+import SmallText from "../presentational/SmallText/index"
 
 const GraphicContainer = ({
 	chartInnerMargin,
 	chartMargin,
 	chartType,
-	footnoteText,
 	data,
+	footnoteText,
 	headLine,
 	height,
+	sourceText,
 	standFirst,
 	xAxisLegendText,
 	xAxisTickCount,
@@ -126,7 +127,7 @@ const GraphicContainer = ({
 				/>
 
 				{footnoteText.length ? (
-					<Footnote footnoteText={footnoteText} />
+					<SmallText text={footnoteText} />
 				) : null}
 
 				<ToggleButton
@@ -137,6 +138,10 @@ const GraphicContainer = ({
 					disabled={false}
 					controls="nature-graphic-figure"
 				/>
+
+				{sourceText.length ? (
+					<SmallText text={sourceText} />
+				) : null}
 			</main>
 		</ThemeProvider>
 	)
@@ -179,6 +184,7 @@ GraphicContainer.propTypes = {
 	}).isRequired,
 	headLine: PropTypes.string.isRequired,
 	height: PropTypes.number.isRequired,
+	sourceText: PropTypes.string.isRequired,
 	standFirst: PropTypes.string.isRequired,
 	xAxisLegendText: PropTypes.string.isRequired,
 	xAxisTickCount: PropTypes.number.isRequired,

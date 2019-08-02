@@ -24,6 +24,7 @@ const update = () => {
 		footnoteText,
 		headLine,
 		height,
+		sourceText,
 		standFirst,
 		xAxisLegendText,
 		xAxisTickCount,
@@ -40,6 +41,7 @@ const update = () => {
 			data={data}
 			headLine={headLine}
 			height={height}
+			sourceText={sourceText}
 			standFirst={standFirst}
 			xAxisLegendText={xAxisLegendText}
 			xAxisTickCount={xAxisTickCount}

@@ -21,6 +21,7 @@ const update = () => {
 		chartInnerMargin,
 		chartMargin,
 		chartType,
+		footnoteText,
 		headLine,
 		height,
 		standFirst,
@@ -35,6 +36,7 @@ const update = () => {
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType={chartType}
+			footnoteText={footnoteText}
 			data={data}
 			headLine={headLine}
 			height={height}

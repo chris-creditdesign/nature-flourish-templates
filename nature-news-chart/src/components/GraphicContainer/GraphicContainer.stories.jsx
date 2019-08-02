@@ -10,6 +10,7 @@ const {
 	chartInnerMargin,
 	chartMargin,
 	chartType,
+	footnoteText,
 	headLine,
 	height,
 	standFirst,
@@ -26,6 +27,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType={chartType}
+			footnoteText={footnoteText}
 			data={data}
 			headLine={headLine}
 			height={height}
@@ -41,6 +43,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="verticalBarChart"
+			footnoteText={footnoteText}
 			data={data}
 			headLine={headLine}
 			height={height}
@@ -56,6 +59,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="verticalBarChart"
+			footnoteText={footnoteText}
 			data={data2}
 			headLine={headLine}
 			height={height}
@@ -71,6 +75,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="groupedBarChart"
+			footnoteText={footnoteText}
 			data={data}
 			headLine={headLine}
 			height={height}
@@ -86,6 +91,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="groupedBarChart"
+			footnoteText={footnoteText}
 			data={data2}
 			headLine={headLine}
 			height={height}
@@ -101,6 +107,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="stackedBarChart"
+			footnoteText={footnoteText}
 			data={data}
 			headLine={headLine}
 			height={height}
@@ -116,6 +123,7 @@ storiesOf("Page|Graphic", module)
 			chartInnerMargin={chartInnerMargin}
 			chartMargin={chartMargin}
 			chartType="stackedBarChart"
+			footnoteText={footnoteText}
 			data={data2}
 			headLine={headLine}
 			height={height}

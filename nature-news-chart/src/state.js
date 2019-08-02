@@ -20,6 +20,7 @@ const state = {
 	height: 300,
 	standFirst:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis reiciendis exercitationem dolores, vel perspiciatis recusandae deserunt hic harum.",
+	footnoteText: "*This is the footnote text",
 	xAxisLegendText: "X-axis legend text",
 	xAxisTickCount: 10,
 	yAxisLegendText: "Y-axis legend text",

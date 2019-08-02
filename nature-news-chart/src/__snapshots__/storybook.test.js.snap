@@ -9911,6 +9911,11 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -10458,6 +10463,11 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -10872,6 +10882,11 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -11994,6 +12009,11 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -13126,6 +13146,11 @@ exports[`Storyshots Page|Graphic line 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -13504,6 +13529,11 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -14680,6 +14710,11 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         off
       </span>
     </button>
+    <header
+      className="css-dp2u22-StyledFootnote epnzlu90"
+    >
+      *This is the footnote text
+    </header>
   </main>
 </div>
 `;
@@ -18696,6 +18731,18 @@ exports[`Storyshots Presentational|Chart/Components/Y-axis/Lines and labels defa
       />
     </g>
   </svg>
+</div>
+`;
+
+exports[`Storyshots Presentational|Footnote default 1`] = `
+<div
+  className="nature-graphic"
+>
+  <header
+    className="css-dp2u22-StyledFootnote epnzlu90"
+  >
+    *This is the footnote text
+  </header>
 </div>
 `;
 

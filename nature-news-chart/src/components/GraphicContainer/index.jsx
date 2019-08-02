@@ -2,17 +2,18 @@ import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider } from "emotion-theming"
 
+import theme from "../utils/theme"
 import FigureContainer from "../FigureContainer/index"
 import Header from "../presentational/Header/index"
 import Key from "../presentational/Key/index"
-import theme from "../utils/theme"
-
 import ToggleButton from "../presentational/ToggleButton/index"
+import Footnote from "../presentational/Footnote/index"
 
 const GraphicContainer = ({
 	chartInnerMargin,
 	chartMargin,
 	chartType,
+	footnoteText,
 	data,
 	headLine,
 	height,
@@ -132,6 +133,10 @@ const GraphicContainer = ({
 					disabled={false}
 					controls="nature-graphic-figure"
 				/>
+
+				{footnoteText.length ? (
+					<Footnote footnoteText={footnoteText} />
+				) : null}
 			</main>
 		</ThemeProvider>
 	)
@@ -158,6 +163,7 @@ GraphicContainer.propTypes = {
 		"groupedBarChart",
 		"stackedBarChart",
 	]).isRequired,
+	footnoteText: PropTypes.string.isRequired,
 	data: PropTypes.shape({
 		data: PropTypes.arrayOf(
 			PropTypes.shape({

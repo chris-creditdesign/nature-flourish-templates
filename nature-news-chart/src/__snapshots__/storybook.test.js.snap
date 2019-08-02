@@ -9911,11 +9911,11 @@ exports[`Storyshots Page|Graphic bar - data 2 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -10463,11 +10463,11 @@ exports[`Storyshots Page|Graphic bar 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -10882,11 +10882,11 @@ exports[`Storyshots Page|Graphic grouped bar - data 2 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -12009,11 +12009,11 @@ exports[`Storyshots Page|Graphic grouped bar 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -13146,11 +13146,11 @@ exports[`Storyshots Page|Graphic line 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -13529,11 +13529,11 @@ exports[`Storyshots Page|Graphic stacked bar - data 2 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -14710,11 +14710,11 @@ exports[`Storyshots Page|Graphic stacked bar 1`] = `
         off
       </span>
     </button>
-    <header
-      className="css-dp2u22-StyledFootnote epnzlu90"
+    <p
+      className="css-1uwzzrl-StyledFootnote epnzlu90"
     >
       *This is the footnote text
-    </header>
+    </p>
   </main>
 </div>
 `;
@@ -18738,11 +18738,23 @@ exports[`Storyshots Presentational|Footnote default 1`] = `
 <div
   className="nature-graphic"
 >
-  <header
-    className="css-dp2u22-StyledFootnote epnzlu90"
+  <p
+    className="css-1uwzzrl-StyledFootnote epnzlu90"
   >
     *This is the footnote text
-  </header>
+  </p>
+</div>
+`;
+
+exports[`Storyshots Presentational|Footnote long text 1`] = `
+<div
+  className="nature-graphic"
+>
+  <p
+    className="css-1uwzzrl-StyledFootnote epnzlu90"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
 </div>
 `;
 

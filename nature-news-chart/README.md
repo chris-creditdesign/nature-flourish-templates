@@ -21,24 +21,3 @@ To run eslint on javascript components
 To run jest snapshot tests of all components 
 
 	npm run test
-
-## TODO:
-- Make table min-width 100%;
-- Add option to assign colors to values
-- Add field for source information
-- Permit only `i` `strong` and `br` tags in dangerouslySetInnerHTML.
-- Add a log scale option to y-axis
-- Make sure that useData doesn't run on every render
-- Set right margin based on longest text label
-- Add footnote component
-- Make chart height grow with y-axis text length
-- Allow reader to choose max value for y-axis
-- Account for blank fields in CSV file
-- Allow switching between different chart types
-- Add animation to chart toggle button
-- Make x-axis labels not overlap
-- Add how to guides
-- Add production build for exported template
-- Add guides to editors
-- Add unit tests for GraphicContainer
-

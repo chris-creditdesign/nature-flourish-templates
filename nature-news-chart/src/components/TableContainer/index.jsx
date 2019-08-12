@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import Table from "../presentational/Table/index"
+import { Table } from "nature-graphic-components"
 
 import figureContext from "../FigureContainer/figureContext"
 import useData from "../customHooks/useData"

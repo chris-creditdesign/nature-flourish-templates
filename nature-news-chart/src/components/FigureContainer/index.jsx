@@ -2,8 +2,8 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { format } from "d3-format"
+import { Figure } from "nature-graphic-components"
 
-import StyledFigure from "../presentational/Figure/styles"
 import ChartContainer from "../ChartContainer/index"
 import TooltipContainer from "../TooltipContainer/index"
 import TableContainer from "../TableContainer"
@@ -104,7 +104,7 @@ const FigureContainer = ({
 				yAxisWidth,
 			}}
 		>
-			<StyledFigure>
+			<Figure>
 				<figcaption
 					className="visually-hidden"
 					id="nature-graphic-figure-caption"
@@ -139,7 +139,7 @@ const FigureContainer = ({
 				) : (
 					<TableContainer />
 				)}
-			</StyledFigure>
+			</Figure>
 		</figureContext.Provider>
 	)
 }

@@ -1,9 +1,8 @@
 import React, { useContext } from "react"
 import { CSSTransition } from "react-transition-group"
+import { Tooltip } from "nature-graphic-components"
 
-import Tooltip from "../presentational/Tooltip/index"
 import theme from "../utils/theme"
-
 import figureContext from "../FigureContainer/figureContext"
 
 const TooltipContainer = () => {

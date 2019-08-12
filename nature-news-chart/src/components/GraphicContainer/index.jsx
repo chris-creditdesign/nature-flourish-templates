@@ -2,12 +2,9 @@ import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider } from "emotion-theming"
 
-import { Header } from "nature-graphic-components"
+import { Header, Key, ToggleButton, SmallText } from "nature-graphic-components"
 import theme from "../utils/theme"
 import FigureContainer from "../FigureContainer/index"
-import Key from "../presentational/Key/index"
-import ToggleButton from "../presentational/ToggleButton/index"
-import SmallText from "../presentational/SmallText/index"
 
 const GraphicContainer = ({
 	chartInnerMargin,

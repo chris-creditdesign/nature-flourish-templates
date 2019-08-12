@@ -3,12 +3,11 @@ import PropTypes from "prop-types"
 import { State, Store } from "@sambego/storybook-state"
 import { storiesOf } from "@storybook/react"
 import { ThemeProvider } from "emotion-theming"
-import theme from "../utils/theme"
+import { Figure, ChartSVG } from "nature-graphic-components"
 
+import theme from "../utils/theme"
 import TooltipContainer from "./index"
 import figureContext from "../FigureContainer/figureContext"
-import StyledFigure from "../presentational/Figure/styles"
-import ChartSVG from "../presentational/ChartSVG/index"
 
 const width = 600
 const height = 300
@@ -78,7 +77,7 @@ storiesOf("Container|Tooltip", module)
 						},
 					}}
 				>
-					<StyledFigure>
+					<Figure>
 						<TooltipContainer />
 						<ChartSVG
 							chartHeight={height}
@@ -110,7 +109,7 @@ storiesOf("Container|Tooltip", module)
 								alignment="right-bottom"
 							/>
 						</ChartSVG>
-					</StyledFigure>
+					</Figure>
 				</figureContext.Provider>
 			)}
 		</State>

@@ -1,15 +1,17 @@
 import React, { useContext } from "react"
 
-import ChartSVG from "../presentational/ChartSVG/index"
-import ChartBackgroundBox from "../presentational/ChartBackgroundBox/index"
-import ChartXAxisLinear from "../presentational/ChartXAxisLinear/index"
-import ChartXAxisBand from "../presentational/ChartXAxisBand/index"
-import ChartYAxis from "../presentational/ChartYAxis/index"
-import ChartYAxisBaseline from "../presentational/ChartYAxisBaseline/index"
-import ChartDataLayerLine from "../presentational/ChartDataLayerLine/index"
-import ChartBars from "../presentational/ChartBars/index"
-import ChartDataLayerGroupedBars from "../presentational/ChartDataLayerGroupedBars/index"
-import ChartDataLayerStackedBars from "../presentational/ChartDataLayerStackedBars/index"
+import {
+	ChartSVG,
+	ChartBackgroundBox,
+	ChartXAxisLinear,
+	ChartXAxisBand,
+	ChartYAxis,
+	ChartYAxisBaseline,
+	ChartDataLayerLine,
+	ChartBars,
+	ChartDataLayerGroupedBars,
+	ChartDataLayerStackedBars,
+} from "nature-graphic-components"
 
 import figureContext from "../FigureContainer/figureContext"
 

@@ -1,0 +1,64 @@
+# The 'id' should be a string that uniquely identifies your template
+id: nature-flourish-template
+version: 0.0.1
+name: Nature Flourish Template
+description: A Flourish template to build simple Nature News charts.
+author: c.ryan@nature.com
+
+# This template is compatible with SDK version 3
+sdk_version: 3
+
+build:
+  # Defines the build processes used to build your template from source.
+  # You can have any number of build processes, and changes to the relevant
+  # files will trigger the appropriate build. Here we define build scripts
+  # for JavaScript and CSS.
+
+  src:
+    script: npm run build
+    # You can specify a whole directory, or individual files, or both.
+    # A change inside the directory or to any of the listed files will
+    # trigger a rebuild and reload.
+    directory: src
+    files:
+      - rollup.config.js
+
+settings:
+  # Creates a settings panel that enables the end user to set the default state for
+  # individual visualisations made with this template.
+  #
+  # Available types:
+  # • "number" >> gives a number input. Optionally add "min:", "max:", and "step:" properties.
+  # • "string" >> gives an text input
+  # • "text" >> gives a textarea
+  # • "boolean" >> gives a checkbox
+  # • "color" >> gives a color picker
+
+  - Heading # Headings can be used to break up the settings into collapsible sections
+  - property: headline # Refers to a property in the template's state object
+    name: Headline # Display name for the settings panel
+    description: The headline for your chart # Optional description for the settings panel
+    type: string # See available types above
+  - property: standfirst
+    name: Standfirst
+    description: The standfirst for your chart
+    type: text
+  - Description
+  - property: alt_text
+    name: Alt text
+    description: Short description of the chart. Max 130 characters.
+    type: text
+
+data:
+  # The data section determines how data is made available to your template,
+  # and the sample data that is used. See the documentation.
+  - key: x # Property name in the dataset
+    name: X # Name to be displayed in the editor
+    dataset: data # Name of dataset
+    type: column # Are we selecting a single or multiple columns
+    column: "data::A" # Which column should be selected
+  - key: y
+    name: Y
+    dataset: data
+    type: column
+    column: "data::B"

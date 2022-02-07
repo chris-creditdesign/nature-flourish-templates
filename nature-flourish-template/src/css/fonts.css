@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Graphik Nature l Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/GraphikNaturel-Regular-Web.woff2") format("woff2"),
+    url("fonts/GraphikNaturel-Regular-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Graphik Nature l Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/GraphikNaturel-Bold-Web.woff2") format("woff2"),
+    url("fonts/GraphikNaturel-Bold-Web.woff") format("woff");
+}
+
+:root {
+  --sans-serif-font: "Graphik Nature l Web", arial, helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--sans-serif-font);
+}

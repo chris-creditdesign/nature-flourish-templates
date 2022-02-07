@@ -4,20 +4,31 @@
 
   export let headline: string;
   export let standfirst: string;
+  export let data;
 
-  const points = [
-    { x: 0, y: 0 },
-    { x: 1, y: 1 },
-    { x: 2, y: 4 },
-    { x: 3, y: 9 },
-    { x: 4, y: 16 },
-    { x: 5, y: 25 },
-    { x: 6, y: 36 },
-    { x: 7, y: 49 },
-    { x: 8, y: 64 },
-    { x: 9, y: 81 },
-    { x: 10, y: 100 },
-  ];
+  $: neat_headline = headline.toLocaleLowerCase().replaceAll(" ", "-");
+
+  let myFile = new File(
+    [
+      `x,y
+0,0
+1,1
+2,4
+3,9
+4,16
+5,25
+6,36
+7,49
+8,64
+9,81
+10,100`,
+    ],
+    `${neat_headline}.csv`,
+    {
+      type: "text/csv",
+    }
+  );
+  let download_href = URL.createObjectURL(myFile);
 </script>
 
 <Stack>
@@ -41,12 +52,19 @@
       </Pancake.Grid>
 
       <Pancake.Svg>
-        <Pancake.SvgLine data={points} let:d>
+        <Pancake.SvgLine data={data.data} let:d>
           <path class="data" {d} />
         </Pancake.SvgLine>
       </Pancake.Svg>
     </Pancake.Chart>
   </div>
+
+  <p>
+    Download the data used to build this chart as as csv file: <a
+      href={download_href}
+      download={`${neat_headline}.csv`}>{neat_headline}.csv</a
+    >
+  </p>
 </Stack>
 
 <style>
@@ -85,14 +103,14 @@
 
   .grid-line.horizontal {
     width: 100%;
-    border-bottom: 1px dashed green;
+    border-bottom: 1px dashed #000000;
   }
 
   .grid-line.vertical {
-    height: 10px;
+    height: 8px;
     position: absolute;
     top: 100%;
-    border-left: 2px dashed green;
+    border-left: 1px solid #000000;
   }
 
   path.data {

@@ -47,3 +47,13 @@ settings:
 data:
   # The data section determines how data is made available to your template,
   # and the sample data that is used. See the documentation.
+  - key: x # Property name in the dataset
+    name: X # Name to be displayed in the editor
+    dataset: data # Name of dataset
+    type: column # Are we selecting a single or multiple columns
+    column: "data::A" # Which column should be selected
+  - key: y
+    name: Y
+    dataset: data
+    type: column
+    column: "data::B"

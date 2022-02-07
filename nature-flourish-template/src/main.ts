@@ -25,6 +25,7 @@ export function update() {
   app.$set({
     headline: state.headline,
     standfirst: state.standfirst,
+    data,
   });
 }
 
@@ -36,6 +37,7 @@ export function draw() {
     props: {
       headline: state.headline,
       standfirst: state.standfirst,
+      data,
     },
   });
 }

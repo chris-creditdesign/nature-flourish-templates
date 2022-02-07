@@ -11,6 +11,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
+    "@sveltejs/pancake": "^0.0.18",
     "@tsconfig/svelte": "^2.0.0",
     "creditdesign-svelte-components": "^0.2.96",
     "nature-immersive-svelte-components": "^0.5.7",

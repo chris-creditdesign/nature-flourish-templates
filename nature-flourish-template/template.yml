@@ -43,6 +43,11 @@ settings:
     name: Standfirst
     description: The standfirst for your chart
     type: text
+  - Description
+  - property: alt_text
+    name: Alt text
+    description: Short description of the chart. Max 130 characters.
+    type: text
 
 data:
   # The data section determines how data is made available to your template,

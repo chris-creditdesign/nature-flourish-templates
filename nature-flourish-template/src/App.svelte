@@ -4,6 +4,7 @@
 
   export let headline: string;
   export let standfirst: string;
+  export let alt_text: string;
   export let data;
 
   $: neat_headline = headline.toLocaleLowerCase().replaceAll(" ", "-");
@@ -35,7 +36,7 @@
   <h1 class="font-size:big-2 text-transform:uppercase">{headline}</h1>
   <p>{standfirst}</p>
 
-  <div class="chart">
+  <div class="chart" role="img" aria-label={alt_text}>
     <Pancake.Chart x1={0} x2={10} y1={0} y2={100}>
       <Pancake.Box x2={10} y2={0}>
         <div class="baseline" />

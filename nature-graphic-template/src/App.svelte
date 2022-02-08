@@ -33,11 +33,13 @@
 </script>
 
 <Stack>
-  <h1 class="font-size:big-2 text-transform:uppercase">{headline}</h1>
-  <p>{standfirst}</p>
+  <Stack stackSpace="var(--s-4)">
+    <h1 class="font-size:big-1 text-transform:uppercase">{headline}</h1>
+    <p>{standfirst}</p>
+  </Stack>
 
   <div class="chart" role="img" aria-label={alt_text}>
-    <Pancake.Chart x1={0} x2={10} y1={0} y2={100}>
+    <Pancake.Chart x1={0} x2={10} y1={0} y2={100} aria-hidden="true">
       <Pancake.Box x2={10} y2={0}>
         <div class="baseline" />
       </Pancake.Box>
@@ -60,7 +62,7 @@
     </Pancake.Chart>
   </div>
 
-  <p>
+  <p class="font-size:small">
     Download the data used to build this chart as as csv file: <a
       href={download_href}
       download={`${neat_headline}.csv`}>{neat_headline}.csv</a

@@ -32,7 +32,7 @@
   let download_href = URL.createObjectURL(myFile);
 </script>
 
-<Stack>
+<Stack className="border-bottom">
   <Stack stackSpace="var(--s-4)">
     <h1 class="font-size:big-1 text-transform:uppercase">{headline}</h1>
     <p>{standfirst}</p>
@@ -71,6 +71,11 @@
 </Stack>
 
 <style>
+  :global(.border-bottom) {
+    padding-block-end: var(--s1);
+    border-block-end: 1px solid #979797;
+  }
+
   .chart {
     padding: 3em 2em 2em 3em;
     width: 100%;

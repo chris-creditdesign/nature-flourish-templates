@@ -1,6 +1,6 @@
 # The 'id' should be a string that uniquely identifies your template
 id: nature-graphic-template
-version: 1.0.3
+version: 1.0.6
 name: Nature Graphic Template
 description: A Flourish template to build simple Nature News graphics.
 author: c.ryan@nature.com

@@ -40,48 +40,28 @@
       }
 
       function setIframeHeight() {
-        var uniqueTimeStamp = new Date().getTime().toString();
-
-        var localStorageKey = "nature-flourish-interactive--" + uniqueTimeStamp;
-
-        function getEventFromLocalStorage() {
-          var eventData = window.localStorage.getItem(localStorageKey);
-          if (eventData) {
-            return {
-              data: JSON.parse(eventData),
-            };
-          }
-          return null;
-        }
+        var requestData = undefined;
 
         function handleMessage(event) {
           var validEventData = checkEventData(event);
           if (validEventData) {
-            window.localStorage.setItem(
-              localStorageKey,
-              JSON.stringify(event.data)
-            );
+            requestData = event.data;
           }
           return null;
         }
 
         function resize(event) {
-          var eventFromLocalStorage = getEventFromLocalStorage();
-          if (eventFromLocalStorage) {
+          if (requestData !== undefined) {
             var documentHeight = document.querySelector("body").offsetHeight;
-            resizeData = eventFromLocalStorage.data;
 
             /* If this page is not inside an iframe, window.parent
                  is a refernce to itself. If the page is not 
                  inside an iframe, don't send a message. */
-            if (window.parent === window.top) {
-              console.log("window.parent === window.top");
+            if (window.parent !== window) {
               window.parent.postMessage(
-                { height: documentHeight, requestData: resizeData },
+                { height: documentHeight, requestData },
                 "*"
               );
-            } else {
-              console.log("window.parent !== window.top");
             }
           }
           return null;

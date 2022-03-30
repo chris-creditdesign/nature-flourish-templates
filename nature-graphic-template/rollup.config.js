@@ -39,8 +39,8 @@ export default {
     }),
     commonjs(),
     typescript({
-      sourceMap: !production,
-      inlineSources: !production,
+      sourceMap: true,
+      inlineSources: true,
     }),
 
     // If we're building for production (npm run build

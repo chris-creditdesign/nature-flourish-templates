@@ -8,6 +8,94 @@
     <!-- Link to a stylesheet, or include an inline <style> section here -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="bundle.css" />
+
+    <script>
+      /*
+          Check that the event data is in this shape.
+          {
+              name: "getHeight",
+              id: element.id
+          }
+        */
+      function checkEventData(event) {
+        try {
+          event.hasOwnProperty("data");
+        } catch {
+          return false;
+        }
+        try {
+          event.data.hasOwnProperty("name");
+        } catch {
+          return false;
+        }
+        try {
+          event.data.hasOwnProperty("id");
+        } catch {
+          return false;
+        }
+        var isObject = typeof event.data === "object";
+        var nameIsGetHeight = event.data.name === "getHeight";
+        var idIsSting = typeof event.data.id === "string";
+        return isObject && nameIsGetHeight && idIsSting;
+      }
+
+      function setIframeHeight() {
+        var uniqueTimeStamp = new Date().getTime().toString();
+
+        var localStorageKey = "nature-flourish-interactive--" + uniqueTimeStamp;
+
+        function getEventFromLocalStorage() {
+          var eventData = window.localStorage.getItem(localStorageKey);
+          if (eventData) {
+            return {
+              data: JSON.parse(eventData),
+            };
+          }
+          return null;
+        }
+
+        function handleMessage(event) {
+          var validEventData = checkEventData(event);
+          if (validEventData) {
+            window.localStorage.setItem(
+              localStorageKey,
+              JSON.stringify(event.data)
+            );
+          }
+          return null;
+        }
+
+        function resize(event) {
+          var eventFromLocalStorage = getEventFromLocalStorage();
+          if (eventFromLocalStorage) {
+            var documentHeight = document.querySelector("body").offsetHeight;
+            resizeData = eventFromLocalStorage.data;
+
+            /* If this page is not inside an iframe, window.parent
+                 is a refernce to itself. If the page is not 
+                 inside an iframe, don't send a message. */
+            if (window.parent === window.top) {
+              console.log("window.parent === window.top");
+              window.parent.postMessage(
+                { height: documentHeight, requestData: resizeData },
+                "*"
+              );
+            } else {
+              console.log("window.parent !== window.top");
+            }
+          }
+          return null;
+        }
+
+        window.addEventListener("message", handleMessage);
+
+        window.setInterval(function () {
+          resize();
+        }, 250);
+      }
+
+      window.addEventListener("DOMContentLoaded", setIframeHeight);
+    </script>
   </head>
   <body>
     <!-- If you want to start with a non-empty document, add elements here -->

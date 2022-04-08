@@ -1,35 +1,22 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import { Stack } from "creditdesign-svelte-components";
   import * as Pancake from "@sveltejs/pancake";
+  import type { FlourishData } from "./types";
+  import get_download_href from "./utils/get_download_href";
 
   export let headline: string;
   export let standfirst: string;
   export let alt_text: string;
-  export let data;
+  export let data: FlourishData;
 
   $: neat_headline = headline.toLocaleLowerCase().replaceAll(" ", "-");
 
-  let myFile = new File(
-    [
-      `x,y
-0,0
-1,1
-2,4
-3,9
-4,16
-5,25
-6,36
-7,49
-8,64
-9,81
-10,100`,
-    ],
-    `${neat_headline}.csv`,
-    {
-      type: "text/csv",
-    }
-  );
-  let download_href = URL.createObjectURL(myFile);
+  let download_href = "";
+
+  onMount(() => {
+    download_href = get_download_href(neat_headline, data.data);
+  });
 </script>
 
 <Stack className="border-bottom">
